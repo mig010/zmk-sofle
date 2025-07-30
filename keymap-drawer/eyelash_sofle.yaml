@@ -28,17 +28,17 @@ layers:
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-caps$$
-  - A
-  - R
-  - S
-  - T
-  - G
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
   - $$mdi:arrow-left-bold$$
-  - M
-  - N
-  - E
-  - I
-  - O
+  - '6'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
