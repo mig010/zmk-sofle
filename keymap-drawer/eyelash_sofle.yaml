@@ -61,7 +61,7 @@ layers:
   - {t: 'Alt+$$mdi:backspace$$', h: layer1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: numbers}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - numbers
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
