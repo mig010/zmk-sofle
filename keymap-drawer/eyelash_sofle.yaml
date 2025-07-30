@@ -28,17 +28,17 @@ layers:
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-caps$$
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - {t: '5', s: '%'}
+  - A
+  - R
+  - S
+  - T
+  - G
   - $$mdi:arrow-left-bold$$
-  - '6'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - M
+  - N
+  - E
+  - I
+  - O
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -101,8 +101,8 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - Ctl+S
+  - $$mdi:keyboard-esc$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
