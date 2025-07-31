@@ -129,6 +129,62 @@
             bindings = <&kp D &kp I &kp LS(W)>;
             label = "DIW";
         };
+
+        cib: cib {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp B>;
+            label = "CIB";
+        };
+
+        vib: vib {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp B>;
+            label = "VIB";
+        };
+
+        yib: yib {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp B>;
+            label = "YIB";
+        };
+
+        dib: dib {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp B>;
+            label = "DIB";
+        };
+
+        ciB: ciB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp LS(B)>;
+            label = "CIB";
+        };
+
+        viB: viB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp LS(B)>;
+            label = "VIB";
+        };
+
+        yiB: yiB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp LS(B)>;
+            label = "YIB";
+        };
+
+        diB: diB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp LS(B)>;
+            label = "DIB";
+        };
     };
 
     keymap {
@@ -174,11 +230,11 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &yiw    &trans  &trans  &trans
-&trans  &viw    &diw    &ciw    &yiw    &trans    &trans  &trans  &kp J   &kp K   &ciw    &viw    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &trans      &trans
+&trans  &trans  &trans  &cib    &trans  &trans    &trans  &trans  &trans  &ciB    &trans            &trans      &trans
+&trans  &viw    &diw    &ciw    &yiw    &trans    &trans  &trans  &kp J   &kp K   &kp LS(NUMBER_4)  &kp LS(N5)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mo 4   &trans  &trans  &trans            &trans
             >;
         };
 
