@@ -268,11 +268,11 @@
 
         vimSentences {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp PERIOD  &trans  &trans  &trans
-&trans  &viW    &diW    &ciW    &yiW    &trans    &trans  &trans  &yip    &cip        &dip    &vip    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans  &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
+&trans  &viW    &diW    &ciW    &yiW    &trans    &trans  &trans  &yip    &cip       &dip    &vip    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans  &trans     &trans  &trans
             >;
         };
 
