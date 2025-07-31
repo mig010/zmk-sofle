@@ -105,8 +105,29 @@
         ciW: ciW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp C &kp I &kp LS(W)>;
             label = "CIW";
+        };
+
+        viW: viW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "VIW";
+        };
+
+        yiW: yiW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "YIW";
+        };
+
+        diW: diW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "DIW";
         };
     };
 
