@@ -94,6 +94,13 @@
             bindings = <&kp D &kp I &kp W>;
             label = "DIW";
         };
+
+        twenty: twenty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_2 &kp N0>;
+            label = "TWENTY";
+        };
     };
 
     keymap {
