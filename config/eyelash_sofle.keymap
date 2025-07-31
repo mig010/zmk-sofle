@@ -85,7 +85,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp NUMBER_1 &kp N0>;
-            label = "NEW_MACRO";
+            label = "ten";
         };
     };
 
