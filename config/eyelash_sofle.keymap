@@ -101,6 +101,13 @@
             bindings = <&kp NUMBER_2 &kp N0>;
             label = "TWENTY";
         };
+
+        ciW: ciW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "CIW";
+        };
     };
 
     keymap {
@@ -148,7 +155,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &yiw    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp J   &kp K   &ciw    &viw    &trans
+&trans  &viw    &diw    &ciw    &yiw    &trans    &trans  &trans  &kp J   &kp K   &ciw    &viw    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
