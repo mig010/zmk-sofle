@@ -80,6 +80,13 @@
             bindings = <&kp Y &kp I &kp W>;
             label = "YIW";
         };
+
+        ten: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_1 &kp N0>;
+            label = "NEW_MACRO";
+        };
     };
 
     keymap {
@@ -114,7 +121,7 @@
         numbers {
             bindings = <
 &kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6        &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans        &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &kp N5        &trans        &trans          &mmv MOVE_DOWN   &trans        &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &trans     &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp N5          &mmv MOVE_LEFT   &kp NUMBER_6  &kp N7  &kp N8      &kp N9     &kp N0       &kp RBRC
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans        &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans     &trans        &trans          &trans        &trans        &kp LC(W)       &mkp LCLK        &trans        &trans  &trans      &trans     &trans
@@ -140,6 +147,36 @@
 &trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)  &kp LS(R)  &trans  &trans
 &trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans  &trans  &trans     &trans     &trans  &trans
 &trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans  &trans  &trans     &trans     &trans
+            >;
+        };
+
+        raycast {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        figma {
+            bindings = <
+&trans  &trans  &trans  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LEFT_SHIFT  &kp LCTRL  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        cli {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
