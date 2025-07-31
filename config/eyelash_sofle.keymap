@@ -185,6 +185,34 @@
             bindings = <&kp D &kp I &kp LS(B)>;
             label = "DIB";
         };
+
+        cip: cip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp P>;
+            label = "CIP";
+        };
+
+        vip: vip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp P>;
+            label = "VIP";
+        };
+
+        yip: yip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp P>;
+            label = "YIP";
+        };
+
+        dip: dip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp P>;
+            label = "DIP";
+        };
     };
 
     keymap {
@@ -207,7 +235,7 @@
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9      &kp F10           &trans
 &trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME    &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &mo 5            &trans      &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &mo 6            &trans      &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11     &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp LC(F)        &trans           &trans      &trans      &trans
             >;
@@ -232,7 +260,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &trans      &trans
 &trans  &trans  &trans  &cib    &trans  &trans    &trans  &trans  &trans  &ciB    &trans            &trans      &trans
-&trans  &viw    &diw    &ciw    &yiw    &trans    &trans  &trans  &kp J   &kp K   &kp LS(NUMBER_4)  &kp LS(N5)  &trans
+&trans  &viw    &diw    &ciw    &yiw    &trans    &trans  &trans  &kp J   &kp K   &kp LC(NUMBER_6)  &kp PERIOD  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &trans      &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mo 4   &trans  &trans  &trans            &trans
             >;
@@ -240,9 +268,19 @@
 
         vimSentences {
             bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp PERIOD  &trans  &trans  &trans
+&trans  &viW    &diW    &ciW    &yiW    &trans    &trans  &trans  &yip    &cip        &dip    &vip    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans  &trans      &trans  &trans
+            >;
+        };
+
+        vimMotion {
+            bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &viW    &diW    &ciW    &yiW    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp B   &kp W   &kp E   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
