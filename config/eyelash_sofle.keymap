@@ -60,7 +60,7 @@
     };
 
     macros {
-        ciw: new_macro {
+        ciw: ciw {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp C &kp I &kp W>;
@@ -81,7 +81,7 @@
             label = "YIW";
         };
 
-        ten: new_macro {
+        ten: ten {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp NUMBER_1 &kp N0>;
