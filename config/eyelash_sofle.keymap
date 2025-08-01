@@ -103,32 +103,32 @@
             label = "TWENTY";
         };
 
-        ciW: ciW {
+        cio: cio {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp C &kp I &kp LS(W)>;
-            label = "CIW";
+            label = "cio";
         };
 
-        viW: viW {
+        vio: vio {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp V &kp I &kp LS(W)>;
-            label = "VIW";
+            label = "VIO";
         };
 
-        yiW: yiW {
+        yio: yio {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp I &kp LS(W)>;
-            label = "YIW";
+            label = "YIO";
         };
 
-        diW: diW {
+        dio: dio {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp I &kp LS(W)>;
-            label = "DIW";
+            label = "DIO";
         };
     };
 
@@ -187,7 +187,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans      &trans      &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &kp GRAVE  &trans      &trans      &trans
-&trans  &viW    &diW    &ciW    &yiW    &trans    &trans  &trans  &bl BL_ON  &bl BL_ON  &bl BL_TOG  &bl BL_OFF  &trans
+&trans  &vio    &dio    &cio    &yio    &trans    &trans  &trans  &bl BL_ON  &bl BL_ON  &bl BL_TOG  &bl BL_OFF  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans      &trans      &trans
 &trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans     &trans     &trans      &trans
             >;
