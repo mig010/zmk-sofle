@@ -4,6 +4,7 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -174,21 +175,21 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &trans      &trans
-&trans  &trans  &trans  &cib    &trans  &trans    &trans  &trans  &trans  &ciB    &trans            &trans      &trans
-&trans  &viw    &diw    &ciw    &yiw    &trans    &trans  &trans  &kp J   &kp K   &kp LC(NUMBER_6)  &kp PERIOD  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mo 4   &trans  &trans  &trans            &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans      &trans            &trans      &trans
+&trans  &trans  &trans  &bl BL_ON  &trans  &trans    &trans  &trans  &trans  &bl BL_OFF  &trans            &trans      &trans
+&trans  &viw    &diw    &ciw       &yiw    &trans    &trans  &trans  &kp J   &kp K       &kp LC(NUMBER_6)  &kp PERIOD  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans      &trans            &trans      &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &mo 4   &trans  &trans      &trans            &trans
             >;
         };
 
         vimSentences {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
-&trans  &viW    &diW    &ciW    &yiW    &trans    &trans  &trans  &yip    &cip       &dip    &vip    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &kp GRAVE  &trans      &trans      &trans
+&trans  &viW    &diW    &ciW    &yiW    &trans    &trans  &trans  &bl BL_ON  &bl BL_ON  &bl BL_TOG  &bl BL_OFF  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans     &trans     &trans      &trans
             >;
         };
 
