@@ -288,10 +288,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&viW'
-  - '&diW'
-  - '&ciW'
-  - '&yiW'
+  - '&vio'
+  - '&dio'
+  - '&cio'
+  - '&yio'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
