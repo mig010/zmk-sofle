@@ -179,11 +179,11 @@
             label = "YICB";
         };
 
-        diB: diB {
+        diB: diBb {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp I &kp LS(B)>;
-            label = "DIB";
+            label = "DIBb";
         };
 
         cip: cip {
