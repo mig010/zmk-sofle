@@ -144,13 +144,6 @@
             label = "VIB";
         };
 
-        yib: yib {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Y &kp I &kp B>;
-            label = "YIB";
-        };
-
         dib: dib {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
