@@ -318,31 +318,31 @@
 
         figma {
             bindings = <
-&trans  &trans                   &trans                  &trans          &trans                      &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &to 0           &trans                      &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 11 DELETE  &new_behavior 10 LG(Z)  &kp LEFT_SHIFT  &kp LCTRL                   &kp LS(LG(Z))         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans          &trans                      &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans          &new_behavior 13 LS(LG(P))  &new_behavior 12 C    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &trans                      &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &to 0                     &trans                      &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 11 DELETE  &new_behavior 10 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)         &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &trans                      &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &new_behavior 13 LS(LG(P))  &new_behavior 12 C     &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         figmaShortcuts {
             bindings = <
-&trans  &trans         &trans         &trans     &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans         &trans     &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(LG(C))  &kp LA(LG(V))  &kp LG(G)  &kp LG(LA(G))  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans         &trans     &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans         &trans     &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans  &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans  &kp LA(LG(K))  &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(LG(C))  &trans  &kp LG(G)      &kp LG(LA(G))  &kp LG(D)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans  &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans  &trans         &kp LA(LG(C))  &kp LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         figmaAliases {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp L   &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp R   &kp O   &kp T             &kp LS(LG(K))       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
