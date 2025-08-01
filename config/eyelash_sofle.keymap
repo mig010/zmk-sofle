@@ -318,15 +318,25 @@
 
         figma {
             bindings = <
-&trans  &trans                   &trans                  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 11 DELETE  &new_behavior 10 LS(A)  &kp LEFT_SHIFT  &kp LCTRL  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans          &trans                      &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &to 0           &trans                      &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 11 DELETE  &new_behavior 10 LG(Z)  &kp LEFT_SHIFT  &kp LCTRL                   &kp LS(LG(Z))         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans          &trans                      &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans          &new_behavior 13 LS(LG(P))  &new_behavior 12 C    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         figmaShortcuts {
+            bindings = <
+&trans  &trans  &trans  &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LA(LG(C))  &kp LA(LG(V))  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        figmaAliases {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -336,7 +346,17 @@
             >;
         };
 
-        figmaAliases {
+        figma15 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        figma60 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
