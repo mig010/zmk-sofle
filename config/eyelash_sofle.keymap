@@ -172,11 +172,11 @@
             label = "VIB";
         };
 
-        yiB: yiB {
+        yicB: yicB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp I &kp LS(B)>;
-            label = "YIB";
+            label = "YICB";
         };
 
         diB: diB {
@@ -318,11 +318,11 @@
 
         figma {
             bindings = <
-&trans  &trans                   &trans                  &trans                    &trans                      &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &to 0                     &trans                      &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 11 DELETE  &new_behavior 10 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)         &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans                    &trans                      &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &new_behavior 12 C        &new_behavior 13 LS(LG(P))  &trans                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &to 0                     &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 11 DELETE  &new_behavior 10 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)         &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &new_behavior 13 LS(LG(P))  &new_behavior 12 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
