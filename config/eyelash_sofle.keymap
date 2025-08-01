@@ -306,17 +306,37 @@
             >;
         };
 
-        figma {
+        cli {
             bindings = <
-&trans  &trans  &trans  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LEFT_SHIFT  &kp LCTRL  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        cli {
+        figma {
+            bindings = <
+&trans  &trans                   &trans                  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 11 DELETE  &new_behavior 10 LS(A)  &kp LEFT_SHIFT  &kp LCTRL  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        figmaShortcuts {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        figmaAliases {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
