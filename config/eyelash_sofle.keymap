@@ -361,5 +361,35 @@
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
+
+        workspaces {
+            bindings = <
+&trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
+&trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
+&trans  &kp LG(LA(E))  &trans  &mo 23  &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
+&trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
+&trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans
+            >;
+        };
+
+        workspaceLayouts {
+            bindings = <
+&trans  &trans         &trans  &trans  &trans          &trans    &kp LG(MINUS)  &trans             &trans         &trans         &trans         &trans         &trans
+&trans  &trans         &trans  &trans  &trans          &trans    &trans         &trans             &trans         &trans         &trans         &trans         &trans
+&trans  &kp LG(SLASH)  &trans  &trans  &kp LG(PERIOD)  &trans    &trans         &trans             &kp LG(LS(H))  &kp LG(LS(J))  &kp LG(LS(K))  &kp LG(LS(L))  &trans
+&trans  &trans         &trans  &trans  &trans          &trans    &trans         &trans             &trans         &trans         &trans         &trans         &trans
+&trans  &trans         &trans  &trans  &trans          &trans    &trans         &kp LS(LG(EQUAL))  &trans         &trans         &trans         &trans
+            >;
+        };
+
+        wordspaceFocus {
+            bindings = <
+&trans  &trans     &trans  &trans  &trans         &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans     &trans  &trans  &trans         &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &kp LG(E)  &trans  &trans  &kp LG(LS(A))  &trans    &trans  &trans  &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans
+&trans  &trans     &trans  &trans  &trans         &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans     &trans  &trans  &trans         &trans    &trans  &trans  &trans     &trans     &trans     &trans
+            >;
+        };
     };
 };
