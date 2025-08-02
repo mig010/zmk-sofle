@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/rgb.h>
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -150,11 +149,11 @@
 
         all {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9      &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &to 13           &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME    &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &mo 7            &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &mo 6            &trans      &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11     &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp LC(F)        &trans           &trans      &trans      &trans
+&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7  &kp F8     &kp F9      &kp F10           &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans     &trans  &kp UP     &trans      &trans            &trans
+&trans     &trans  &trans  &trans  &mo 7   &trans    &mmv MOVE_LEFT   &kp PG_DN  &mo 6   &kp LC(S)  &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans  &trans     &trans      &trans            &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &kp LC(F)  &trans  &trans     &trans      &trans
             >;
 
             display-name = "layer1";
@@ -245,11 +244,11 @@
 
         raycastAppThree {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &kp LA(LC(Y))  &kp LS(LA(LC(LG(A))))  &kp LG(LC(LA(LS(P))))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LG(LA(B)))  &trans         &trans                 &trans                 &trans
             >;
         };
 
@@ -323,13 +322,13 @@
             >;
         };
 
-        layer_18 {
+        browserTabs {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &kt X   &kp LS(X)  &kp LG(T)  &trans    &trans  &trans  &kp LS(S)  &kp LS(D)  &kp LS(I)  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans
             >;
         };
     };
