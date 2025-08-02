@@ -151,7 +151,7 @@
         all {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9      &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &to 9            &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME    &kp MINUS         &kp EQUAL
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &to 12           &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME    &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &trans          &trans           &mo 7            &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &mo 6            &trans      &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11     &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp LC(F)        &trans           &trans      &trans      &trans
@@ -223,6 +223,36 @@
             >;
         };
 
+        raycastApps {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LG(LC(LA(LS(D))))  &trans                 &trans                 &trans
+&trans  &trans  &trans  &mo 9   &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
+            >;
+        };
+
+        raycastAppsTwo {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        tmuxGhostty {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
         cli {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -235,11 +265,11 @@
 
         figma {
             bindings = <
-&trans  &trans                   &trans                  &trans                    &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &to 0                     &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 11 DELETE  &new_behavior 10 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)         &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans                    &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans                    &new_behavior 13 LS(LG(P))  &new_behavior 12 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &to 0                     &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 14 DELETE  &new_behavior 13 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)        &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &new_behavior 8 LS(LG(P))  &new_behavior 15 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -280,36 +310,6 @@
 &trans  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        raycastApps {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        raycastAppsTwo {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        tmuxGhostty {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
