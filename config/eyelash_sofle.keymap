@@ -235,11 +235,11 @@
 
         raycastAppsTwo {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &kp LC(LG(LA(LS(H))))  &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LS(LG(Z))          &kp LS(LA(LC(LG(W))))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(LC(LS(LA(B))))  &kp LS(LA(LC(LG(M))))  &trans                 &trans                 &trans
             >;
         };
 
