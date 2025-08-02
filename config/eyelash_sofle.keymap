@@ -151,7 +151,7 @@
         all {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9      &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &to 12           &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME    &kp MINUS         &kp EQUAL
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &to 13           &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME    &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &trans          &trans           &mo 7            &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &mo 6            &trans      &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11     &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp LC(F)        &trans           &trans      &trans      &trans
@@ -243,13 +243,23 @@
             >;
         };
 
-        tmuxGhostty {
+        raycastAppThree {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        tmuxGhostty {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans             &trans                 &trans                         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans             &trans                 &trans                         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(LS(R))  &kp LS(LA(LC(N)))  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans             &trans                 &trans                         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans             &trans                 &trans
             >;
         };
 
@@ -267,9 +277,9 @@
             bindings = <
 &trans  &trans                   &trans                  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                   &trans                  &to 0                     &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 14 DELETE  &new_behavior 13 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)        &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 15 DELETE  &new_behavior 14 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)        &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                   &trans                  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans                    &new_behavior 8 LS(LG(P))  &new_behavior 15 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &new_behavior 8 LS(LG(P))  &new_behavior 16 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -313,7 +323,7 @@
             >;
         };
 
-        layer_17 {
+        layer_18 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
