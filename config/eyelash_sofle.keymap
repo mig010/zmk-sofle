@@ -151,7 +151,7 @@
             bindings = <
 &kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7  &kp F8     &kp F9      &kp F10           &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans     &trans  &kp UP     &trans      &trans            &trans
-&trans     &trans  &trans  &trans  &mo 7   &trans    &mmv MOVE_LEFT   &kp PG_DN  &mo 6   &kp LC(S)  &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &trans  &trans  &trans  &mo 11  &trans    &mmv MOVE_LEFT   &kp PG_DN  &mo 6   &kp LC(S)  &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans  &trans     &trans      &trans            &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &kp LC(F)  &trans  &trans     &trans      &trans
             >;
@@ -212,6 +212,46 @@
             >;
         };
 
+        browserTabs {
+            bindings = <
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &kt X   &kp LS(X)  &kp LG(T)  &trans    &trans  &trans  &kp LS(S)  &kp LS(D)  &kp LS(I)  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans
+            >;
+        };
+
+        browserShortcuts {
+            bindings = <
+&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans  &kp LG(N0)  &kp LG(MINUS)  &kp LG(PLUS)  &trans    &trans  &trans  &kp LG(LS(P))  &kp LC(P)  &kp LG(LA(LC(LS(X))))  &kp LS(LA(LC(LG(SEMICOLON))))  &trans
+&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans
+            >;
+        };
+
+        browserBasics {
+            bindings = <
+&trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
+&trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
+&trans  &kp LC(LS(Q))  &kp LG(U)  &trans  &kp LG(M)  &trans    &trans  &trans  &kp LG(Y)  &kp LG(LC(B))  &kp LG(EQUAL)  &kp LC(SLASH)  &trans
+&trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
+&trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans
+            >;
+        };
+
+        surfingskey {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp SLASH  &trans  &trans  &trans  &trans
+            >;
+        };
+
         raycast {
             bindings = <
 &trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                 &trans                 &trans                 &trans
@@ -226,7 +266,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LG(LC(LA(LS(D))))  &trans                 &trans                 &trans
-&trans  &trans  &trans  &mo 9   &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
+&trans  &trans  &trans  &mo 13  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
             >;
@@ -274,11 +314,11 @@
 
         figma {
             bindings = <
-&trans  &trans                   &trans                  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &to 0                     &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 15 DELETE  &new_behavior 14 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)        &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans                    &trans                     &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans                    &new_behavior 8 LS(LG(P))  &new_behavior 16 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &to 0                     &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 19 DELETE  &new_behavior 18 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)         &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &new_behavior 12 LS(LG(P))  &new_behavior 20 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -319,36 +359,6 @@
 &trans  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        browserTabs {
-            bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &kt X   &kp LS(X)  &kp LG(T)  &trans    &trans  &trans  &kp LS(S)  &kp LS(D)  &kp LS(I)  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans
-            >;
-        };
-
-        browserShortcuts {
-            bindings = <
-&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans  &kp LG(N0)  &kp LG(MINUS)  &kp LG(PLUS)  &trans    &trans  &trans  &kp LG(LS(P))  &kp LC(P)  &kp LG(LA(LC(LS(X))))  &kp LS(LA(LC(LG(SEMICOLON))))  &trans
-&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans
-            >;
-        };
-
-        browserBasics {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
