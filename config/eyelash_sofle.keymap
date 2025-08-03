@@ -129,6 +129,20 @@
             bindings = <&kp D &kp I &kp LS(W)>;
             label = "DIO";
         };
+
+        deleteB: deleteB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp B>;
+            label = "DELETEB";
+        };
+
+        removeB: removeB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp LS(B)>;
+            label = "REMOVEB";
+        };
     };
 
     keymap {
