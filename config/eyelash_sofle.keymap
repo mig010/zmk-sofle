@@ -205,6 +205,13 @@
             bindings = <&kp V &kp I &kp LS(B)>;
             label = "VBRA";
         };
+
+        goBack: goBack {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp GRAVE>;
+            label = "GOBACK";
+        };
     };
 
     keymap {
@@ -250,21 +257,21 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &kp LS(H)  &trans  &trans    &trans  &trans  &trans  &kp LS(M)  &trans  &trans     &trans
-&trans  &mo 4   &kp B   &trans     &kp W   &ciw      &trans  &yiw    &kp J   &kp K      &kp E   &kp LS(L)  &trans
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans     &trans  &mo 5     &trans  &mo 4   &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &kp LS(H)  &trans     &trans    &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
+&trans  &mo 4   &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
+&trans  &trans  &trans  &trans     &kp LC(O)  &trans    &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans     &trans     &mo 5     &trans  &mo 4   &trans     &trans     &trans  &trans
             >;
         };
 
         vimSentences {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
-&trans  &vio    &dio    &cio    &yio    &trans    &trans  &trans  &yiw    &ciw       &diw    &viw    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans   &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &goBack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
+&trans  &vio    &dio    &cio     &yio    &trans    &trans  &trans  &yiw    &ciw       &diw    &viw    &trans
+&trans  &trans  &trans  &trans   &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans   &trans  &mo 5     &trans  &trans  &trans  &trans     &trans  &trans
             >;
         };
 
