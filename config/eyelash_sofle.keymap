@@ -266,11 +266,11 @@
 
         vimBracets {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans
+&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans
+&trans  &trans  &deledeBra  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &removeBra  &trans  &trans
+&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans
+&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
             >;
         };
 
