@@ -187,11 +187,11 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans      &trans
-&trans  &trans  &trans  &deleteB  &trans  &trans    &trans  &trans  &trans  &removeB  &trans  &trans      &trans
-&trans  &mo 4   &kp B   &trans    &kp W   &trans    &trans  &trans  &kp J   &kp K     &kp E   &kp PERIOD  &trans
-&trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans      &trans
-&trans  &trans  &trans  &trans    &trans  &trans    &trans  &mo 4   &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &kp LS(H)  &trans  &trans    &trans  &trans  &trans  &kp LS(M)  &trans  &trans     &trans
+&trans  &mo 4   &kp B   &trans     &kp W   &trans    &trans  &trans  &kp J   &kp K      &kp E   &kp LS(L)  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &mo 4   &trans  &trans     &trans  &trans
             >;
         };
 
