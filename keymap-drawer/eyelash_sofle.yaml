@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - vim
+  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - layer1
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', h: numbers}
@@ -72,7 +72,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
   - F6
   - F7
   - F8
@@ -225,7 +225,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&viw'
   - '&diw'
-  - {t: '&ciw', type: held alternate}
+  - {t: '&ciw', type: held}
   - '&yiw'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -252,8 +252,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - vimSentences
   - {t: '$$mdi:transfer$$', type: trans}
@@ -317,7 +317,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: vimMotion, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -382,7 +382,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
