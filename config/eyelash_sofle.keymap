@@ -228,10 +228,10 @@
 
         vimCursor {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans  &trans
-&trans  &kp LC(B)  &kp LC(D)  &kp LC(U)  &kp LC(F)  &trans    &trans  &trans  &topCursor  &middleCursor  &bottomCursor  &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans     &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans     &trans
+&trans  &kp LC(B)  &kp LC(D)  &kp LC(U)  &kp LC(F)  &trans    &trans  &trans  &topCursor  &middleCursor  &bottomCursor  &kp LS(G)  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans     &trans
 &trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans
             >;
         };
