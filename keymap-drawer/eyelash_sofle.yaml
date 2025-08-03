@@ -363,7 +363,7 @@ layers:
   - '&topCursor'
   - '&middleCursor'
   - '&bottomCursor'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+G
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
