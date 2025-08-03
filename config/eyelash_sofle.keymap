@@ -136,11 +136,11 @@
 
         kuru {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5    &kp LEFT_SHIFT       &kp N6               &kp N7     &kp N8     &kp N9           &kp N0         &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp F         &kp P   &kp B     &kp DOWN_ARROW       &kp J                &kp L      &kp U      &kp Y            &kp SEMICOLON  &kp BSLH
-&kp CAPS    &kp A      &kp R         &kp S         &kp T   &kp G     &kp LG(LEFT_ARROW)   &kp M                &kp N      &kp E      &kp I            &kp O          &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp D   &kp V     &kp LG(RIGHT_ARROW)  &kp K                &kp H      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 3   &mo 1     &mkp LCLK            &new_behavior 2 RET  &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4             &kp N5    &kp LEFT_SHIFT       &kp N6               &kp N7     &kp N8     &kp N9           &kp N0         &kp BACKSPACE
+&kp TAB     &kp Q      &kp W         &kp F         &kp P              &kp B     &kp DOWN_ARROW       &kp J                &kp L      &kp U      &kp Y            &kp SEMICOLON  &kp BSLH
+&kp CAPS    &kp A      &kp R         &kp S         &kp T              &kp G     &kp LG(LEFT_ARROW)   &kp M                &kp N      &kp E      &kp I            &kp O          &kp APOS
+&kp LSHFT   &kp Z      &kp X         &kp C         &kp D              &kp V     &kp LG(RIGHT_ARROW)  &kp K                &kp H      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LA(BACKSPACE)  &mo 1     &mkp LCLK            &new_behavior 2 RET  &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -149,11 +149,11 @@
 
         all {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &mmv MOVE_UP     &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
-&trans     &trans  &trans     &mo 34     &trans     &trans    &mmv MOVE_DOWN   &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 22  &mo 22     &mo 3      &mo 11     &trans    &mmv MOVE_LEFT   &kp TAB    &mo 6   &kp LC(S)  &kp ESCAPE  &mo 33   &trans
-&trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT  &trans     &trans  &trans     &trans      &trans   &trans
-&trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK        &kp LC(F)  &trans  &trans     &trans      &trans
+&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
+&trans     &trans  &trans     &mo 34     &trans     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
+&trans     &mo 22  &mo 22     &mo 3      &mo 11     &trans    &mmv MOVE_LEFT     &kp TAB    &mo 6   &kp LC(S)  &kp ESCAPE  &mo 33   &trans
+&trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
+&trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
             >;
 
             display-name = "layer1";
