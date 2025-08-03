@@ -149,11 +149,11 @@
 
         all {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7  &kp F8     &kp F9      &kp F10           &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans     &trans  &kp UP     &trans      &trans            &trans
-&trans     &mo 22  &mo 22  &mo 3   &mo 11  &trans    &mmv MOVE_LEFT   &kp PG_DN  &mo 6   &kp LC(S)  &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans  &trans     &trans      &trans            &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &kp LC(F)  &trans  &trans     &trans      &trans
+&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &mmv MOVE_UP     &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
+&trans     &trans  &trans     &mo 34     &trans     &trans    &mmv MOVE_DOWN   &trans     &trans  &kp LC(W)  &trans      &trans   &trans
+&trans     &mo 22  &mo 22     &mo 3      &mo 11     &trans    &mmv MOVE_LEFT   &kp TAB    &mo 6   &kp LC(S)  &kp ESCAPE  &mo 33   &trans
+&trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT  &trans     &trans  &trans     &trans      &trans   &trans
+&trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK        &kp LC(F)  &trans  &trans     &trans      &trans
             >;
 
             display-name = "layer1";
@@ -469,6 +469,26 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(C)  &kp LC(R)  &kp LC(G)  &kp LC(L)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
+            >;
+        };
+
+        coding {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        shorscuts {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
