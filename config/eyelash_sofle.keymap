@@ -189,7 +189,7 @@
             bindings = <
 &trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans      &trans
 &trans  &trans  &trans  &deleteB  &trans  &trans    &trans  &trans  &trans  &removeB  &trans  &trans      &trans
-&trans  &mo 4   &kp B   &ciw      &kp W   &trans    &trans  &trans  &kp J   &kp K     &kp E   &kp PERIOD  &trans
+&trans  &mo 4   &kp B   &trans    &kp W   &trans    &trans  &trans  &kp J   &kp K     &kp E   &kp PERIOD  &trans
 &trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans      &trans
 &trans  &trans  &trans  &trans    &trans  &trans    &trans  &mo 4   &trans  &trans    &trans  &trans
             >;
