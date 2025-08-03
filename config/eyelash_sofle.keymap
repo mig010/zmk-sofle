@@ -259,7 +259,7 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans     &trans
 &trans  &trans  &trans  &kp LS(H)  &trans     &trans    &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
-&trans  &mo 4   &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
+&trans  &mo 7   &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
 &trans  &trans  &trans  &trans     &kp LC(O)  &trans    &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
 &trans  &trans  &trans  &trans     &trans     &mo 5     &trans  &mo 4   &trans     &trans     &trans  &trans
             >;
