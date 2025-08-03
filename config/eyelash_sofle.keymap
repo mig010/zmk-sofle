@@ -136,11 +136,11 @@
 
         kuru {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                           &kp LEFT_SHIFT       &kp N6               &kp N7     &kp N8     &kp N9           &kp N0         &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp F         &kp P   &kp B                            &kp DOWN_ARROW       &kp J                &kp L      &kp U      &kp Y            &kp SEMICOLON  &kp BSLH
-&kp CAPS    &kp A      &kp R         &kp S         &kp T   &kp G                            &kp LG(LEFT_ARROW)   &kp M                &kp N      &kp E      &kp I            &kp O          &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp D   &kp V                            &kp LG(RIGHT_ARROW)  &kp K                &kp H      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 3   &new_behavior 1 LA(BACKSPACE)    &mkp LCLK            &new_behavior 2 RET  &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5    &kp LEFT_SHIFT       &kp N6               &kp N7     &kp N8     &kp N9           &kp N0         &kp BACKSPACE
+&kp TAB     &kp Q      &kp W         &kp F         &kp P   &kp B     &kp DOWN_ARROW       &kp J                &kp L      &kp U      &kp Y            &kp SEMICOLON  &kp BSLH
+&kp CAPS    &kp A      &kp R         &kp S         &kp T   &kp G     &kp LG(LEFT_ARROW)   &kp M                &kp N      &kp E      &kp I            &kp O          &kp APOS
+&kp LSHFT   &kp Z      &kp X         &kp C         &kp D   &kp V     &kp LG(RIGHT_ARROW)  &kp K                &kp H      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 3   &mo 1     &mkp LCLK            &new_behavior 2 RET  &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -151,7 +151,7 @@
             bindings = <
 &kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7  &kp F8     &kp F9      &kp F10           &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans     &trans  &kp UP     &trans      &trans            &trans
-&trans     &trans  &trans  &trans  &mo 11  &trans    &mmv MOVE_LEFT   &kp PG_DN  &mo 6   &kp LC(S)  &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &mo 22  &mo 22  &mo 3   &mo 11  &trans    &mmv MOVE_LEFT   &kp PG_DN  &mo 6   &kp LC(S)  &kp ESCAPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans  &trans     &trans      &trans            &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &kp LC(F)  &trans  &trans     &trans      &trans
             >;
@@ -389,6 +389,56 @@
 &trans  &kp LG(E)  &trans  &trans  &kp LG(LS(A))  &trans    &trans  &trans  &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans
 &trans  &trans     &trans  &trans  &trans         &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans     &trans  &trans  &trans         &trans    &trans  &trans  &trans     &trans     &trans     &trans
+            >;
+        };
+
+        arrowMovements {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &trans  &mo 26  &mo 27  &mo 28  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans
+            >;
+        };
+
+        AltArrow {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans
+            >;
+        };
+
+        GuiArrows {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans
+            >;
+        };
+
+        AltShiftArrows {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LS(LA(DOWN_ARROW))  &kp LS(LA(UP_ARROW))  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans
+            >;
+        };
+
+        layer_29 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
