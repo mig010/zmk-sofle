@@ -4,7 +4,6 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -164,8 +163,8 @@
         all {
             bindings = <
 &kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
-&trans     &trans  &trans     &mo 34     &trans     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 22  &mo 22     &mo 3      &mo 11     &trans    &mmv MOVE_LEFT     &kp TAB    &mo 6   &kp LC(S)  &kp ESCAPE  &mo 33   &trans
+&trans     &trans  &trans     &mo 35     &trans     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
+&trans     &mo 23  &mo 23     &mo 3      &mo 12     &trans    &mmv MOVE_LEFT     &kp TAB    &mo 7   &kp LC(S)  &kp ESCAPE  &mo 34   &trans
 &trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
             >;
@@ -188,21 +187,21 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans      &trans            &trans      &trans
-&trans  &trans  &trans  &bl BL_ON  &trans  &trans    &trans  &trans  &trans  &bl BL_OFF  &trans            &trans      &trans
-&trans  &viw    &diw    &ciw       &yiw    &trans    &trans  &trans  &kp J   &kp K       &kp LC(NUMBER_6)  &kp PERIOD  &trans
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans      &trans            &trans      &trans
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &mo 4   &trans  &trans      &trans            &trans
+&trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans      &trans
+&trans  &trans  &trans  &deleteB  &trans  &trans    &trans  &trans  &trans  &removeB  &trans  &trans      &trans
+&trans  &mo 4   &kp B   &ciw      &kp W   &trans    &trans  &trans  &kp J   &kp K     &kp E   &kp PERIOD  &trans
+&trans  &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans      &trans
+&trans  &trans  &trans  &trans    &trans  &trans    &trans  &mo 4   &trans  &trans    &trans  &trans
             >;
         };
 
         vimSentences {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans      &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &kp GRAVE  &trans      &trans      &trans
-&trans  &vio    &dio    &cio    &yio    &trans    &trans  &trans  &bl BL_ON  &bl BL_ON  &bl BL_TOG  &bl BL_OFF  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans      &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans     &trans     &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
+&trans  &vio    &dio    &cio    &yio    &trans    &trans  &trans  &yiw    &ciw       &diw    &viw    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &mo 5     &trans  &trans  &trans  &trans     &trans  &trans
             >;
         };
 
@@ -211,6 +210,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp B   &kp W   &kp E   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        vimBracets {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -280,7 +289,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LG(LC(LA(LS(D))))  &trans                 &trans                 &trans
-&trans  &trans  &trans  &mo 13  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
+&trans  &trans  &trans  &mo 14  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
             >;
@@ -330,9 +339,9 @@
             bindings = <
 &trans  &trans                   &trans                  &trans                    &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                   &trans                  &to 0                     &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &new_behavior 19 DELETE  &new_behavior 18 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)         &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &new_behavior 20 DELETE  &new_behavior 19 LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)         &mt LS(LG(Z)) LS(X)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                   &trans                  &trans                    &trans                      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans                  &trans                    &new_behavior 12 LS(LG(P))  &new_behavior 20 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                  &trans                    &new_behavior 13 LS(LG(P))  &new_behavior 21 LG(C)    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -380,7 +389,7 @@
             bindings = <
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
-&trans  &kp LG(LA(E))  &trans  &mo 23  &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
+&trans  &kp LG(LA(E))  &trans  &mo 24  &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans
             >;
@@ -410,7 +419,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &mo 26  &mo 27  &mo 28  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &mo 27  &mo 28  &mo 29  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans
             >;
@@ -450,7 +459,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &mo 32  &mo 31  &mo 30  &trans    &trans  &trans  &kp LC(A)  &kp LC(E)  &kp LA(B)  &kp LA(F)  &trans
+&trans  &trans  &mo 33  &mo 32  &mo 31  &trans    &trans  &trans  &kp LC(A)  &kp LC(E)  &kp LA(B)  &kp LA(F)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
             >;
