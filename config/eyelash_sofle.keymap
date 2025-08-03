@@ -191,6 +191,20 @@
             bindings = <&kp D &kp I &kp LS(B)>;
             label = "REMOVEBRA";
         };
+
+        visualBra: visualBra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp B>;
+            label = "VISUALBRA";
+        };
+
+        vbra: vbra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp LS(B)>;
+            label = "VBRA";
+        };
     };
 
     keymap {
@@ -266,11 +280,11 @@
 
         vimBracets {
             bindings = <
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans
-&trans  &trans  &deledeBra  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &removeBra  &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
+&trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans  &trans
+&trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans  &trans
+&trans  &visualBra  &deledeBra  &deleteB  &copyBra  &trans    &trans  &trans  &yankBra  &removeB  &removeBra  &vbra   &trans
+&trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans  &trans
+&trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans
             >;
         };
 
