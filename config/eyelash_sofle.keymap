@@ -163,6 +163,34 @@
             bindings = <&kp Z &kp B>;
             label = "BOTTOMCURSOR";
         };
+
+        copyBra: copyBra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt Y &kp I &kp B>;
+            label = "COPYBRA";
+        };
+
+        yankBra: yankBra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp LS(B)>;
+            label = "YANKBRA";
+        };
+
+        deledeBra: deledeBra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp B>;
+            label = "DELEDEBRA";
+        };
+
+        removeBra: removeBra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp LS(B)>;
+            label = "REMOVEBRA";
+        };
     };
 
     keymap {
