@@ -584,5 +584,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
+
+        nvim {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans      &trans            &trans     &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans      &trans            &trans     &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LS(N8)  &kp LS(NUMBER_3)  &kp SLASH  &kp QUESTION  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans      &trans            &trans     &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans      &trans            &trans     &trans
+            >;
+        };
     };
 };
