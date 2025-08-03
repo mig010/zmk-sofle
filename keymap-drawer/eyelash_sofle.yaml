@@ -227,9 +227,9 @@ layers:
   - B
   - {type: held alternate}
   - W
+  - '&ciw'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&yiw'
   - J
   - K
   - E
