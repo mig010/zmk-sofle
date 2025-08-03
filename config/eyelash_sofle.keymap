@@ -142,6 +142,27 @@
             bindings = <&kp C &kp I &kp LS(B)>;
             label = "REMOVEB";
         };
+
+        middleCursor: middleCursor {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp Z>;
+            label = "MIDDLECURSOR";
+        };
+
+        topCursor: topCursor {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp T>;
+            label = "TOPCURSOR";
+        };
+
+        bottomCursor: bottomCursor {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp B>;
+            label = "BOTTOMCURSOR";
+        };
     };
 
     keymap {
@@ -191,7 +212,7 @@
 &trans  &trans  &trans  &kp LS(H)  &trans  &trans    &trans  &trans  &trans  &kp LS(M)  &trans  &trans     &trans
 &trans  &mo 4   &kp B   &trans     &kp W   &ciw      &trans  &yiw    &kp J   &kp K      &kp E   &kp LS(L)  &trans
 &trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &mo 4   &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &mo 5     &trans  &mo 4   &trans  &trans     &trans  &trans
             >;
         };
 
@@ -205,13 +226,13 @@
             >;
         };
 
-        vimMotion {
+        vimCursor {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp B   &kp W   &kp E   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans  &trans
+&trans  &kp LC(B)  &kp LC(D)  &kp LC(U)  &kp LC(F)  &trans    &trans  &trans  &topCursor  &middleCursor  &bottomCursor  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans
             >;
         };
 
