@@ -60,7 +60,7 @@ layers:
   - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - layer1
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-return$$', h: numbers}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+W
   - $$mdi:mouse-left-click-outline$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1198,8 +1198,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: figma_aliases}
-  - {t: Z, h: figma_shortcuts}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Alt+/, h: '$$mdi:apple-keyboard-shift$$', s: 'Alt+?'}
   - {t: Sft+/, h: '$$mdi:apple-keyboard-control$$', s: 'Sft+?'}
   - {t: Sft+X, h: Sft+Gui+Z}
@@ -1227,8 +1227,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+Gui+P, h: raycast_apps}
-  - {t: C, h: figma_one_five}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1264,7 +1264,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+A
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+G
   - Gui+Alt+G
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -1328,7 +1328,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - R
   - O
   - T
@@ -1423,7 +1423,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
