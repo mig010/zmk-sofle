@@ -36,14 +36,7 @@
     behaviors {
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <35 59>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         ciw: ciw {
