@@ -265,7 +265,7 @@
             >;
         };
 
-        vimSentences {
+        vim_Sentences {
             bindings = <
 &trans  &trans  &trans  &trans   &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &goBack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
@@ -275,7 +275,7 @@
             >;
         };
 
-        vimCursor {
+        vim_Cursor {
             bindings = <
 &trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans     &trans
 &trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans     &trans
@@ -285,7 +285,7 @@
             >;
         };
 
-        vimBracets {
+        vim_Bracets {
             bindings = <
 &trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans  &trans
 &trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans  &trans
@@ -315,7 +315,7 @@
             >;
         };
 
-        browserTabs {
+        browser_Tabs {
             bindings = <
 &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
@@ -325,7 +325,7 @@
             >;
         };
 
-        browserShortcuts {
+        browser_Shortcuts {
             bindings = <
 &trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
 &trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
@@ -335,7 +335,7 @@
             >;
         };
 
-        browserBasics {
+        browser_Basics {
             bindings = <
 &trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
 &trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
@@ -365,7 +365,7 @@
             >;
         };
 
-        raycastApps {
+        raycast_Apps {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LG(LC(LA(LS(D))))  &trans                 &trans                 &trans
@@ -375,7 +375,7 @@
             >;
         };
 
-        raycastAppsTwo {
+        raycast_Apps_Two {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &kp LC(LG(LA(LS(H))))  &trans                 &trans  &trans
@@ -385,7 +385,7 @@
             >;
         };
 
-        raycastAppThree {
+        raycast_App_Three {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans                 &trans                 &trans  &trans
@@ -425,7 +425,7 @@
             >;
         };
 
-        figmaShortcuts {
+        figma_Shortcuts {
             bindings = <
 &trans  &trans     &trans  &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans  &kp LA(LG(K))  &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -435,7 +435,7 @@
             >;
         };
 
-        figmaAliases {
+        figma_Aliases {
             bindings = <
 &trans  &trans  &trans  &trans  &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &kp L   &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -445,7 +445,7 @@
             >;
         };
 
-        figmaOneFive {
+        figma_One_Five {
             bindings = <
 &trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &kp N5        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -455,7 +455,7 @@
             >;
         };
 
-        figmaSixZero {
+        figma_Six_Zero {
             bindings = <
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &kp N0  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -475,7 +475,7 @@
             >;
         };
 
-        workspaceLayouts {
+        workspace_Layouts {
             bindings = <
 &trans  &trans         &trans  &trans  &trans          &trans    &kp LG(MINUS)  &trans             &trans         &trans         &trans         &trans         &trans
 &trans  &trans         &trans  &trans  &trans          &trans    &trans         &trans             &trans         &trans         &trans         &trans         &trans
@@ -485,7 +485,7 @@
             >;
         };
 
-        wordspaceFocus {
+        wordspace_Focus {
             bindings = <
 &trans  &trans     &trans  &trans  &trans         &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans     &trans  &trans  &trans         &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
@@ -495,7 +495,7 @@
             >;
         };
 
-        arrowMovements {
+        arrow_Movements {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
@@ -505,7 +505,7 @@
             >;
         };
 
-        AltArrow {
+        Alt_Arrow {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
@@ -515,7 +515,7 @@
             >;
         };
 
-        GuiArrows {
+        Gui_Arrows {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans               &trans
@@ -525,7 +525,7 @@
             >;
         };
 
-        AltShiftArrows {
+        Alt_Shift_Arrows {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans                   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans                   &trans
@@ -535,7 +535,7 @@
             >;
         };
 
-        shellMovements {
+        shell_Movements {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
@@ -545,7 +545,7 @@
             >;
         };
 
-        shellActions {
+        shell_Actions {
             bindings = <
 &trans  &trans  &trans          &trans   &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans         &trans
 &trans  &trans  &trans          &trans   &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans         &trans
@@ -555,7 +555,7 @@
             >;
         };
 
-        shellDeletion {
+        shell_Deletion {
             bindings = <
 &trans  &trans  &trans  &trans  &trans              &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans              &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
@@ -565,7 +565,7 @@
             >;
         };
 
-        shellHistory {
+        shell_History {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
