@@ -234,7 +234,7 @@
             bindings = <
 &kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 23  &mo 23     &mo 3      &mo 13     &trans    &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &trans   &trans
+&trans     &mo 23  &mo 23     &trans     &mo 13     &trans    &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &trans   &trans
 &trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
             >;
