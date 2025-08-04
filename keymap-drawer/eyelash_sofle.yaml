@@ -256,7 +256,7 @@ layers:
   - {t: vimCursor, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - vimSentences
-  - {t: '$$mdi:transfer$$', type: trans}
+  - vimCursor
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -386,7 +386,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
