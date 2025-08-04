@@ -205,13 +205,6 @@
             bindings = <&kp V &kp I &kp LS(B)>;
             label = "VBRA";
         };
-
-        goBack: goBack {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp GRAVE>;
-            label = "GOBACK";
-        };
     };
 
     keymap {
@@ -267,11 +260,11 @@
 
         vim_sentences {
             bindings = <
-&trans  &trans  &trans  &trans   &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &goBack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
-&trans  &vio    &dio    &cio     &yio    &trans    &trans  &trans  &yiw    &ciw       &diw    &viw    &trans
-&trans  &trans  &trans  &trans   &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans   &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &kp B   &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
+&trans  &vio    &dio    &cio    &yio    &trans    &trans  &trans  &yiw    &ciw       &diw    &viw    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans
             >;
         };
 
