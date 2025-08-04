@@ -1614,14 +1614,14 @@ rect.held, rect.combo.held {
 <g transform="translate(535, 294) rotate(-30.0)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#vimSentences">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">vimSenten…</tspan></text>
+<a href="#vim_Sentences">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">vim_Sente…</tspan></text>
 </a></g>
 <g transform="translate(610, 283) rotate(-30.0)" class="key keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#vimCursor">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">vimCursor</tspan></text>
+<a href="#vim_Cursor">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">vim_Cursor</tspan></text>
 </a></g>
 <g transform="translate(672, 259)" class="key trans keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1646,8 +1646,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1553)" class="layer-vimSentences">
-<text x="0" y="28" class="label" id="vimSentences">vimSentences:</text>
+<g transform="translate(40, 1553)" class="layer-vim_Sentences">
+<text x="0" y="28" class="label" id="vim_Sentences">vim_Sentences:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1937,8 +1937,8 @@ rect.held, rect.combo.held {
 <g transform="translate(389, 294) rotate(30.0)" class="key held keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
-<a href="#vimCursor">
-<text x="0" y="-4" class="key held tap layer-activator"><tspan style="font-size: 67%">vimCursor</tspan></text>
+<a href="#vim_Cursor">
+<text x="0" y="-4" class="key held tap layer-activator"><tspan style="font-size: 60%">vim_Cursor</tspan></text>
 </a></g>
 <g transform="translate(462, 91)" class="key trans keypos-58">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1977,8 +1977,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1941)" class="layer-vimCursor">
-<text x="0" y="28" class="label" id="vimCursor">vimCursor:</text>
+<g transform="translate(40, 1941)" class="layer-vim_Cursor">
+<text x="0" y="28" class="label" id="vim_Cursor">vim_Cursor:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -2304,8 +2304,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2329)" class="layer-vimBracets">
-<text x="0" y="28" class="label" id="vimBracets">vimBracets:</text>
+<g transform="translate(40, 2329)" class="layer-vim_Bracets">
+<text x="0" y="28" class="label" id="vim_Bracets">vim_Bracets:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -3294,8 +3294,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3494)" class="layer-browserTabs">
-<text x="0" y="28" class="label" id="browserTabs">browserTabs:</text>
+<g transform="translate(40, 3494)" class="layer-browser_Tabs">
+<text x="0" y="28" class="label" id="browser_Tabs">browser_Tabs:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -3626,8 +3626,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3882)" class="layer-browserShortcuts">
-<text x="0" y="28" class="label" id="browserShortcuts">browserShortcuts:</text>
+<g transform="translate(40, 3882)" class="layer-browser_Shortcuts">
+<text x="0" y="28" class="label" id="browser_Shortcuts">browser_Shortcuts:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -3966,8 +3966,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 4271)" class="layer-browserBasics">
-<text x="0" y="28" class="label" id="browserBasics">browserBasics:</text>
+<g transform="translate(40, 4271)" class="layer-browser_Basics">
+<text x="0" y="28" class="label" id="browser_Basics">browser_Basics:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -4981,8 +4981,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 5435)" class="layer-raycastApps">
-<text x="0" y="28" class="label" id="raycastApps">raycastApps:</text>
+<g transform="translate(40, 5435)" class="layer-raycast_Apps">
+<text x="0" y="28" class="label" id="raycast_Apps">raycast_Apps:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -5134,8 +5134,8 @@ rect.held, rect.combo.held {
 <g transform="translate(196, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#raycastAppsTwo">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">raycastAp…</tspan></text>
+<a href="#raycast_Apps_Two">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">raycast_A…</tspan></text>
 </a></g>
 <g transform="translate(252, 147)" class="key trans keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -5325,8 +5325,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 5824)" class="layer-raycastAppsTwo">
-<text x="0" y="28" class="label" id="raycastAppsTwo">raycastAppsTwo:</text>
+<g transform="translate(40, 5824)" class="layer-raycast_Apps_Two">
+<text x="0" y="28" class="label" id="raycast_Apps_Two">raycast_Apps_Two:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -5667,8 +5667,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 6212)" class="layer-raycastAppThree">
-<text x="0" y="28" class="label" id="raycastAppThree">raycastAppThree:</text>
+<g transform="translate(40, 6212)" class="layer-raycast_App_Three">
+<text x="0" y="28" class="label" id="raycast_App_Three">raycast_App_Three:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -6819,15 +6819,15 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
-<a href="#figmaAliases">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">figmaAlia…</tspan></text>
+<a href="#figma_Aliases">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">figma_Ali…</tspan></text>
 </a></g>
 <g transform="translate(140, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Z</text>
-<a href="#figmaShortcuts">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">figmaShor…</tspan></text>
+<a href="#figma_Shortcuts">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">figma_Sho…</tspan></text>
 </a></g>
 <g transform="translate(196, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -6975,15 +6975,15 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap">
 <tspan x="0" dy="-1.2em">Sft+</tspan><tspan x="0" dy="1.2em">Gui+P</tspan>
 </text>
-<a href="#raycastApps">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">raycastAp…</tspan></text>
+<a href="#raycast_Apps">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">raycast_A…</tspan></text>
 </a></g>
 <g transform="translate(389, 294) rotate(30.0)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">C</text>
-<a href="#figmaOneFive">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">figmaOneF…</tspan></text>
+<a href="#figma_One_Five">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">figma_One…</tspan></text>
 </a></g>
 <g transform="translate(462, 91)" class="key trans keypos-58">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -7023,8 +7023,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 7765)" class="layer-figmaShortcuts">
-<text x="0" y="28" class="label" id="figmaShortcuts">figmaShortcuts:</text>
+<g transform="translate(40, 7765)" class="layer-figma_Shortcuts">
+<text x="0" y="28" class="label" id="figma_Shortcuts">figma_Shortcuts:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -7362,8 +7362,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 8153)" class="layer-figmaAliases">
-<text x="0" y="28" class="label" id="figmaAliases">figmaAliases:</text>
+<g transform="translate(40, 8153)" class="layer-figma_Aliases">
+<text x="0" y="28" class="label" id="figma_Aliases">figma_Aliases:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -7694,8 +7694,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 8541)" class="layer-figmaOneFive">
-<text x="0" y="28" class="label" id="figmaOneFive">figmaOneFive:</text>
+<g transform="translate(40, 8541)" class="layer-figma_One_Five">
+<text x="0" y="28" class="label" id="figma_One_Five">figma_One_Five:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -8025,8 +8025,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 8930)" class="layer-figmaSixZero">
-<text x="0" y="28" class="label" id="figmaSixZero">figmaSixZero:</text>
+<g transform="translate(40, 8930)" class="layer-figma_Six_Zero">
+<text x="0" y="28" class="label" id="figma_Six_Zero">figma_Six_Zero:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -8512,7 +8512,7 @@ rect.held, rect.combo.held {
 <g transform="translate(196, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#workspaceLayouts">
+<a href="#workspace_Layouts">
 <text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">workspace…</tspan></text>
 </a></g>
 <g transform="translate(252, 147)" class="key keypos-30">
@@ -8702,8 +8702,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 9706)" class="layer-workspaceLayouts">
-<text x="0" y="28" class="label" id="workspaceLayouts">workspaceLayouts:</text>
+<g transform="translate(40, 9706)" class="layer-workspace_Layouts">
+<text x="0" y="28" class="label" id="workspace_Layouts">workspace_Layouts:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -9043,8 +9043,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 10094)" class="layer-wordspaceFocus">
-<text x="0" y="28" class="label" id="wordspaceFocus">wordspaceFocus:</text>
+<g transform="translate(40, 10094)" class="layer-wordspace_Focus">
+<text x="0" y="28" class="label" id="wordspace_Focus">wordspace_Focus:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -9376,8 +9376,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 10483)" class="layer-arrowMovements">
-<text x="0" y="28" class="label" id="arrowMovements">arrowMovements:</text>
+<g transform="translate(40, 10483)" class="layer-arrow_Movements">
+<text x="0" y="28" class="label" id="arrow_Movements">arrow_Movements:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -9522,20 +9522,20 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#AltArrow">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">AltArrow</tspan></text>
+<a href="#Alt_Arrow">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">Alt_Arrow</tspan></text>
 </a></g>
 <g transform="translate(196, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#GuiArrows">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">GuiArrows</tspan></text>
+<a href="#Gui_Arrows">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">Gui_Arrows</tspan></text>
 </a></g>
 <g transform="translate(252, 147)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#AltShiftArrows">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">AltShiftA…</tspan></text>
+<a href="#Alt_Shift_Arrows">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">Alt_Shift…</tspan></text>
 </a></g>
 <g transform="translate(308, 147)" class="key trans keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -9710,8 +9710,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 10871)" class="layer-AltArrow">
-<text x="0" y="28" class="label" id="AltArrow">AltArrow:</text>
+<g transform="translate(40, 10871)" class="layer-Alt_Arrow">
+<text x="0" y="28" class="label" id="Alt_Arrow">Alt_Arrow:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -10040,8 +10040,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 11259)" class="layer-GuiArrows">
-<text x="0" y="28" class="label" id="GuiArrows">GuiArrows:</text>
+<g transform="translate(40, 11259)" class="layer-Gui_Arrows">
+<text x="0" y="28" class="label" id="Gui_Arrows">Gui_Arrows:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -10370,8 +10370,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 11647)" class="layer-AltShiftArrows">
-<text x="0" y="28" class="label" id="AltShiftArrows">AltShiftArrows:</text>
+<g transform="translate(40, 11647)" class="layer-Alt_Shift_Arrows">
+<text x="0" y="28" class="label" id="Alt_Shift_Arrows">Alt_Shift_Arrows:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -10700,8 +10700,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 12036)" class="layer-shellMovements">
-<text x="0" y="28" class="label" id="shellMovements">shellMovements:</text>
+<g transform="translate(40, 12036)" class="layer-shell_Movements">
+<text x="0" y="28" class="label" id="shell_Movements">shell_Movements:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -10846,20 +10846,20 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#shellHistory">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">shellHist…</tspan></text>
+<a href="#shell_History">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">shell_His…</tspan></text>
 </a></g>
 <g transform="translate(196, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#shellDeletion">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">shellDele…</tspan></text>
+<a href="#shell_Deletion">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">shell_Del…</tspan></text>
 </a></g>
 <g transform="translate(252, 147)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#shellActions">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">shellActi…</tspan></text>
+<a href="#shell_Actions">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">shell_Act…</tspan></text>
 </a></g>
 <g transform="translate(308, 147)" class="key trans keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -11034,8 +11034,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 12424)" class="layer-shellActions">
-<text x="0" y="28" class="label" id="shellActions">shellActions:</text>
+<g transform="translate(40, 12424)" class="layer-shell_Actions">
+<text x="0" y="28" class="label" id="shell_Actions">shell_Actions:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -11364,8 +11364,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 12812)" class="layer-shellDeletion">
-<text x="0" y="28" class="label" id="shellDeletion">shellDeletion:</text>
+<g transform="translate(40, 12812)" class="layer-shell_Deletion">
+<text x="0" y="28" class="label" id="shell_Deletion">shell_Deletion:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -11696,8 +11696,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 13200)" class="layer-shellHistory">
-<text x="0" y="28" class="label" id="shellHistory">shellHistory:</text>
+<g transform="translate(40, 13200)" class="layer-shell_History">
+<text x="0" y="28" class="label" id="shell_History">shell_History:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
