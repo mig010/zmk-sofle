@@ -486,7 +486,7 @@
             >;
         };
 
-        shift_alt_arrow {
+        saa {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                   &trans                  &trans                &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                   &trans                  &trans                &trans
@@ -496,7 +496,7 @@
             >;
         };
 
-        cli {
+        mig_cli {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -506,7 +506,7 @@
             >;
         };
 
-        terminal {
+        pro_terminal {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -516,7 +516,7 @@
             >;
         };
 
-        shell {
+        code_shell {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
