@@ -33,6 +33,18 @@
         tap-ms = <100>;
     };
 
+    new_behavior: new_behavior {
+        compatible = "zmk,behavior-hold-tap";
+        label = "NEW_BEHAVIOR";
+        bindings = <&mo>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        quick-tap-ms = <165>;
+        flavor = "tap-preferred";
+        hold-trigger-on-release;
+    };
+
     behaviors {
     };
 
@@ -261,21 +273,21 @@
 
         figma {
             bindings = <
-&trans  &trans  &trans  &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &none   &none   &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)  &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                    &none                &none                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans                    &trans               &trans                 &mo 20  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp BACKSPACE  &kp LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)  &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans                    &none                &none                  &trans  &mo 19  &trans  &trans  &trans  &trans
             >;
         };
 
         figma_shortcuts {
             bindings = <
-&trans  &trans     &trans  &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &kp LA(LG(K))  &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(A)  &trans  &kp LG(G)      &kp LG(LA(G))  &kp LG(D)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans         &kp LA(LG(C))  &kp LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans         &trans                      &trans                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &kp LA(LG(K))  &trans                      &trans                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(A)  &trans  &kp LG(G)      &kp LG(LA(G))               &kp LG(D)                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans         &trans                      &trans                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans         &new_behavior 22 LA(LG(C))  &new_behavior 21 LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
