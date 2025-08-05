@@ -10166,8 +10166,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 11647)" class="layer-mig_cli">
-<text x="0" y="28" class="label" id="mig_cli">mig_cli:</text>
+<g transform="translate(40, 11647)" class="layer-migcle">
+<text x="0" y="28" class="label" id="migcle">migcle:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -10491,8 +10491,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 12036)" class="layer-pro_terminal">
-<text x="0" y="28" class="label" id="pro_terminal">pro_terminal:</text>
+<g transform="translate(40, 12036)" class="layer-prominal">
+<text x="0" y="28" class="label" id="prominal">prominal:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -10816,8 +10816,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 12424)" class="layer-code_shell">
-<text x="0" y="28" class="label" id="code_shell">code_shell:</text>
+<g transform="translate(40, 12424)" class="layer-codehell">
+<text x="0" y="28" class="label" id="codehell">codehell:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
