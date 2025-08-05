@@ -192,11 +192,11 @@
 
         kuru {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4             &kp N5    &mo 3                &kp N6  &kp N7     &kp N8             &kp N9           &kp N0         &kp BACKSPACE
+&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4             &kp N5    &trans               &kp N6  &kp N7     &kp N8             &kp N9           &kp N0         &kp BACKSPACE
 &kp TAB     &kp Q      &kp W         &kp F         &kp P              &kp B     &kp DOWN_ARROW       &kp J   &kp L      &kp U              &kp Y            &kp SEMICOLON  &kp BSLH
 &kp CAPS    &kp A      &kp R         &kp S         &kp T              &kp G     &kp LG(LEFT_ARROW)   &kp M   &kp N      &kp E              &kp I            &kp O          &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp D              &kp V     &kp LG(RIGHT_ARROW)  &kp K   &kp H      &kp COMMA          &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LA(BACKSPACE)  &mo 1     &mkp LCLK            &none   &kp SPACE  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LA(BACKSPACE)  &kp B     &mkp LCLK            &none   &kp SPACE  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -207,7 +207,7 @@
             bindings = <
 &kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 23  &mo 23     &trans     &mo 13     &trans    &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &trans   &trans
+&trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_LEFT     &kp TAB    &trans  &kp LC(S)  &kp ESCAPE  &trans   &trans
 &trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
             >;
@@ -232,9 +232,9 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans     &trans
 &trans  &trans  &trans  &kp LS(H)  &trans     &trans    &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
-&trans  &mo 7   &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
+&trans  &trans  &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
 &trans  &trans  &trans  &trans     &kp LC(O)  &trans    &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans     &trans     &trans    &trans  &mo 4   &mo 5      &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans
             >;
         };
 
@@ -342,7 +342,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LG(LC(LA(LS(D))))  &trans                 &trans                 &trans
-&trans  &trans  &trans  &mo 15  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
             >;
@@ -381,7 +381,7 @@
         figma {
             bindings = <
 &trans  &trans  &trans  &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &to 0                     &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &none   &none   &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)  &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans                    &none                &none                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -432,7 +432,7 @@
             bindings = <
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
-&trans  &kp LG(LA(E))  &trans  &mo 24  &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
+&trans  &kp LG(LA(E))  &trans  &trans  &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans
             >;
@@ -462,7 +462,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &mo 27  &mo 28  &mo 29  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans
             >;
