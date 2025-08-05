@@ -176,6 +176,13 @@
             bindings = <&kp V &kp I &kp LS(B)>;
             label = "VISUALLIZING_CURLY_BRACKETS";
         };
+
+        ticey_tack: ticey_tack {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp GRAVE>;
+            label = "TICEY_TACK";
+        };
     };
 
     keymap {
@@ -221,21 +228,21 @@
 
         vim {
             bindings = <
-&trans  &trans                    &trans  &trans     &trans     &trans                 &trans  &trans  &trans     &trans     &trans  &trans     &trans
-&trans  &trans                    &trans  &kp LS(H)  &trans     &trans                 &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
-&trans  &replace_inside_brackets  &kp B   &trans     &kp W      &ciw                   &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
-&trans  &trans                    &trans  &trans     &kp LC(O)  &trans                 &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
-&trans  &trans                    &trans  &trans     &trans     &vim_bracet_replace    &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans                    &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans     &trans
+&trans  &trans                    &trans  &kp LS(H)  &trans     &trans    &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
+&trans  &replace_inside_brackets  &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
+&trans  &trans                    &trans  &trans     &kp LC(O)  &trans    &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
+&trans  &trans                    &trans  &trans     &trans     &mo 4     &trans  &trans  &trans     &trans     &trans  &trans
             >;
         };
 
         vim_sentences {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &kp B   &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
-&trans  &kp A   &kp C   &kp D   &kp C   &trans    &trans  &trans  &yiw    &ciw       &kp D   &viw    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &ticey_tack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
+&trans  &kp A   &kp C   &kp D        &kp C   &trans    &trans  &trans  &yiw    &ciw       &kp D   &viw    &trans
+&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans
             >;
         };
 
