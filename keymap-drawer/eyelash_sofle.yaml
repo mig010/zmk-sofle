@@ -60,7 +60,7 @@ layers:
   - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - layer1
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', h: numbers}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+W
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
