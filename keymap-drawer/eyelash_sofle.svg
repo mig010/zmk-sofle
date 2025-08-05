@@ -9019,8 +9019,8 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#alt_arrow">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">alt_arrow</tspan></text>
+<a href="#best_move">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">best_move</tspan></text>
 </a></g>
 <g transform="translate(196, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -9031,8 +9031,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 147)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#saa">
-<text x="0" y="-4" class="key tap layer-activator">saa</text>
+<a href="#bettera">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">bettera</tspan></text>
 </a></g>
 <g transform="translate(308, 147)" class="key trans keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -9200,8 +9200,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 10483)" class="layer-alt_arrow">
-<text x="0" y="28" class="label" id="alt_arrow">alt_arrow:</text>
+<g transform="translate(40, 10483)" class="layer-best_move">
+<text x="0" y="28" class="label" id="best_move">best_move:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -9844,8 +9844,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 11259)" class="layer-saa">
-<text x="0" y="28" class="label" id="saa">saa:</text>
+<g transform="translate(40, 11259)" class="layer-bettera">
+<text x="0" y="28" class="label" id="bettera">bettera:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
