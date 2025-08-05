@@ -128,14 +128,14 @@
             label = "VIM_BRACET_REPLACE";
         };
 
-        replace_inside_brackets: replace_inside_brackets {
+        inside_brackets: replace_inside_brackets {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp C &kp I &kp LS(B)>;
             label = "REPLACE_INSIDE_BRACKETS";
         };
 
-        copy_code: copy_code {
+        ccode: copy_code {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp I &kp B>;
@@ -228,11 +228,11 @@
 
         vim {
             bindings = <
-&trans  &trans                    &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans     &trans
-&trans  &trans                    &trans  &kp LS(H)  &trans     &trans    &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
-&trans  &replace_inside_brackets  &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
-&trans  &trans                    &trans  &trans     &kp LC(O)  &trans    &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
-&trans  &trans                    &trans  &trans     &trans     &mo 4     &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans            &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans     &trans
+&trans  &trans            &trans  &kp LS(H)  &trans     &trans    &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
+&trans  &inside_brackets  &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
+&trans  &trans            &trans  &trans     &kp LC(O)  &trans    &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
+&trans  &trans            &trans  &trans     &trans     &mo 4     &trans  &trans  &trans     &trans     &trans  &trans
             >;
         };
 
@@ -258,11 +258,11 @@
 
         vim_bracets {
             bindings = <
-&trans  &trans              &trans               &trans                    &trans      &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
-&trans  &trans              &trans               &trans                    &trans      &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
-&trans  &vision_code_block  &erase_in_bracketss  &replace_inside_brackets  &copy_code  &trans    &trans  &trans  &yank_brackets  &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_brackets  &trans
-&trans  &trans              &trans               &trans                    &trans      &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
-&trans  &trans              &trans               &trans                    &trans      &trans    &trans  &trans  &trans          &trans               &trans                 &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
+&trans  &vision_code_block  &erase_in_bracketss  &inside_brackets  &ccode  &trans    &trans  &trans  &yank_brackets  &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_brackets  &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans  &trans          &trans               &trans                 &trans
             >;
         };
 
