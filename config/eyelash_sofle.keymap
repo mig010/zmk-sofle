@@ -78,6 +78,48 @@
             bindings = <&kp NUMBER_1 &kp N0>;
             label = "ten";
         };
+
+        delete_word: delete_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp W>;
+            label = "DELETE_WORD";
+        };
+
+        replace_word: replace_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp LS(W)>;
+            label = "REPLACE_WORD";
+        };
+
+        visual_w: visual_w {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp LS(W)>;
+            label = "VISUAL_W";
+        };
+
+        copy_word: copy_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp LS(W)>;
+            label = "COPY_WORD";
+        };
+
+        remove_o: remove_o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp LS(W)>;
+            label = "REMOVE_O";
+        };
+
+        twenty: twenty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_2 &kp N0>;
+            label = "TWENTY";
+        };
     };
 
     keymap {
