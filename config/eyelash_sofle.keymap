@@ -153,7 +153,7 @@
 
         numbers {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6        &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LG(Z)        &kp F6        &kp F7  &kp F8  &kp F9  &kp F10  &trans
 &trans     &trans        &trans        &twenty       &trans        &trans          &mmv MOVE_DOWN   &trans        &trans  &ten    &trans  &trans   &trans
 &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &mmv MOVE_LEFT   &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0   &trans
 &trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans        &trans  &trans  &trans  &trans   &trans
