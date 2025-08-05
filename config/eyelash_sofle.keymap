@@ -368,5 +368,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans            &trans              &trans
             >;
         };
+
+        shift_alt_arrow {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LS(LA(DOWN_ARROW))  &kp LS(LA(UP_ARROW))  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                  &trans
+            >;
+        };
     };
 };
