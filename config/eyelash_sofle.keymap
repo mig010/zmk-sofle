@@ -66,20 +66,6 @@
             bindings = <&kp NUMBER_1 &kp N0>;
             label = "ten";
         };
-
-        diw: diw {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp D &kp I &kp W>;
-            label = "DIW";
-        };
-
-        twenty: twenty {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_2 &kp N0>;
-            label = "TWENTY";
-        };
     };
 
     keymap {
@@ -137,7 +123,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &kp B   &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
-&trans  &kp A   &kp C   &kp D   &kp C   &trans    &trans  &trans  &yiw    &ciw       &diw    &viw    &trans
+&trans  &kp A   &kp C   &kp D   &kp C   &trans    &trans  &trans  &yiw    &ciw       &kp D   &viw    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans
             >;
