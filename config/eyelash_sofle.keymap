@@ -466,7 +466,7 @@
             >;
         };
 
-        alt_arrow {
+        best_move {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans               &trans              &trans            &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans               &trans              &trans            &trans
@@ -486,7 +486,7 @@
             >;
         };
 
-        saa {
+        bettera {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                   &trans                  &trans                &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                   &trans                  &trans                &trans
