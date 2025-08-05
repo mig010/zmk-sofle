@@ -82,7 +82,7 @@
         delete_word: delete_word {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp I &kp W>;
+            bindings = <&kp D &kp I &kp W>;
             label = "DELETE_WORD";
         };
 
@@ -476,7 +476,7 @@
             >;
         };
 
-        garrows {
+        gar {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans               &trans              &trans            &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans               &trans              &trans            &trans
