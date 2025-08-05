@@ -120,6 +120,62 @@
             bindings = <&kp NUMBER_2 &kp N0>;
             label = "TWENTY";
         };
+
+        vim_bracet_replace: vim_bracet_replace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp B>;
+            label = "VIM_BRACET_REPLACE";
+        };
+
+        replace_inside_brackets: replace_inside_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp LS(B)>;
+            label = "REPLACE_INSIDE_BRACKETS";
+        };
+
+        copy_code: copy_code {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp B>;
+            label = "COPY_CODE";
+        };
+
+        yank_brackets: yank_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp LS(B)>;
+            label = "YANK_BRACKETS";
+        };
+
+        erase_in_bracketss: erase_in_bracketss {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp B>;
+            label = "ERASE_IN_BRACKETSS";
+        };
+
+        exterminate_brackets: exterminate_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp LS(B)>;
+            label = "EXTERMINATE_BRACKETS";
+        };
+
+        vision_code_block: vision_code_block {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp B>;
+            label = "VISION_CODE_BLOCK";
+        };
+
+        visuallizing_curly_brackets: visuallizing_curly_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp LS(B)>;
+            label = "VISUALLIZING_CURLY_BRACKETS";
+        };
     };
 
     keymap {
@@ -142,7 +198,7 @@
             bindings = <
 &kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 26  &mo 23     &mo 4      &mo 13     &trans    &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &trans   &trans
+&trans     &mo 26  &mo 23     &mo 5      &mo 13     &trans    &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &trans   &trans
 &trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
             >;
@@ -165,11 +221,11 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &kp LS(H)  &trans     &trans    &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
-&trans  &trans  &kp B   &trans     &kp W      &ciw      &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
-&trans  &trans  &trans  &trans     &kp LC(O)  &trans    &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans                    &trans  &trans     &trans     &trans                 &trans  &trans  &trans     &trans     &trans  &trans     &trans
+&trans  &trans                    &trans  &kp LS(H)  &trans     &trans                 &trans  &trans  &trans     &kp LS(M)  &trans  &trans     &trans
+&trans  &replace_inside_brackets  &kp B   &trans     &kp W      &ciw                   &trans  &yiw    &kp J      &kp K      &kp E   &kp LS(L)  &trans
+&trans  &trans                    &trans  &trans     &kp LC(O)  &trans                 &trans  &trans  &kp LC(I)  &trans     &trans  &trans     &trans
+&trans  &trans                    &trans  &trans     &trans     &vim_bracet_replace    &trans  &trans  &trans     &trans     &trans  &trans
             >;
         };
 
@@ -185,21 +241,21 @@
 
         vim_cursor {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &mo 7   &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &kp LC(B)  &kp LC(D)  &kp LC(U)  &kp LC(F)  &trans    &trans  &trans  &kp T   &kp M   &kp B   &kp LS(G)  &trans
 &trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &mo 6   &trans  &trans  &trans  &trans
             >;
         };
 
         vim_bracets {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp C   &kp D   &kp K   &kp K   &trans    &trans  &trans  &kp M   &kp T   &kp U   &kp Z   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &trans               &trans                    &trans      &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
+&trans  &trans              &trans               &trans                    &trans      &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
+&trans  &vision_code_block  &erase_in_bracketss  &replace_inside_brackets  &copy_code  &trans    &trans  &trans  &yank_brackets  &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_brackets  &trans
+&trans  &trans              &trans               &trans                    &trans      &trans    &trans  &trans  &trans          &trans               &trans                 &trans                        &trans
+&trans  &trans              &trans               &trans                    &trans      &trans    &trans  &trans  &trans          &trans               &trans                 &trans
             >;
         };
 
