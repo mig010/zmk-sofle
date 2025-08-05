@@ -80,111 +80,6 @@
             bindings = <&kp NUMBER_2 &kp N0>;
             label = "TWENTY";
         };
-
-        cio: cio {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp I &kp LS(W)>;
-            label = "cio";
-        };
-
-        vio: vio {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp V &kp I &kp LS(W)>;
-            label = "VIO";
-        };
-
-        yio: yio {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Y &kp I &kp LS(W)>;
-            label = "YIO";
-        };
-
-        dio: dio {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp D &kp I &kp LS(W)>;
-            label = "DIO";
-        };
-
-        deleteB: deleteB {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp I &kp B>;
-            label = "DELETEB";
-        };
-
-        removeB: removeB {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp I &kp LS(B)>;
-            label = "REMOVEB";
-        };
-
-        middleCursor: middleCursor {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Z &kp Z>;
-            label = "MIDDLECURSOR";
-        };
-
-        topCursor: topCursor {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Z &kp T>;
-            label = "TOPCURSOR";
-        };
-
-        bottomCursor: bottomCursor {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Z &kp B>;
-            label = "BOTTOMCURSOR";
-        };
-
-        copyBra: copyBra {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt Y &kp I &kp B>;
-            label = "COPYBRA";
-        };
-
-        yankBra: yankBra {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Y &kp I &kp LS(B)>;
-            label = "YANKBRA";
-        };
-
-        deledeBra: deledeBra {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp D &kp I &kp B>;
-            label = "DELEDEBRA";
-        };
-
-        removeBra: removeBra {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp D &kp I &kp LS(B)>;
-            label = "REMOVEBRA";
-        };
-
-        visualBra: visualBra {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp V &kp I &kp B>;
-            label = "VISUALBRA";
-        };
-
-        vbra: vbra {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp V &kp I &kp LS(B)>;
-            label = "VBRA";
-        };
     };
 
     keymap {
@@ -242,7 +137,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &kp B   &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
-&trans  &vio    &dio    &cio    &yio    &trans    &trans  &trans  &yiw    &ciw       &diw    &viw    &trans
+&trans  &kp A   &kp C   &kp D   &kp C   &trans    &trans  &trans  &yiw    &ciw       &diw    &viw    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans
             >;
@@ -250,21 +145,21 @@
 
         vim_cursor {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans     &trans
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans     &trans
-&trans  &kp LC(B)  &kp LC(D)  &kp LC(U)  &kp LC(F)  &trans    &trans  &trans  &topCursor  &middleCursor  &bottomCursor  &kp LS(G)  &trans
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans     &trans
-&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans      &trans         &trans         &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &kp LC(B)  &kp LC(D)  &kp LC(U)  &kp LC(F)  &trans    &trans  &trans  &kp T   &kp M   &kp B   &kp LS(G)  &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         vim_bracets {
             bindings = <
-&trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans  &trans
-&trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans  &trans
-&trans  &visualBra  &deledeBra  &deleteB  &copyBra  &trans    &trans  &trans  &yankBra  &removeB  &removeBra  &vbra   &trans
-&trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans  &trans
-&trans  &trans      &trans      &trans    &trans    &trans    &trans  &trans  &trans    &trans    &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C   &kp D   &kp K   &kp K   &trans    &trans  &trans  &kp M   &kp T   &kp U   &kp Z   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
