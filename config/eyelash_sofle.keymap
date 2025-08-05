@@ -211,7 +211,7 @@
 
         raycast {
             bindings = <
-&trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                  &trans                 &trans                 &trans
+&trans  &trans              &trans  &trans             &trans         &trans    &mo 15  &trans                 &trans             &trans                  &trans                 &trans                 &trans
 &trans  &trans              &trans  &kp LS(LA(LC(G)))  &kp LC(LS(Q))  &trans    &trans  &trans                 &trans             &kp LS(LA(LG(PERIOD)))  &trans                 &trans                 &trans
 &trans  &kp LG(LS(PERIOD))  &mo 14  &mo 17             &trans         &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))   &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
 &trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                  &trans                 &kp LS(LC(LA(SLASH)))  &trans
@@ -225,7 +225,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LG(LC(LA(LS(D))))  &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &mo 15    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
             >;
         };
 
@@ -233,7 +233,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &kp LC(LG(LA(LS(H))))  &trans                 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LS(LG(Z))          &kp LS(LA(LC(LG(W))))  &trans  &trans
+&trans  &trans  &trans  &mo 16  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LS(LG(Z))          &kp LS(LA(LC(LG(W))))  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(LC(LS(LA(B))))  &kp LS(LA(LC(LG(M))))  &trans                 &trans                 &trans
             >;
