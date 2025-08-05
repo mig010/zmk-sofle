@@ -476,7 +476,7 @@
             >;
         };
 
-        gui_arrows {
+        garrows {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans               &trans              &trans            &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans               &trans              &trans            &trans
