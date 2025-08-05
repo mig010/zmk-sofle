@@ -211,11 +211,11 @@
 
         raycast {
             bindings = <
-&trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                 &trans                 &trans                 &trans
-&trans  &trans              &trans  &kp LS(LA(LC(G)))  &kp LC(LS(Q))  &trans    &trans  &trans                 &trans             &trans                 &trans                 &trans                 &trans
-&trans  &kp LG(LS(PERIOD))  &trans  &trans             &trans         &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))  &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
-&trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                 &trans                 &kp LS(LC(LA(SLASH)))  &trans
-&trans  &trans              &trans  &trans             &trans         &trans    &trans  &kp LC(LA(Y))          &kp RG(COMMA)      &trans                 &trans                 &trans
+&trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                  &trans                 &trans                 &trans
+&trans  &trans              &trans  &kp LS(LA(LC(G)))  &kp LC(LS(Q))  &trans    &trans  &trans                 &trans             &kp LS(LA(LG(PERIOD)))  &trans                 &trans                 &trans
+&trans  &kp LG(LS(PERIOD))  &mo 14  &mo 17             &trans         &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))   &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
+&trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                  &trans                 &kp LS(LC(LA(SLASH)))  &trans
+&trans  &trans              &trans  &trans             &trans         &trans    &trans  &kp LC(LA(Y))          &kp RG(COMMA)      &trans                  &trans                 &trans
             >;
         };
 
