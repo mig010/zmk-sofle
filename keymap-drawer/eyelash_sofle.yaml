@@ -223,7 +223,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&replace_inside_brackets'
+  - '&inside_brackets'
   - B
   - {t: '$$mdi:transfer$$', type: trans}
   - W
@@ -420,8 +420,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&vision_code_block'
   - '&erase_in_bracketss'
-  - {t: '&replace_inside_brackets', type: held}
-  - '&copy_code'
+  - {t: '&inside_brackets', type: held}
+  - '&ccode'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
