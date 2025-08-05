@@ -297,7 +297,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&yiw'
   - '&ciw'
-  - '&diw'
+  - D
   - '&viw'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
