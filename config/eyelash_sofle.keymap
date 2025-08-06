@@ -380,7 +380,7 @@
             bindings = <
 &trans  &trans         &trans     &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp BACKSPACE  &kp LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)  &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &kp BACKSPACE  &kp LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)  &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &trans                    &mo 20               &mo 19                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
