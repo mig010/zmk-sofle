@@ -388,11 +388,11 @@
 
         figma_shortcuts {
             bindings = <
-&trans  &trans     &trans  &trans         &trans                      &trans                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &kp LA(LG(K))  &trans                      &trans                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(A)  &trans  &kp LG(G)      &kp LG(LA(G))               &kp LG(D)                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans         &trans                      &trans                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans         &new_behavior 22 LA(LG(C))  &new_behavior 21 LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &kp LA(LG(K))  &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(A)  &trans  &kp LG(G)      &kp LG(LA(G))  &kp LG(D)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans         &kp LA(LG(C))  &kp LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
