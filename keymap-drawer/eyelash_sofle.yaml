@@ -1197,7 +1197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER0, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: Alt+/, h: '$$mdi:apple-keyboard-shift$$', s: 'Alt+?'}
