@@ -1200,7 +1200,7 @@ layers:
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - Sft+1
+  - {t: Gui+-, s: Gui+_}
   - Sft+2
   - {t: Sft+X, h: Sft+Gui+Z}
   - {t: '$$mdi:transfer$$', type: trans}
