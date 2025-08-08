@@ -381,7 +381,7 @@
 &trans  &trans         &trans     &trans               &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &to 0   &kp BACKSPACE  &kp LG(Z)  &kp LG(NUMBER_1)     &kp LG(NUMBER_2)     &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &mt LS(SPACE) LG(K)  &kp K                &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &mt LS(SPACE) LG(K)  &mt K V              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &trans               &mo 20               &mo 19                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
