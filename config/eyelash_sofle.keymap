@@ -388,21 +388,21 @@
 
         figma_shortcuts {
             bindings = <
-&trans  &trans     &trans         &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &kp LA(LG(R))  &to 0          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(A)  &kp LS(LG(K))  &kp LG(G)      &kp LG(LA(G))  &kp LG(D)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &trans         &kp LA(L)      &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &trans         &kp LA(LG(C))  &kp LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans         &trans         &trans                  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans         &kp LA(LG(R))  &to 0                   &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(A)  &kp LS(LG(K))  &kp LG(G)      &mt LEFT_ALT LA(LG(G))  &kp LG(D)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans         &trans         &mt LA(L) LA(LC(T))     &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans         &trans         &kp LA(LG(C))           &kp LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         figma_aliases {
             bindings = <
-&trans  &trans  &trans  &trans  &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp L   &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp R   &kp O   &kp T             &kp LS(LG(K))       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans           &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &kp L            &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mt R LA(LG(L))  &mt R LA(LG(T))  &mt O LA(LG(R))  &mt T LA(LG(J))   &kp LS(LG(K))       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans           &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans           &kp LG(NUMBER_1)  &kp LG(NUMBER_2)    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
