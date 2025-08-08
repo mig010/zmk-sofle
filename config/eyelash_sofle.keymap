@@ -378,11 +378,11 @@
 
         figma {
             bindings = <
-&trans  &trans         &trans     &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &kp BACKSPACE  &kp LG(Z)  &mt LEFT_SHIFT LA(SLASH)  &mt LCTRL LS(SLASH)  &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &trans                    &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &trans                    &mo 20               &mo 19                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans               &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &kp BACKSPACE  &kp LG(Z)  &kp LG(NUMBER_1)     &kp LG(NUMBER_2)     &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &mt LS(SPACE) LG(K)  &kp K                &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans               &mo 20               &mo 19                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -391,7 +391,7 @@
 &trans  &trans     &trans         &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans         &kp LA(LG(R))  &to 0          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LS(A)  &kp LS(LG(K))  &kp LG(G)      &kp LG(LA(G))  &kp LG(D)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans         &trans         &kp LA(L)      &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans         &trans         &kp LA(LG(C))  &kp LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
