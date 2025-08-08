@@ -1266,7 +1266,7 @@ layers:
   - Sft+A
   - Sft+Gui+K
   - Gui+G
-  - Gui+Alt+G
+  - {t: Alt+Gui+G, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1279,7 +1279,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+L
+  - {t: Alt+Ctl+T, h: Alt+L}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1328,10 +1328,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - R
-  - O
-  - T
+  - {t: Alt+Gui+L, h: R}
+  - {t: Alt+Gui+T, h: R}
+  - {t: Alt+Gui+R, h: O}
+  - {t: Alt+Gui+J, h: T}
   - Sft+Gui+K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
