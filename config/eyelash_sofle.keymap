@@ -204,13 +204,6 @@
             bindings = <&kp Z &kp B>;
             label = "BOTTOM";
         };
-
-        stateless_widget: stateless_widget {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp C &kp L &kp A &kp S &kp S &kp SPACE &kp LS(M) &kp Y &kp LS(W) &kp I &kp D &kp G &kp E &kp T &kp SPACE &kp E &kp X &kp T &kp E &kp N &kp D &kp S &kp SPACE &kp LS(S) &kp T &kp A &kp T &kp E &kp L &kp E &kp S &kp S &kp LS(W) &kp I &kp D &kp G &kp E &kp T &kp SPACE &kp LBRC &kp RET &kp SPACE &kp SPACE &kp C &kp O &kp N &kp S &kp T &kp SPACE &kp LS(M) &kp Y &kp LS(W) &kp I &kp D &kp G &kp E &kp T &kp LPAR &kp LBRC &kp S &kp U &kp P &kp E &kp R &kp DOT &kp K &kp E &kp Y &kp RBRC &kp RPAR &kp SEMI &kp RET &kp RET &kp SPACE &kp SPACE &kp AT &kp O &kp V &kp E &kp R &kp R &kp I &kp D &kp E &kp RET &kp SPACE &kp SPACE &kp LS(W) &kp I &kp D &kp G &kp E &kp T &kp SPACE &kp B &kp U &kp I &kp L &kp D &kp LPAR &kp LS(B) &kp U &kp I &kp L &kp D &kp LS(C) &kp O &kp N &kp T &kp E &kp X &kp T &kp SPACE &kp C &kp O &kp N &kp T &kp E &kp X &kp T &kp RPAR &kp SPACE &kp LBRC &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp R &kp E &kp T &kp U &kp R &kp N &kp SPACE &kp C &kp O &kp N &kp S &kp T &kp SPACE &kp LS(P) &kp L &kp A &kp C &kp E &kp H &kp O &kp L &kp D &kp E &kp R &kp LPAR &kp RPAR &kp SEMI &kp RET &kp SPACE &kp SPACE &kp RBRC &kp RET &kp RBRC &kp RET>;
-            label = "STATELESS_WIDGET";
-        };
     };
 
     keymap {
@@ -304,7 +297,7 @@
             >;
         };
 
-        zvim {
+        z_vim {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans  &trans
@@ -556,11 +549,11 @@
 
         csnippet {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &stateless_widget  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
