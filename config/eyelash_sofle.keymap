@@ -389,11 +389,11 @@
 
         tmux_ghostty {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans             &trans                 &trans                         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans             &trans                 &trans                         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(LS(R))  &kp LS(LA(LC(N)))  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans             &trans                 &trans                         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans             &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(LS(R))  &kp LC(N)  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans                 &trans
             >;
         };
 
