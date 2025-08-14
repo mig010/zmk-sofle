@@ -241,7 +241,7 @@
 &trans     &trans        &trans        &ten          &trans             &trans          &mmv MOVE_DOWN   &trans        &trans  &kp LC(W)  &trans  &trans   &trans
 &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp N5          &mmv MOVE_LEFT   &kp NUMBER_6  &kp N7  &kp N8     &kp N9  &kp N0   &trans
 &trans     &trans        &trans        &trans        &trans             &trans          &mmv MOVE_RIGHT  &trans        &trans  &trans     &trans  &trans   &trans
-&trans     &trans        &trans        &trans        &kp LG(BACKSPACE)  &zto            &mkp LCLK        &trans        &trans  &trans     &trans  &trans
+&trans     &trans        &trans        &trans        &kp LG(BACKSPACE)  &mo 32          &mkp LCLK        &trans        &trans  &trans     &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -534,6 +534,16 @@
 &trans  &kp EXCL  &kp LESS_THAN  &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp SLASH  &kp LS(SLASH)  &kp GREATER_THAN  &trans  &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans  &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans
+            >;
+        };
+
+        layer_32 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &zto    &vmid   &bbot   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
