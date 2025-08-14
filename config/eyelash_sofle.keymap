@@ -211,36 +211,24 @@
 
         kuru {
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3            &kp N4             &kp N5    &mo 3                &kp N6               &kp N7     &kp N8           &kp N9             &kp N0         &kp BACKSPACE
+&kp ESC     &kp N1        &kp N2        &kp N3            &kp N4             &kp N5    &mo 2                &kp N6               &kp N7     &kp N8           &kp N9             &kp N0         &kp BACKSPACE
 &kp TAB     &kp Q         &kp W         &kp F             &kp P              &kp B     &kp DOWN_ARROW       &kp J                &kp L      &kp U            &kp Y              &kp SEMICOLON  &kp BSLH
 &kp CAPS    &kp A         &kp R         &kp S             &kp T              &kp G     &kp LG(LEFT_ARROW)   &kp M                &kp N      &kp E            &kp I              &kp O          &kp APOS
 &to 0       &kp Z         &kp X         &kp C             &kp D              &kp V     &kp LG(RIGHT_ARROW)  &kp K                &kp H      &kp COMMA        &kp DOT            &kp FSLH       &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LA(BACKSPACE)  &mo 2     &mkp LCLK            &new_behavior 4 RET  &kp SPACE  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp DELETE
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LA(BACKSPACE)  &mo 1     &mkp LCLK            &new_behavior 3 RET  &kp SPACE  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
         };
 
-        controlling {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(J)  &kp LC(K)  &kp LC(H)  &kp LC(L)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
-            >;
-
-            label = "controlling";
-        };
-
         all {
             bindings = <
 &kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5         &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
-&trans     &trans  &trans     &kp LG(W)  &to 19     &trans         &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 27  &mo 24     &mo 6      &mo 14     &kp LS(TAB)    &mmv MOVE_LEFT     &kp TAB    &mo 9   &kp LC(S)  &kp ESCAPE  &mo 31   &trans
+&trans     &trans  &trans     &kp LG(W)  &to 18     &trans         &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
+&trans     &mo 26  &mo 23     &mo 5      &mo 13     &kp LS(TAB)    &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &mo 30   &trans
 &trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans         &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
-&trans     &trans  &trans     &trans     &trans     &trans         &mkp LCLK          &kp LC(F)  &mo 18  &trans     &trans      &trans
+&trans     &trans  &trans     &trans     &trans     &trans         &mkp LCLK          &kp LC(F)  &mo 17  &trans     &trans      &trans
             >;
 
             display-name = "layer1";
@@ -265,7 +253,7 @@
 &trans  &trans            &trans  &kp LS(H)      &kp LS(NUMBER_3)  &trans    &trans  &trans     &kp LS(N8)  &kp LS(M)  &trans     &trans               &trans
 &trans  &inside_brackets  &kp B   &kp E          &kp W             &ciw      &trans  &yiw       &kp J       &kp K      &kp LS(L)  &vim_bracet_replace  &trans
 &trans  &trans            &trans  &kp LS(SLASH)  &kp LC(O)         &trans    &trans  &trans     &kp LC(I)   &kp SLASH  &trans     &trans               &trans
-&trans  &trans            &trans  &trans         &trans            &mo 5     &trans  &kp SLASH  &trans      &trans     &trans     &trans
+&trans  &trans            &trans  &trans         &trans            &mo 4     &trans  &kp SLASH  &trans      &trans     &trans     &trans
             >;
         };
 
@@ -281,11 +269,11 @@
 
         vim_cursor {
             bindings = <
-&trans  &trans     &trans     &trans  &trans     &trans    &mo 8   &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &mo 1   &trans  &trans     &trans
+&trans  &trans     &trans     &trans  &trans     &trans    &mo 7   &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &mo 0   &trans  &trans     &trans
 &trans  &kp LC(B)  &kp LC(D)  &trans  &kp LC(U)  &zto      &trans  &vmid   &kp T   &kp M   &kp B   &kp LS(G)  &trans
 &trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans  &trans     &trans    &trans  &mo 7   &bbot   &trans  &trans  &trans
+&trans  &trans     &trans     &trans  &trans     &trans    &trans  &mo 6   &bbot   &trans  &trans  &trans
             >;
         };
 
@@ -311,11 +299,11 @@
 
         browser {
             bindings = <
-&trans  &trans             &trans  &trans             &trans             &trans               &mo 12  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &mo 11  &trans  &trans  &trans     &trans     &trans  &trans
 &trans  &trans             &trans  &kp LG(W)          &kp C              &trans               &trans  &trans  &trans  &kp LG(T)  &trans     &trans  &trans
-&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)  &kp LS(R)  &mo 11  &trans
+&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)  &kp LS(R)  &mo 10  &trans
 &trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans  &trans  &trans     &trans     &trans  &trans
-&trans  &trans             &trans  &trans             &trans             &trans               &trans  &mo 10  &trans  &trans     &trans     &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &trans  &mo 9   &trans  &trans     &trans     &trans
             >;
         };
 
@@ -361,9 +349,9 @@
 
         raycast {
             bindings = <
-&trans  &trans              &trans  &trans             &trans         &trans    &mo 16  &trans                 &trans             &trans                  &trans                 &trans                 &trans
+&trans  &trans              &trans  &trans             &trans         &trans    &mo 15  &trans                 &trans             &trans                  &trans                 &trans                 &trans
 &trans  &trans              &trans  &kp LS(LA(LC(G)))  &kp LC(LS(Q))  &trans    &trans  &trans                 &trans             &kp LS(LA(LG(PERIOD)))  &trans                 &trans                 &trans
-&trans  &kp LG(LS(PERIOD))  &mo 15  &mo 18             &trans         &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))   &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
+&trans  &kp LG(LS(PERIOD))  &mo 14  &mo 17             &trans         &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))   &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
 &trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                  &trans                 &kp LS(LC(LA(SLASH)))  &trans
 &trans  &trans              &trans  &trans             &trans         &trans    &trans  &kp LC(LA(Y))          &kp RG(COMMA)      &trans                  &trans                 &trans
             >;
@@ -375,7 +363,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LG(LC(LA(LS(D))))  &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &mo 16    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &mo 15    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
             >;
         };
 
@@ -383,7 +371,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &kp LC(LG(LA(LS(H))))  &trans                 &trans  &trans
-&trans  &trans  &trans  &mo 17  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LS(LG(Z))          &kp LS(LA(LC(LG(W))))  &trans  &trans
+&trans  &trans  &trans  &mo 16  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LS(LG(Z))          &kp LS(LA(LC(LG(W))))  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(LC(LS(LA(B))))  &kp LS(LA(LC(LG(M))))  &trans                 &trans                 &trans
             >;
@@ -415,7 +403,7 @@
 &trans  &trans         &trans     &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &to 0   &kp BACKSPACE  &kp LG(Z)  &kp LG(MINUS)        &kp LS(NUMBER_2)     &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &mt LS(SPACE) LG(K)  &mt K V              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &trans               &mo 21               &mo 20                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans               &mo 20               &mo 19                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -461,11 +449,11 @@
 
         workspaces {
             bindings = <
-&trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
-&trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
-&trans  &kp LG(LA(E))  &trans  &mo 25  &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
-&trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
-&trans  &trans         &trans  &trans  &trans             &trans    &trans  &mo 26  &trans             &trans             &trans             &trans
+&trans  &trans         &trans  &trans     &trans             &trans       &trans  &trans  &trans             &trans             &trans             &trans             &trans
+&trans  &trans         &trans  &kp LC(H)  &trans             &trans       &trans  &trans  &trans             &kp LC(L)          &trans             &trans             &trans
+&trans  &kp LG(LA(E))  &trans  &mo 24     &kp LG(LA(LS(B)))  &trans       &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
+&trans  &trans         &trans  &trans     &trans             &kp LC(J)    &trans  &trans  &kp LC(K)          &trans             &trans             &trans             &trans
+&trans  &trans         &trans  &trans     &trans             &trans       &trans  &mo 25  &trans             &trans             &trans             &trans
             >;
         };
 
@@ -493,7 +481,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &mo 29  &mo 28  &mo 30  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &mo 28  &mo 27  &mo 29  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans
             >;
@@ -535,7 +523,7 @@
 &trans  &trans         &trans            &kp UNDER       &trans           &trans       &trans  &trans     &trans      &kp MINUS   &trans             &trans  &trans
 &trans  &kp SEMICOLON  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE    &trans  &kp EQUAL  &kp LS(N9)  &kp LS(N0)  &kp RIGHT_BRACKET  &trans  &trans
 &trans  &trans         &trans            &trans          &trans           &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
-&trans  &trans         &trans            &trans          &trans           &trans       &trans  &mo 32     &trans      &trans      &trans             &trans
+&trans  &trans         &trans            &trans          &trans           &trans       &trans  &mo 31     &trans      &trans      &trans             &trans
             >;
         };
 
