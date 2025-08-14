@@ -225,15 +225,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&inside_brackets'
   - B
-  - {t: '$$mdi:transfer$$', type: trans}
+  - E
   - W
   - '&ciw'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&yiw'
   - J
   - K
-  - E
   - Sft+L
+  - '&vim_bracet_replace'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
