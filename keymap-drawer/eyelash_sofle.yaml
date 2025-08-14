@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Gui+$$mdi:backspace$$', type: backspace}
-  - LAYER0
+  - '&zto'
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -355,8 +355,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+B
   - Ctl+D
-  - {t: Ctl+U, type: held}
-  - Ctl+F
+  - {type: held}
+  - Ctl+U
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
