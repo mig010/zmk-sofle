@@ -270,7 +270,7 @@
         vim_cursor {
             bindings = <
 &trans  &trans     &trans     &trans  &trans     &trans    &mo 7   &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &mo 32  &trans  &trans     &trans
 &trans  &kp LC(B)  &kp LC(D)  &trans  &kp LC(U)  &zto      &trans  &vmid   &kp T   &kp M   &kp B   &kp LS(G)  &trans
 &trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &trans     &trans     &trans  &trans     &trans    &trans  &mo 6   &bbot   &trans  &trans  &trans
@@ -534,6 +534,16 @@
 &trans  &kp EXCL  &kp LESS_THAN  &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp SLASH  &kp LS(SLASH)  &kp GREATER_THAN  &trans  &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans  &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans
+            >;
+        };
+
+        controlling {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(J)  &kp LC(K)  &kp LC(H)  &kp LC(L)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
             >;
         };
     };
