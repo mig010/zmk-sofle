@@ -224,11 +224,11 @@
 
         all {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
-&trans     &trans  &trans     &kp LG(W)  &to 18     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 26  &mo 23     &mo 5      &mo 13     &mo 0     &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &mo 30   &trans
-&trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
-&trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
+&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5         &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
+&trans     &trans  &trans     &kp LG(W)  &to 18     &trans         &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
+&trans     &mo 26  &mo 23     &mo 5      &mo 13     &kp LS(TAB)    &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &mo 30   &trans
+&trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans         &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
+&trans     &trans  &trans     &trans     &trans     &trans         &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
             >;
 
             display-name = "layer1";
@@ -241,7 +241,7 @@
 &trans     &trans        &trans        &ten          &trans             &trans          &mmv MOVE_DOWN   &trans        &trans  &kp LC(W)  &trans  &trans   &trans
 &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp N5          &mmv MOVE_LEFT   &kp NUMBER_6  &kp N7  &kp N8     &kp N9  &kp N0   &trans
 &trans     &trans        &trans        &trans        &trans             &trans          &mmv MOVE_RIGHT  &trans        &trans  &trans     &trans  &trans   &trans
-&trans     &trans        &trans        &trans        &kp LG(BACKSPACE)  &mo 32          &mkp LCLK        &trans        &trans  &trans     &trans  &trans
+&trans     &trans        &trans        &trans        &kp LG(BACKSPACE)  &twenty         &mkp LCLK        &trans        &trans  &trans     &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -271,9 +271,9 @@
             bindings = <
 &trans  &trans     &trans     &trans  &trans     &trans    &mo 7   &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &kp LC(B)  &kp LC(D)  &trans  &kp LC(U)  &trans    &trans  &trans  &kp T   &kp M   &kp B   &kp LS(G)  &trans
+&trans  &kp LC(B)  &kp LC(D)  &trans  &kp LC(U)  &zto      &trans  &vmid   &kp T   &kp M   &kp B   &kp LS(G)  &trans
 &trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans  &trans     &trans    &trans  &mo 6   &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans  &trans     &trans    &trans  &mo 6   &bbot   &trans  &trans  &trans
             >;
         };
 
@@ -534,16 +534,6 @@
 &trans  &kp EXCL  &kp LESS_THAN  &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp SLASH  &kp LS(SLASH)  &kp GREATER_THAN  &trans  &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans  &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans
-            >;
-        };
-
-        layer_32 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &zto    &vmid   &bbot   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
