@@ -184,21 +184,21 @@
             label = "TICEY_TACK";
         };
 
-        top: zt {
+        ztop: zt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Z &kp T>;
             label = "ZT";
         };
 
-        middle: middle {
+        vmiddle: middle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Z &kp Z>;
             label = "MIDDLE";
         };
 
-        bottom: bottom {
+        bbottom: bottom {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Z &kp B>;
@@ -299,11 +299,11 @@
 
         vredra {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &top    &middle  &bottom  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &ztop   &vmiddle  &bbottom  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
             >;
         };
 
