@@ -226,7 +226,7 @@
             bindings = <
 &kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
 &trans     &trans  &trans     &kp LG(W)  &to 19     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 27  &mo 24     &mo 5      &mo 14     &mo 33    &mmv MOVE_LEFT     &kp TAB    &mo 9   &kp LC(S)  &kp ESCAPE  &mo 31   &trans
+&trans     &mo 27  &mo 24     &mo 5      &mo 14     &mo 0     &mmv MOVE_LEFT     &kp TAB    &mo 9   &kp LC(S)  &kp ESCAPE  &mo 31   &trans
 &trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
             >;
@@ -527,7 +527,7 @@
             >;
         };
 
-        code {
+        cude {
             bindings = <
 &trans  &trans         &trans            &trans          &trans           &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
 &trans  &trans         &trans            &kp UNDER       &trans           &trans       &trans  &trans     &trans      &kp MINUS   &trans             &trans  &trans
@@ -537,23 +537,13 @@
             >;
         };
 
-        programming {
+        progra {
             bindings = <
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans  &trans
 &trans  &trans    &trans         &kp EQUAL  &trans         &trans    &trans  &trans  &trans     &kp PIPE       &trans            &trans  &trans
 &trans  &kp EXCL  &kp LESS_THAN  &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp SLASH  &kp LS(SLASH)  &kp GREATER_THAN  &trans  &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans  &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans
-            >;
-        };
-
-        csnippet {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
