@@ -225,8 +225,8 @@
         all {
             bindings = <
 &kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
-&trans     &trans  &trans     &kp LG(W)  &to 19     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 27  &mo 24     &mo 5      &mo 14     &mo 0     &mmv MOVE_LEFT     &kp TAB    &mo 9   &kp LC(S)  &kp ESCAPE  &mo 31   &trans
+&trans     &trans  &trans     &kp LG(W)  &to 18     &trans    &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
+&trans     &mo 26  &mo 23     &mo 5      &mo 13     &mo 0     &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &mo 30   &trans
 &trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
 &trans     &trans  &trans     &trans     &trans     &trans    &mkp LCLK          &kp LC(F)  &trans  &trans     &trans      &trans
             >;
@@ -241,7 +241,7 @@
 &trans     &trans        &trans        &ten          &trans             &trans          &mmv MOVE_DOWN   &trans        &trans  &kp LC(W)  &trans  &trans   &trans
 &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp N5          &mmv MOVE_LEFT   &kp NUMBER_6  &kp N7  &kp N8     &kp N9  &kp N0   &trans
 &trans     &trans        &trans        &trans        &trans             &trans          &mmv MOVE_RIGHT  &trans        &trans  &trans     &trans  &trans   &trans
-&trans     &trans        &trans        &trans        &kp LG(BACKSPACE)  &mo 8           &mkp LCLK        &trans        &trans  &trans     &trans  &trans
+&trans     &trans        &trans        &trans        &kp LG(BACKSPACE)  &mo 0           &mkp LCLK        &trans        &trans  &trans     &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -297,23 +297,13 @@
             >;
         };
 
-        v_redra {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &zto    &vmid   &bbot   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
         browser {
             bindings = <
-&trans  &trans             &trans  &trans             &trans             &trans               &mo 12  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &mo 11  &trans  &trans  &trans     &trans     &trans  &trans
 &trans  &trans             &trans  &kp LG(W)          &kp C              &trans               &trans  &trans  &trans  &kp LG(T)  &trans     &trans  &trans
-&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)  &kp LS(R)  &mo 11  &trans
+&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)  &kp LS(R)  &mo 10  &trans
 &trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans  &trans  &trans     &trans     &trans  &trans
-&trans  &trans             &trans  &trans             &trans             &trans               &trans  &mo 10  &trans  &trans     &trans     &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &trans  &mo 9   &trans  &trans     &trans     &trans
             >;
         };
 
@@ -359,9 +349,9 @@
 
         raycast {
             bindings = <
-&trans  &trans              &trans  &trans             &trans         &trans    &mo 16  &trans                 &trans             &trans                  &trans                 &trans                 &trans
+&trans  &trans              &trans  &trans             &trans         &trans    &mo 15  &trans                 &trans             &trans                  &trans                 &trans                 &trans
 &trans  &trans              &trans  &kp LS(LA(LC(G)))  &kp LC(LS(Q))  &trans    &trans  &trans                 &trans             &kp LS(LA(LG(PERIOD)))  &trans                 &trans                 &trans
-&trans  &kp LG(LS(PERIOD))  &mo 15  &mo 18             &trans         &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))   &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
+&trans  &kp LG(LS(PERIOD))  &mo 14  &mo 17             &trans         &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))   &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
 &trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                  &trans                 &kp LS(LC(LA(SLASH)))  &trans
 &trans  &trans              &trans  &trans             &trans         &trans    &trans  &kp LC(LA(Y))          &kp RG(COMMA)      &trans                  &trans                 &trans
             >;
@@ -373,7 +363,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LG(LC(LA(LS(D))))  &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))  &kp LG(K)              &kp LS(LA(LG(LC(L))))  &kp LG(LA(LC(LS(K))))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &mo 16    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &mo 15    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
             >;
         };
 
@@ -381,7 +371,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &kp LC(LG(LA(LS(H))))  &trans                 &trans  &trans
-&trans  &trans  &trans  &mo 17  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LS(LG(Z))          &kp LS(LA(LC(LG(W))))  &trans  &trans
+&trans  &trans  &trans  &mo 16  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LS(LG(Z))          &kp LS(LA(LC(LG(W))))  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(LC(LS(LA(B))))  &kp LS(LA(LC(LG(M))))  &trans                 &trans                 &trans
             >;
@@ -413,7 +403,7 @@
 &trans  &trans         &trans     &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &to 0   &kp BACKSPACE  &kp LG(Z)  &kp LG(MINUS)        &kp LS(NUMBER_2)     &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &mt LS(SPACE) LG(K)  &mt K V              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &trans               &mo 21               &mo 20                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans               &mo 20               &mo 19                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -461,9 +451,9 @@
             bindings = <
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
-&trans  &kp LG(LA(E))  &trans  &mo 25  &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
+&trans  &kp LG(LA(E))  &trans  &mo 24  &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
 &trans  &trans         &trans  &trans  &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
-&trans  &trans         &trans  &trans  &trans             &trans    &trans  &mo 26  &trans             &trans             &trans             &trans
+&trans  &trans         &trans  &trans  &trans             &trans    &trans  &mo 25  &trans             &trans             &trans             &trans
             >;
         };
 
@@ -491,7 +481,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &mo 29  &mo 28  &mo 30  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &mo 28  &mo 27  &mo 29  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans
             >;
@@ -533,7 +523,7 @@
 &trans  &trans         &trans            &kp UNDER       &trans           &trans       &trans  &trans     &trans      &kp MINUS   &trans             &trans  &trans
 &trans  &kp SEMICOLON  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE    &trans  &kp EQUAL  &kp LS(N9)  &kp LS(N0)  &kp RIGHT_BRACKET  &trans  &trans
 &trans  &trans         &trans            &trans          &trans           &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
-&trans  &trans         &trans            &trans          &trans           &trans       &trans  &mo 32     &trans      &trans      &trans             &trans
+&trans  &trans         &trans            &trans          &trans           &trans       &trans  &mo 31     &trans      &trans      &trans             &trans
             >;
         };
 
