@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - Ctl+F
+  - Ctl+Alt+Gui+F
   - tmux_ghostty
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
