@@ -260,6 +260,20 @@
             bindings = <&kp D &kp I &kp S>;
             label = "DIS";
         };
+
+        caw: caw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp A &kp W>;
+            label = "CAW";
+        };
+
+        yaw: yaw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp A &kp W>;
+            label = "YAW";
+        };
     };
 
     keymap {
@@ -318,7 +332,7 @@
 &trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans        &trans  &trans
 &trans  &trans  &trans  &ticey_tack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans        &trans  &trans
 &trans  &vis    &dis    &yis         &cis    &cip      &trans  &yip    &yiw    &ciw       &delete_word  &viw    &trans
-&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans        &trans  &trans
+&trans  &trans  &trans  &trans       &caw    &trans    &trans  &trans  &yaw    &trans     &trans        &trans  &trans
 &trans  &trans  &trans  &trans       &trans  &trans    &trans  &dip    &vip    &trans     &trans        &trans
             >;
         };
