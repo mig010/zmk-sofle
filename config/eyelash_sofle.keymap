@@ -204,6 +204,62 @@
             bindings = <&kp Z &kp B>;
             label = "BOTTOM";
         };
+
+        cip: cip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp P>;
+            label = "CIP";
+        };
+
+        vip: vip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp P>;
+            label = "VIP";
+        };
+
+        yip: yip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp P>;
+            label = "YIP";
+        };
+
+        dip: dip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp P>;
+            label = "DIP";
+        };
+
+        cis: cis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp S>;
+            label = "CIS";
+        };
+
+        vis: vis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp S>;
+            label = "VIS";
+        };
+
+        yis: yis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp S>;
+            label = "YIS";
+        };
+
+        dis: dis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp S>;
+            label = "DIS";
+        };
     };
 
     keymap {
@@ -224,11 +280,11 @@
 
         all {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5         &kp LG(BACKSPACE)  &kp F6     &kp F7  &kp F8     &kp F9      &kp F10  &trans
-&trans     &trans  &trans     &kp LG(W)  &to 18     &trans         &mmv MOVE_DOWN     &trans     &trans  &kp LC(W)  &trans      &trans   &trans
-&trans     &mo 26  &mo 23     &mo 5      &mo 13     &kp LS(TAB)    &mmv MOVE_LEFT     &kp TAB    &mo 8   &kp LC(S)  &kp ESCAPE  &mo 30   &trans
-&trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans         &mmv MOVE_RIGHT    &trans     &trans  &trans     &trans      &trans   &trans
-&trans     &trans  &trans     &trans     &trans     &trans         &mkp LCLK          &kp LC(F)  &mo 17  &trans     &trans      &trans
+&kp GRAVE  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5         &kp LG(BACKSPACE)  &kp F6             &kp F7  &kp F8     &kp F9      &kp F10  &trans
+&trans     &trans  &trans     &kp LG(W)  &to 18     &trans         &mmv MOVE_DOWN     &trans             &trans  &kp LC(W)  &trans      &trans   &trans
+&trans     &mo 26  &mo 23     &mo 5      &mo 13     &kp LS(TAB)    &mmv MOVE_LEFT     &kp TAB            &mo 8   &kp LC(S)  &kp ESCAPE  &mo 30   &trans
+&trans     &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans         &mmv MOVE_RIGHT    &trans             &trans  &trans     &trans      &trans   &trans
+&trans     &trans  &trans     &trans     &trans     &trans         &mkp LCLK          &kp LC(LA(LG(F)))  &mo 17  &trans     &trans      &trans
             >;
 
             display-name = "layer1";
