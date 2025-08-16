@@ -315,11 +315,11 @@
 
         vim_sentences {
             bindings = <
-&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &ticey_tack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans  &trans  &trans
-&trans  &kp A   &kp C   &kp D        &kp C   &trans    &trans  &trans  &yiw    &ciw       &kp D   &viw    &trans
-&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans        &trans  &trans
+&trans  &trans  &trans  &ticey_tack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans        &trans  &trans
+&trans  &vis    &dis    &yis         &cis    &cip      &trans  &yip    &yiw    &ciw       &delete_word  &viw    &trans
+&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans        &trans  &trans
+&trans  &trans  &trans  &trans       &trans  &trans    &trans  &dip    &vip    &trans     &trans        &trans
             >;
         };
 
