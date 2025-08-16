@@ -339,11 +339,11 @@
 
         vim_cursor {
             bindings = <
-&trans  &trans     &trans     &trans  &trans     &trans    &mo 7   &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &mo 0   &trans  &trans     &trans
-&trans  &kp LC(B)  &kp LC(D)  &trans  &kp LC(U)  &zto      &trans  &vmid   &kp T   &kp M   &kp B   &kp LS(G)  &trans
-&trans  &trans     &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans  &trans     &trans    &trans  &mo 6   &bbot   &trans  &trans  &trans
+&trans  &trans     &trans     &trans      &trans     &trans    &mo 7   &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &kp DOLLAR  &trans     &trans    &trans  &trans  &trans  &mo 0   &trans  &trans     &trans
+&trans  &kp LC(B)  &kp LC(D)  &trans      &kp LC(U)  &zto      &trans  &vmid   &zto    &vmid   &bbot   &kp LS(G)  &trans
+&trans  &trans     &trans     &trans      &kp LC(F)  &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &trans      &trans     &trans    &trans  &mo 6   &bbot   &trans  &trans  &trans
             >;
         };
 
