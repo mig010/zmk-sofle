@@ -57,7 +57,7 @@
         };
 
         top {
-            bindings = <&zto>;
+            bindings = <&kp LA(LS(N))>;
             key-positions = <28 29>;
         };
     };
