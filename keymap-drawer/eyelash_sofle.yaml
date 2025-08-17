@@ -2088,8 +2088,8 @@ combos:
 - p: [23, 34]
   k: '&jumpy'
 - p: [16, 30]
-  k: D
+  k: '&vim_bracet_replace'
 - p: [29, 43]
-  k: E
+  k: '&inside_brackets'
 - p: [27, 37]
   k: {t: /, s: '?'}

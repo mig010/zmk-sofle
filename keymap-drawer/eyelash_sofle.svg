@@ -645,11 +645,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -1020,11 +1020,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -1392,11 +1392,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -1756,11 +1756,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -2114,11 +2114,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -2474,11 +2474,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -2830,11 +2830,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -3186,11 +3186,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -3545,11 +3545,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -3902,11 +3902,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -4268,11 +4268,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -4630,11 +4630,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -4989,11 +4989,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -5367,11 +5367,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -5736,11 +5736,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -6103,11 +6103,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -6464,11 +6464,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -6825,11 +6825,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -7193,11 +7193,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -7568,11 +7568,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -7940,11 +7940,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -8299,11 +8299,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -8661,11 +8661,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -9031,11 +9031,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -9399,11 +9399,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -9756,11 +9756,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -10115,11 +10115,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -10470,11 +10470,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -10825,11 +10825,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -11180,11 +11180,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -11544,11 +11544,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
@@ -11903,11 +11903,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="210" y="102" width="28" height="26" class="combo"/>
-<text x="224" y="116" class="combo tap">D</text>
+<text x="224" y="116" class="combo tap"><tspan style="font-size: 60%">&amp;vim_brac…</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="158" width="28" height="26" class="combo"/>
-<text x="224" y="172" class="combo tap">E</text>
+<text x="224" y="172" class="combo tap"><tspan style="font-size: 60%">&amp;inside_b…</tspan></text>
 </g>
 <g class="combo combopos-5">
 <path d="M462,168 l-359,0" class="combo"/>
