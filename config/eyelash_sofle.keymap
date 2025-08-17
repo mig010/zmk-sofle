@@ -55,6 +55,11 @@
             bindings = <&vmid>;
             key-positions = <30 34>;
         };
+
+        top {
+            bindings = <&zto>;
+            key-positions = <28 29>;
+        };
     };
 
     macros {
