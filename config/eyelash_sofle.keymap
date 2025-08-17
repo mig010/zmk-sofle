@@ -66,16 +66,6 @@
             key-positions = <23 34>;
         };
 
-        bracky {
-            bindings = <&vim_bracet_replace>;
-            key-positions = <16 30>;
-        };
-
-        curly {
-            bindings = <&inside_brackets>;
-            key-positions = <29 43>;
-        };
-
         searh {
             bindings = <&kp SLASH>;
             key-positions = <27 37>;
