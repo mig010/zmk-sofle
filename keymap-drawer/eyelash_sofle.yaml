@@ -2082,14 +2082,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [30, 34]
-  k: '&vmid'
+  k: '&ciw'
 - p: [28, 29]
   k: Alt+Sft+N
 - p: [23, 34]
-  k: C
+  k: '&jumpy'
 - p: [16, 30]
   k: D
 - p: [29, 43]
   k: E
 - p: [27, 37]
-  k: D
+  k: {t: /, s: '?'}
