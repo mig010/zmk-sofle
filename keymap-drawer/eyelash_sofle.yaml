@@ -2087,9 +2087,5 @@ combos:
   k: Alt+Sft+N
 - p: [23, 34]
   k: '&jumpy'
-- p: [16, 30]
-  k: '&vim_bracet_replace'
-- p: [29, 43]
-  k: '&inside_brackets'
 - p: [27, 37]
   k: {t: /, s: '?'}
