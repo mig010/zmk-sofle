@@ -376,7 +376,7 @@
 &trans  &trans            &trans  &kp LS(H)      &kp LS(NUMBER_3)  &trans    &trans  &trans     &kp LS(N8)  &kp LS(M)  &trans     &trans               &trans
 &trans  &inside_brackets  &kp B   &endofword     &kp W             &ciw      &trans  &yiw       &kp J       &kp K      &kp LS(L)  &vim_bracet_replace  &trans
 &trans  &trans            &trans  &kp LS(SLASH)  &kp LC(O)         &trans    &trans  &trans     &kp LC(I)   &kp SLASH  &trans     &trans               &trans
-&trans  &trans            &trans  &trans         &mo 5             &mo 4     &trans  &kp SLASH  &trans      &trans     &trans     &trans
+&trans  &trans            &trans  &trans         &mo 4             &mo 5     &trans  &kp SLASH  &trans      &trans     &trans     &trans
             >;
         };
 
@@ -394,9 +394,9 @@
             bindings = <
 &trans  &trans     &trans     &trans      &trans     &trans    &mo 7   &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &trans     &trans     &kp DOLLAR  &trans     &trans    &trans  &trans  &trans  &mo 0   &trans  &trans     &trans
-&trans  &kp LC(B)  &kp LC(D)  &trans      &kp LC(U)  &zto      &trans  &trans  &zto    &vmid   &bbot   &kp LS(G)  &trans
+&trans  &kp LC(B)  &kp LC(D)  &trans      &kp LC(U)  &trans    &trans  &trans  &zto    &vmid   &bbot   &kp LS(G)  &trans
 &trans  &trans     &trans     &trans      &kp LC(F)  &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans      &trans     &trans    &trans  &mo 6   &bbot   &trans  &trans  &trans
+&trans  &trans     &trans     &trans      &trans     &trans    &trans  &mo 6   &mo 7   &trans  &trans  &trans
             >;
         };
 
