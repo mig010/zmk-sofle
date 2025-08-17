@@ -225,7 +225,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&inside_brackets'
   - B
-  - E
+  - '&endofword'
   - W
   - '&ciw'
   - {t: '$$mdi:transfer$$', type: trans}
