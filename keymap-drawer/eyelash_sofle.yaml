@@ -2086,6 +2086,6 @@ combos:
 - p: [28, 29]
   k: Alt+Sft+N
 - p: [23, 34]
-  k: '&jumpy'
+  k: '&jumk'
 - p: [27, 37]
   k: {t: /, s: '?'}
