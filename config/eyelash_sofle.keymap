@@ -62,7 +62,7 @@
         };
 
         vimjumps {
-            bindings = <&jumpy>;
+            bindings = <&jumk>;
             key-positions = <23 34>;
         };
 
@@ -297,13 +297,6 @@
             label = "YAW";
         };
 
-        escampeMark: escampeMark {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp SPACE &kp M &kp N>;
-            label = "ESCAMPEMARK";
-        };
-
         endofword: endofword {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -311,7 +304,7 @@
             label = "ENDOFWORD";
         };
 
-        jumpy: jumpy {
+        jumk: jumpy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp GRAVE &kp N>;
