@@ -372,12 +372,14 @@
 
         vim {
             bindings = <
-&trans  &trans            &trans  &trans         &trans            &trans    &trans  &trans     &trans      &trans     &trans     &trans               &trans
+&trans  &trans            &trans  &trans         &trans            &trans    &mo 7   &trans     &trans      &trans     &trans     &trans               &trans
 &trans  &trans            &trans  &kp LS(H)      &kp LS(NUMBER_3)  &trans    &trans  &trans     &kp LS(N8)  &kp LS(M)  &trans     &trans               &trans
 &trans  &inside_brackets  &kp B   &endofword     &kp W             &ciw      &trans  &yiw       &kp J       &kp K      &kp LS(L)  &vim_bracet_replace  &trans
 &trans  &trans            &trans  &kp LS(SLASH)  &kp LC(O)         &trans    &trans  &trans     &kp LC(I)   &kp SLASH  &trans     &trans               &trans
-&trans  &trans            &trans  &trans         &mo 4             &mo 5     &trans  &kp SLASH  &trans      &trans     &trans     &trans
+&mo 5   &trans            &trans  &trans         &mo 4             &mo 5     &trans  &kp SLASH  &trans      &trans     &trans     &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PLUS KP_SUBTRACT>;
         };
 
         vim_sentences {
