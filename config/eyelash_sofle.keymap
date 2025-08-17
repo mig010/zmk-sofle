@@ -60,6 +60,26 @@
             bindings = <&kp LA(LS(N))>;
             key-positions = <28 29>;
         };
+
+        stst {
+            bindings = <&kp C>;
+            key-positions = <23 34>;
+        };
+
+        rrrr {
+            bindings = <&kp D>;
+            key-positions = <16 30>;
+        };
+
+        stss {
+            bindings = <&kp E>;
+            key-positions = <29 43>;
+        };
+
+        rstztt {
+            bindings = <&kp D>;
+            key-positions = <27 37>;
+        };
     };
 
     macros {
@@ -367,7 +387,7 @@
             bindings = <
 &trans  &trans     &trans     &trans      &trans     &trans    &mo 7   &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &trans     &trans     &kp DOLLAR  &trans     &trans    &trans  &trans  &trans  &mo 0   &trans  &trans     &trans
-&trans  &kp LC(B)  &kp LC(D)  &trans      &kp LC(U)  &zto      &trans  &vmid   &zto    &vmid   &bbot   &kp LS(G)  &trans
+&trans  &kp LC(B)  &kp LC(D)  &trans      &kp LC(U)  &zto      &trans  &trans  &zto    &vmid   &bbot   &kp LS(G)  &trans
 &trans  &trans     &trans     &trans      &kp LC(F)  &trans    &trans  &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &trans     &trans     &trans      &trans     &trans    &trans  &mo 6   &bbot   &trans  &trans  &trans
             >;
