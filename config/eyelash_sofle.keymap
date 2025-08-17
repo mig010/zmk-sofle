@@ -66,13 +66,13 @@
             key-positions = <23 34>;
         };
 
-        rrrr {
-            bindings = <&kp D>;
+        bracky {
+            bindings = <&vim_bracet_replace>;
             key-positions = <16 30>;
         };
 
-        stss {
-            bindings = <&kp E>;
+        curly {
+            bindings = <&inside_brackets>;
             key-positions = <29 43>;
         };
 
