@@ -102,7 +102,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - browser
   - Ctl+S
-  - '&escampeMark'
+  - $$mdi:keyboard-esc$$
   - xeue
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
