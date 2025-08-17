@@ -278,7 +278,7 @@
         escampeMark: escampeMark {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp GRAVE &kp N>;
+            bindings = <&kp ESCAPE &kp M &kp N>;
             label = "ESCAMPEMARK";
         };
 
