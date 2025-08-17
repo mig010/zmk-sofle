@@ -359,7 +359,7 @@ layers:
   - Ctl+U
   - '&zto'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&vmid'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&zto'
   - '&vmid'
   - '&bbot'
@@ -2085,3 +2085,11 @@ combos:
   k: '&vmid'
 - p: [28, 29]
   k: Alt+Sft+N
+- p: [23, 34]
+  k: C
+- p: [16, 30]
+  k: D
+- p: [29, 43]
+  k: E
+- p: [27, 37]
+  k: D
