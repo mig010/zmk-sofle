@@ -51,8 +51,8 @@
     combos {
         compatible = "zmk,combos";
 
-        middle {
-            bindings = <&vmid>;
+        deleteword {
+            bindings = <&ciw>;
             key-positions = <30 34>;
         };
 
@@ -61,8 +61,8 @@
             key-positions = <28 29>;
         };
 
-        stst {
-            bindings = <&kp C>;
+        vimjumps {
+            bindings = <&jumpy>;
             key-positions = <23 34>;
         };
 
@@ -76,8 +76,8 @@
             key-positions = <29 43>;
         };
 
-        rstztt {
-            bindings = <&kp D>;
+        searh {
+            bindings = <&kp SLASH>;
             key-positions = <27 37>;
         };
     };
@@ -319,6 +319,13 @@
             #binding-cells = <0>;
             bindings = <&kp G &kp E>;
             label = "ENDOFWORD";
+        };
+
+        jumpy: jumpy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp N>;
+            label = "JUMPY";
         };
     };
 
