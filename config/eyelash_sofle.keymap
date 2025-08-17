@@ -48,7 +48,14 @@
     behaviors {
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        middle {
+            bindings = <&vmid>;
+            key-positions = <30 34>;
+        };
+    };
 
     macros {
         ciw: ciw {
