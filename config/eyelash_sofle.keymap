@@ -429,7 +429,7 @@
         browser {
             bindings = <
 &trans  &trans             &trans  &trans             &trans             &trans               &mo 11  &trans  &trans  &trans     &trans     &trans  &trans
-&trans  &trans             &trans  &kp LG(W)          &kp C              &trans               &trans  &trans  &trans  &kp LG(T)  &trans     &trans  &trans
+&trans  &trans             &trans  &kp LG(W)          &trans             &trans               &trans  &trans  &trans  &kp LG(T)  &trans     &trans  &trans
 &trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)  &kp LS(R)  &mo 10  &trans
 &trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans  &trans  &trans     &trans     &trans  &trans
 &trans  &trans             &trans  &trans             &trans             &trans               &trans  &mo 9   &trans  &trans     &trans     &trans
@@ -470,7 +470,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &kp G   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp SLASH  &trans  &trans  &trans  &trans
             >;
