@@ -328,7 +328,7 @@
         closesplit: closesplit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp &kp SPACE &kp S &kp X>;
+            bindings = <&kp SPACE &kp S &kp X>;
             label = "CLOSESPLIT";
         };
     };
@@ -380,7 +380,7 @@
 &trans  &trans  &trans  &kp LS(H)      &kp LS(NUMBER_3)  &trans    &trans  &trans     &kp LS(N8)  &kp LS(M)  &trans     &trans  &trans
 &trans  &mo 4   &kp B   &endofword     &kp W             &ciw      &trans  &yiw       &kp J       &kp K      &kp LS(L)  &mo 7   &trans
 &trans  &trans  &trans  &kp LS(SLASH)  &kp LC(O)         &trans    &trans  &trans     &kp LC(I)   &kp SLASH  &trans     &trans  &trans
-&mo 5   &trans  &trans  &trans         &mo 31            &mo 5     &trans  &kp SLASH  &trans      &trans     &trans     &trans
+&mo 5   &trans  &trans  &trans         &mo 22            &mo 5     &trans  &kp SLASH  &trans      &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PLUS KP_SUBTRACT>;
@@ -398,11 +398,11 @@
 
         vim_cursor {
             bindings = <
-&trans  &trans     &trans     &trans      &trans         &trans    &mo 7   &trans  &trans     &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &kp DOLLAR  &trans         &trans    &trans  &trans  &trans     &mo 0   &trans  &trans     &trans
-&trans  &kp LC(B)  &kp LC(U)  &kp LC(F)   &kp LC(D)      &trans    &trans  &trans  &zto       &vmid   &bbot   &kp LS(G)  &trans
-&trans  &trans     &trans     &trans      &kp LS(SLASH)  &trans    &trans  &trans  &kp SLASH  &trans  &trans  &trans     &trans
-&trans  &trans     &trans     &trans      &trans         &trans    &trans  &mo 6   &mo 7      &trans  &trans  &trans
+&trans  &trans     &trans     &trans      &trans         &trans              &mo 7   &trans  &trans     &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &kp DOLLAR  &trans         &trans              &trans  &trans  &trans     &mo 0   &trans  &trans     &trans
+&trans  &kp LC(B)  &kp LC(U)  &kp LC(F)   &kp LC(D)      &kp LC(NUMBER_6)    &trans  &trans  &zto       &vmid   &bbot   &kp LS(G)  &trans
+&trans  &trans     &trans     &trans      &kp LS(SLASH)  &trans              &trans  &trans  &kp SLASH  &trans  &trans  &trans     &trans
+&trans  &trans     &trans     &trans      &trans         &trans              &trans  &mo 6   &mo 7      &trans  &trans  &trans
             >;
         };
 
