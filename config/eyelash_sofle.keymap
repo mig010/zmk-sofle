@@ -328,7 +328,7 @@
         closesplit: closesplit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SPACE &kp S &kp X>;
+            bindings = <&kp &kp SPACE &kp S &kp X>;
             label = "CLOSESPLIT";
         };
     };
