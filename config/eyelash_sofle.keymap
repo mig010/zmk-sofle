@@ -569,7 +569,7 @@
         fucs {
             bindings = <
 &trans  &trans        &trans       &trans   &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans        &trans       &kp N0   &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans        &trans       &trans   &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &kp NUMBER_6  &closesplit  &splitV  &horsplit  &trans    &trans  &trans  &kp LC(H)  &kp LC(L)  &kp LC(J)  &kp LC(K)  &trans
 &trans  &trans        &trans       &trans   &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans        &trans       &trans   &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans
