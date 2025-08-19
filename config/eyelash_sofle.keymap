@@ -373,6 +373,13 @@
             bindings = <&kp D &kp A &kp P>;
             label = "AROUND_PARA";
         };
+
+        next_space: next_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp SPACE>;
+            label = "NEXT_SPACE";
+        };
     };
 
     keymap {
