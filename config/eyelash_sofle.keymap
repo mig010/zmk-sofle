@@ -332,28 +332,28 @@
             label = "CLOSESPLIT";
         };
 
-        change_text: change_text {
+        changetext: change_text {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp C &kp I &kp DOUBLE_QUOTES>;
             label = "CHANGE_TEXT";
         };
 
-        string_change: string_change {
+        stringchange: string_change {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp I &kp DOUBLE_QUOTES>;
             label = "STRING_CHANGE";
         };
 
-        next_buf: next_buf {
+        nextbuf: next_buf {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(SEMICOLON) &kp B &kp N>;
             label = "NEXT_BUF";
         };
 
-        pre_buffer: pre_buffer {
+        prebuffer: pre_buffer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(SEMICOLON) &kp B &kp P>;
@@ -367,14 +367,14 @@
             label = "FUZZY";
         };
 
-        around_para: around_para {
+        aroundpara: around_para {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp A &kp P>;
             label = "AROUND_PARA";
         };
 
-        next_space: next_space {
+        gospace: next_space {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp F &kp SPACE>;
@@ -607,11 +607,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans        &trans  &trans
-&trans  &trans       &trans     &kp Q         &trans          &trans    &trans  &trans  &trans  &kp LS(NUMBER_2)  &trans        &trans  &trans
-&trans  &pre_buffer  &next_buf  &change_text  &string_change  &trans    &trans  &trans  &trans  &trans            &around_para  &fuzzy  &trans
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans        &trans  &trans
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans        &trans
+&trans  &trans      &trans    &trans       &trans         &trans    &trans  &trans  &trans  &trans            &trans       &trans  &trans
+&trans  &trans      &trans    &kp Q        &trans         &trans    &trans  &trans  &trans  &kp LS(NUMBER_2)  &trans       &trans  &trans
+&trans  &prebuffer  &nextbuf  &changetext  &stringchange  &trans    &trans  &trans  &trans  &trans            &aroundpara  &fuzzy  &trans
+&trans  &trans      &trans    &trans       &trans         &trans    &trans  &trans  &trans  &trans            &trans       &trans  &trans
+&trans  &trans      &trans    &trans       &trans         &trans    &trans  &trans  &trans  &trans            &trans       &trans
             >;
         };
 
