@@ -359,6 +359,13 @@
             bindings = <&kp LS(SEMICOLON) &kp B &kp P>;
             label = "PRE_BUFFER";
         };
+
+        fuzzy: fuzzy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp Z &kp F>;
+            label = "FUZZY";
+        };
     };
 
     keymap {
@@ -588,7 +595,7 @@
             bindings = <
 &trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans       &trans     &kp Q         &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &pre_buffer  &next_buf  &change_text  &string_change  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &pre_buffer  &next_buf  &change_text  &string_change  &trans    &trans  &trans  &trans  &trans  &fuzzy  &trans  &trans
 &trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
