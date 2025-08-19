@@ -593,11 +593,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans     &kp Q         &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &pre_buffer  &next_buf  &change_text  &string_change  &trans    &trans  &trans  &trans  &trans  &fuzzy  &trans  &trans
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans  &trans  &trans
+&trans  &trans       &trans     &kp Q         &trans          &trans    &trans  &trans  &trans  &kp LS(NUMBER_2)  &trans  &trans  &trans
+&trans  &pre_buffer  &next_buf  &change_text  &string_change  &trans    &trans  &trans  &trans  &trans            &fuzzy  &fuzzy  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans  &trans  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans  &trans
             >;
         };
 
