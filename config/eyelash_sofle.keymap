@@ -331,6 +331,34 @@
             bindings = <&kp SPACE &kp S &kp X>;
             label = "CLOSESPLIT";
         };
+
+        change_text: change_text {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp DOUBLE_QUOTES>;
+            label = "CHANGE_TEXT";
+        };
+
+        string_change: string_change {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp DOUBLE_QUOTES>;
+            label = "STRING_CHANGE";
+        };
+
+        next_buf: next_buf {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SEMICOLON) &kp B &kp N>;
+            label = "NEXT_BUF";
+        };
+
+        pre_buffer: pre_buffer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SEMICOLON) &kp B &kp P>;
+            label = "PRE_BUFFER";
+        };
     };
 
     keymap {
@@ -379,7 +407,7 @@
 &trans  &trans  &trans  &trans      &trans            &trans    &trans  &trans     &trans      &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &kp LS(H)   &kp LS(NUMBER_3)  &trans    &trans  &trans     &kp LS(N8)  &kp LS(M)  &trans     &trans  &trans
 &trans  &mo 4   &kp B   &endofword  &kp W             &ciw      &trans  &yiw       &kp J       &kp K      &kp LS(L)  &mo 7   &trans
-&trans  &trans  &trans  &mo 6       &kp LC(O)         &trans    &trans  &trans     &kp LC(I)   &kp SLASH  &trans     &trans  &trans
+&trans  &trans  &trans  &kp LC(O)   &kp LS(W)         &trans    &trans  &trans     &mo 21      &kp LC(I)  &trans     &trans  &trans
 &trans  &trans  &trans  &trans      &mo 22            &mo 5     &trans  &kp SLASH  &trans      &trans     &trans     &trans
             >;
 
@@ -399,7 +427,7 @@
         vim_cursor {
             bindings = <
 &trans  &trans     &trans     &trans      &trans         &trans              &mo 7   &trans  &trans     &trans            &trans  &trans     &trans
-&trans  &trans     &trans     &kp DOLLAR  &trans         &trans              &trans  &trans  &trans     &kp LS(NUMBER_6)  &trans  &trans     &trans
+&trans  &trans     &trans     &kp DOLLAR  &trans         &trans              &trans  &trans  &kp N0     &kp LS(NUMBER_6)  &trans  &trans     &trans
 &trans  &kp LC(B)  &kp LC(U)  &kp LC(F)   &kp LC(D)      &kp LC(NUMBER_6)    &trans  &trans  &zto       &vmid             &bbot   &kp LS(G)  &trans
 &trans  &trans     &trans     &trans      &kp LS(SLASH)  &trans              &trans  &trans  &kp SLASH  &trans            &trans  &trans     &trans
 &trans  &trans     &trans     &trans      &trans         &trans              &trans  &mo 6   &mo 7      &trans            &trans  &trans
@@ -556,13 +584,13 @@
             >;
         };
 
-        figma_one_five {
+        vimuium {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &kp N5        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans     &kp Q         &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &pre_buffer  &next_buf  &change_text  &string_change  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
