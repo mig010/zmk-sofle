@@ -366,6 +366,13 @@
             bindings = <&kp F &kp Z &kp F>;
             label = "FUZZY";
         };
+
+        around_para: around_para {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp A &kp P>;
+            label = "AROUND_PARA";
+        };
     };
 
     keymap {
@@ -593,11 +600,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans  &trans  &trans
-&trans  &trans       &trans     &kp Q         &trans          &trans    &trans  &trans  &trans  &kp LS(NUMBER_2)  &trans  &trans  &trans
-&trans  &pre_buffer  &next_buf  &change_text  &string_change  &trans    &trans  &trans  &trans  &trans            &fuzzy  &fuzzy  &trans
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans  &trans  &trans
-&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans        &trans  &trans
+&trans  &trans       &trans     &kp Q         &trans          &trans    &trans  &trans  &trans  &kp LS(NUMBER_2)  &trans        &trans  &trans
+&trans  &pre_buffer  &next_buf  &change_text  &string_change  &trans    &trans  &trans  &trans  &trans            &around_para  &fuzzy  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans        &trans  &trans
+&trans  &trans       &trans     &trans        &trans          &trans    &trans  &trans  &trans  &trans            &trans        &trans
             >;
         };
 
