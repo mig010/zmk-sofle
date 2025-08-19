@@ -409,7 +409,7 @@
         vim_bracets {
             bindings = <
 &trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
-&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans            &trans          &kp PERCENT          &trans                 &trans                        &trans
 &trans  &vision_code_block  &erase_in_bracketss  &inside_brackets  &ccode  &trans    &trans  &trans            &yank_brackets  &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_brackets  &trans
 &trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
 &trans  &trans              &trans               &trans            &trans  &trans    &trans  &inside_brackets  &trans          &trans               &trans                 &trans
@@ -648,11 +648,11 @@
 
         xeue {
             bindings = <
-&trans  &trans         &trans            &trans          &trans           &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
-&trans  &trans         &trans            &kp UNDER       &trans           &trans       &trans  &trans     &trans      &kp MINUS   &trans             &trans  &trans
-&trans  &kp SEMICOLON  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE    &trans  &kp EQUAL  &kp LS(N9)  &kp LS(N0)  &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans         &trans            &trans          &trans           &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
-&trans  &trans         &trans            &trans          &trans           &trans       &trans  &mo 31     &trans      &trans      &trans             &trans
+&trans  &trans         &trans            &trans          &trans             &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
+&trans  &trans         &trans            &kp UNDER       &trans             &trans       &trans  &trans     &trans      &kp MINUS   &trans             &trans  &trans
+&trans  &kp SEMICOLON  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp TILDE    &trans  &kp EQUAL  &kp LS(N9)  &kp LS(N0)  &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans         &trans            &trans          &kp LS(SEMICOLON)  &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
+&trans  &trans         &trans            &trans          &trans             &trans       &trans  &mo 31     &trans      &trans      &trans             &trans
             >;
         };
 
