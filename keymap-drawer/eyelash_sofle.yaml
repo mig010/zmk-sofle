@@ -1393,16 +1393,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&pre_buffer'
-  - '&next_buf'
-  - '&change_text'
-  - '&string_change'
+  - '&prebuffer'
+  - '&nextbuf'
+  - '&changetext'
+  - '&stringchange'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&around_para'
+  - '&aroundpara'
   - '&fuzzy'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
