@@ -420,7 +420,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&vision_code_block'
   - '&erase_in_bracketss'
-  - {type: held}
+  - {t: '&inside_brackets', type: held}
   - '&ccode'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
