@@ -408,11 +408,11 @@
 
         vim_bracets {
             bindings = <
-&trans  &trans              &trans               &trans  &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
-&trans  &trans              &trans               &trans  &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
-&trans  &vision_code_block  &erase_in_bracketss  &trans  &ccode  &trans    &trans  &trans            &yank_brackets  &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_brackets  &trans
-&trans  &trans              &trans               &trans  &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
-&trans  &trans              &trans               &trans  &trans  &trans    &trans  &inside_brackets  &trans          &trans               &trans                 &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
+&trans  &vision_code_block  &erase_in_bracketss  &inside_brackets  &ccode  &trans    &trans  &trans            &yank_brackets  &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_brackets  &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &trans            &trans          &trans               &trans                 &trans                        &trans
+&trans  &trans              &trans               &trans            &trans  &trans    &trans  &inside_brackets  &trans          &trans               &trans                 &trans
             >;
         };
 
