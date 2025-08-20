@@ -398,11 +398,11 @@
 
         kuru {
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3            &kp N4             &kp N5                &kp LEFT_SHIFT       &kp N6  &kp N7     &kp N8             &kp N9           &kp N0         &kp BACKSPACE
-&kp TAB     &kp Q         &kp W         &kp F             &kp P              &kp B                 &kp DOWN_ARROW       &kp J   &kp L      &kp U              &kp Y            &kp SEMICOLON  &kp BSLH
-&kp CAPS    &kp A         &kp R         &kp S             &kp T              &kp G                 &kp LG(LEFT_ARROW)   &kp M   &kp N      &kp E              &kp I            &kp O          &kp APOS
-&to 0       &kp Z         &kp X         &kp C             &kp D              &kp V                 &kp LG(RIGHT_ARROW)  &kp K   &kp H      &kp COMMA          &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LA(BACKSPACE)  &new_behaviorr 1 2    &mkp LCLK            &mo 3   &kp SPACE  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp N1        &kp N2        &kp N3            &kp N4             &kp N5                &kp LEFT_SHIFT       &kp N6               &kp N7     &kp N8             &kp N9           &kp N0         &kp BACKSPACE
+&kp TAB     &kp Q         &kp W         &kp F             &kp P              &kp B                 &kp DOWN_ARROW       &kp J                &kp L      &kp U              &kp Y            &kp SEMICOLON  &kp BSLH
+&kp CAPS    &kp A         &kp R         &kp S             &kp T              &kp G                 &kp LG(LEFT_ARROW)   &kp M                &kp N      &kp E              &kp I            &kp O          &kp APOS
+&to 0       &kp Z         &kp X         &kp C             &kp D              &kp V                 &kp LG(RIGHT_ARROW)  &kp K                &kp H      &kp COMMA          &kp DOT          &kp FSLH       &kp ENTER
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LA(BACKSPACE)  &new_behaviorr 1 2    &mkp LCLK            &new_behavior 3 RET  &kp SPACE  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
