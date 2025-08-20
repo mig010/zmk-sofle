@@ -50,7 +50,7 @@
         label = "TAP_BEHAVIOR";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
-        bindings = <&mo 1>, <&to 2>;
+        bindings = <&to 1>, <&to 2>;
     };
 
     behaviors {
