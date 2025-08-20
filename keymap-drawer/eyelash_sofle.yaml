@@ -60,7 +60,7 @@ layers:
   - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - {t: numbers, h: layer1}
   - $$mdi:mouse-left-click-outline$$
-  - vim
+  - {t: '$$mdi:keyboard-return$$', h: vim}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
