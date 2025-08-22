@@ -538,11 +538,11 @@
 
         raycast {
             bindings = <
-&trans  &trans              &trans     &trans             &trans         &trans    &mo 15  &trans                 &trans             &trans                  &trans                 &trans                 &trans
-&trans  &trans              &trans     &kp LS(LA(LC(G)))  &kp LC(LS(Q))  &trans    &trans  &trans                 &kp LG(Y)          &kp LS(LA(LG(PERIOD)))  &kp LG(PERIOD)         &trans                 &trans
-&trans  &kp LG(LS(PERIOD))  &mo 14     &mo 17             &trans         &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))   &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
-&trans  &trans              &kp LC(X)  &trans             &trans         &trans    &trans  &trans                 &kp LG(K)          &kp LG(O)               &kp LG(RETURN)         &kp LS(LC(LA(SLASH)))  &trans
-&trans  &trans              &trans     &trans             &trans         &trans    &trans  &kp LC(LA(Y))          &kp RG(COMMA)      &trans                  &trans                 &trans
+&trans  &trans              &trans             &trans             &trans  &trans    &mo 15  &trans                 &trans             &trans                  &trans                 &trans                 &trans
+&trans  &trans              &kp LS(LG(COMMA))  &kp LS(LA(LC(G)))  &trans  &trans    &trans  &kp LS(LG(C))          &kp LG(Y)          &kp LS(LA(LG(PERIOD)))  &kp LG(PERIOD)         &trans                 &trans
+&trans  &kp LG(LS(PERIOD))  &mo 14             &mo 17             &trans  &trans    &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LS(LC(LG(LA(U))))   &kp LS(LG(LA(LC(I))))  &kp LC(LA(LS(X)))      &trans
+&trans  &trans              &kp LC(X)          &kp LS(LG(R))      &trans  &trans    &trans  &kp LG(I)              &kp LG(K)          &kp LG(O)               &kp LG(RETURN)         &kp LS(LC(LA(SLASH)))  &trans
+&trans  &trans              &trans             &trans             &trans  &trans    &trans  &kp LC(LA(Y))          &kp LS(LG(L))      &kp LC(LS(Q))           &trans                 &trans
             >;
         };
 
