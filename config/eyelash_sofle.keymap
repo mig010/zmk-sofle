@@ -81,6 +81,11 @@
             bindings = <&kp SLASH>;
             key-positions = <27 37>;
         };
+
+        fspace {
+            bindings = <&gospace>;
+            key-positions = <30 16>;
+        };
     };
 
     macros {
