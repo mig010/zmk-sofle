@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - Ctl+Alt+Gui+F
   - tmux_ghostty
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   numbers:
