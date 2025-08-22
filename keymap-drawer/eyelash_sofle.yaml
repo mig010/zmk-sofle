@@ -861,12 +861,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Sft+Gui+,', s: Sft+Gui+<}
   - Meh+G
-  - Ctl+Sft+Q
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+C
   - Gui+Y
   - Sft+Alt+Gui+.
   - Gui+.
@@ -888,11 +888,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+X
+  - Sft+Gui+R
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+I
   - Gui+K
   - Gui+O
   - Gui+RETURN
@@ -906,8 +906,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Alt+Y
-  - {t: 'Gui+,', s: Gui+<}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+L
+  - Ctl+Sft+Q
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   raycast_apps:
