@@ -104,7 +104,7 @@ layers:
   - Ctl+S
   - $$mdi:keyboard-esc$$
   - xeue
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Z
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
