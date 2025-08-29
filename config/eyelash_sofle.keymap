@@ -685,11 +685,11 @@
 
         figma_aliases {
             bindings = <
-&trans  &trans           &trans                &trans                   &trans                &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &kp LS(N)             &mt LS(SLASH) LA(SLASH)  &mt LS(N) N           &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mt F LA(LG(L))  &mt R LA(LG(T))       &mt O LG(DOWN_ARROW)     &mt T LG(UP_ARROW)    &Component            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &mt C LS(LEFT_ARROW)  &mt E LS(RIGHT_ARROW)    &mt H LS(DOWN_ARROW)  &mt L LS(UP_ARROW)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans                &trans                   &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans                    &trans                     &trans                    &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &kp LS(N)                 &mt LS(SLASH) LA(SLASH)    &mt LS(N) N               &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mt F LA(LG(L))  &mt R LA(LG(T))           &mt O LG(DOWN_ARROW)       &mt T LG(UP_ARROW)        &Component                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &mt LA(A) LS(LEFT_ARROW)  &mt LA(D) LS(RIGHT_ARROW)  &mt LA(S) LS(DOWN_ARROW)  &mt LA(W) LS(UP_ARROW)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans                    &trans                     &kp LG(NUMBER_1)          &kp LG(NUMBER_2)          &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
