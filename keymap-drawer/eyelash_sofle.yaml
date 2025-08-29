@@ -1316,11 +1316,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Alt+/, h: L, s: 'Alt+?'}
-  - Alt+Gui+K
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+N
+  - {t: Alt+/, h: Sft+/, s: 'Alt+?'}
+  - {t: N, h: Sft+N}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1328,11 +1326,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Alt+Gui+L, h: R}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Alt+Gui+L, h: F}
   - {t: Alt+Gui+T, h: R}
   - {t: 'Gui+$$mdi:arrow-down-bold$$', h: O}
   - {t: 'Gui+$$mdi:arrow-up-bold$$', h: T}
-  - Sft+Gui+K
+  - '&Component'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1342,10 +1342,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Sft+$$mdi:arrow-left-bold$$', h: C}
+  - {t: 'Sft+$$mdi:arrow-right-bold$$', h: E}
+  - {t: 'Sft+$$mdi:arrow-down-bold$$', h: H}
+  - {t: 'Sft+$$mdi:arrow-up-bold$$', h: L}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
