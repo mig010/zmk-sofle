@@ -452,6 +452,13 @@
             bindings = <&kp F &kp LS(SEMICOLON)>;
             label = "LCONDITIONAL";
         };
+
+        mask: mask {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp CARET &kp LG(M)>;
+            label = "MASK";
+        };
     };
 
     keymap {
@@ -649,11 +656,11 @@
 
         figma {
             bindings = <
-&trans  &trans         &trans     &trans               &trans               &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &kp BACKSPACE  &kp LG(Z)  &kp LEFT_SHIFT       &mt LS(LA(A)) LS(A)  &mt I LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &mt LS(SPACE) LG(K)  &mt K V              &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &trans               &mo 20               &mo 19         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans                   &trans               &trans               &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &mt LS(LG(C)) LG(LS(V))  &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &kp BACKSPACE  &kp LG(Z)                &kp LEFT_SHIFT       &mt LS(LA(A)) LS(A)  &mt I LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans                   &mt LS(SPACE) LG(K)  &mt K V              &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans                   &trans               &mo 20               &mo 19         &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
@@ -661,18 +668,18 @@
 
         figma_shortcuts {
             bindings = <
-&trans  &trans         &trans         &trans               &trans                   &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans         &kp LG(LS(R))        &to 0                    &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(LS(F))  &kp LS(LG(K))  &mt LG(LS(G)) LG(G)  &mt LA(LG(B)) LA(LS(K))  &mt LG(LS(V)) LG(D)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans         &trans               &mt LA(L) LA(LC(T))      &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans         &trans               &kp LA(LG(C))            &kp LA(LG(V))          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans                   &trans               &trans                   &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &mask                    &kp LG(LS(R))        &to 0                    &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(LS(F))  &mt LS(LG(K)) LA(LG(O))  &mt LA(LG(G)) LG(G)  &mt LA(LG(B)) LA(LS(K))  &mt LEFT_COMMAND LG(D)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &mask                    &kp LG(BACKSPACE)    &mt LA(L) LA(LC(T))      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans                   &trans               &kp LA(LG(C))            &kp LA(LG(V))             &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         figma_aliases {
             bindings = <
 &trans  &trans           &trans           &trans                &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans           &kp L                 &kp LA(LG(K))       &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &mt L LA(SLASH)       &kp LA(LG(K))       &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &mt R LA(LG(L))  &mt R LA(LG(T))  &mt O LG(DOWN_ARROW)  &mt T LG(UP_ARROW)  &kp LS(LG(K))       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans           &trans           &trans                &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans           &trans           &trans                &kp LG(NUMBER_1)    &kp LG(NUMBER_2)    &trans  &trans  &trans  &trans  &trans  &trans
