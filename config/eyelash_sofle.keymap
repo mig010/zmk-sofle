@@ -692,7 +692,7 @@
 &trans  &trans         &trans                   &trans               &trans                   &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &mask                    &kp LG(LS(R))        &to 0                    &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LA(LS(F))  &mt LS(LG(K)) LA(LG(O))  &mt LA(LG(G)) LG(G)  &mt LA(LG(B)) LA(LS(K))  &mt LEFT_COMMAND LG(D)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &mask                    &kp LG(BACKSPACE)    &mt LA(L) LA(LC(T))      &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &pagebelow               &kp LG(BACKSPACE)    &mt LA(L) LA(LC(T))      &pageabove                &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans                   &trans               &kp LA(LG(C))            &kp LA(LG(V))             &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
