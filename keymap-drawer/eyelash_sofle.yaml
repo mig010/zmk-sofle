@@ -1342,10 +1342,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Sft+$$mdi:arrow-left-bold$$', h: C}
-  - {t: 'Sft+$$mdi:arrow-right-bold$$', h: E}
-  - {t: 'Sft+$$mdi:arrow-down-bold$$', h: H}
-  - {t: 'Sft+$$mdi:arrow-up-bold$$', h: L}
+  - {t: 'Sft+$$mdi:arrow-left-bold$$', h: Alt+A}
+  - {t: 'Sft+$$mdi:arrow-right-bold$$', h: Alt+D}
+  - {t: 'Sft+$$mdi:arrow-down-bold$$', h: Alt+S}
+  - {t: 'Sft+$$mdi:arrow-up-bold$$', h: Alt+W}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
