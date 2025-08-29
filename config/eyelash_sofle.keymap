@@ -466,6 +466,20 @@
             bindings = <&kp CARET &kp LA(LG(K))>;
             label = "COMPONENT";
         };
+
+        pagebelow: pagebelow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GLOBE &kp DOWN_ARROW>;
+            label = "PAGEBELOW";
+        };
+
+        pageabove: pageabove {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GLOBE &kp UP_ARROW>;
+            label = "PAGEABOVE";
+        };
     };
 
     keymap {
@@ -665,7 +679,7 @@
             bindings = <
 &trans  &trans         &trans                   &trans               &trans               &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &mt LS(LG(C)) LG(LS(V))  &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &kp BACKSPACE  &kp LG(Z)                &kp LEFT_SHIFT       &mt LS(LA(A)) LS(A)  &mt I LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &kp BACKSPACE  &kp LG(Z)                &kp LEFT_SHIFT       &mt LA(LS(A)) LS(A)  &mt I LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans                   &mt LS(SPACE) RG(K)  &mt K V              &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans                   &trans               &mo 20               &mo 19         &trans  &trans  &trans  &trans  &trans  &trans
             >;
