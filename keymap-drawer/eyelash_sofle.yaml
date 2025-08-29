@@ -1201,7 +1201,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Sft+A, h: Sft+Alt+A}
+  - {t: Sft+A, h: Alt+Sft+A}
   - {t: Sft+X, h: I}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
