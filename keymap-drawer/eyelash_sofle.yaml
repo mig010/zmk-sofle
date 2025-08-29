@@ -1277,10 +1277,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mask'
+  - '&pagebelow'
   - {t: 'Gui+$$mdi:backspace$$', type: backspace}
   - {t: Alt+Ctl+T, h: Alt+L}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&pageabove'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
