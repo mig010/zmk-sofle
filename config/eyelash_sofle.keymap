@@ -649,11 +649,11 @@
 
         figma {
             bindings = <
-&trans  &trans         &trans     &trans               &trans               &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &kp BACKSPACE  &kp LG(Z)  &kp LEFT_SHIFT       &mt LS(LA(A)) LS(A)  &mt LS(LG(Z)) LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &mt LS(SPACE) LG(K)  &mt K V              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &trans               &mo 20               &mo 19                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans               &trans               &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &mt LA(LG(C)) LG(C)  &mt LA(LG(V)) LG(V)  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &kp BACKSPACE  &kp LG(Z)  &kp LEFT_SHIFT       &mt LS(LA(A)) LS(A)  &mt I LS(X)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &mt LS(SPACE) LG(K)  &mt K V              &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &trans               &mo 20               &mo 19         &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
@@ -661,11 +661,11 @@
 
         figma_shortcuts {
             bindings = <
-&trans  &trans     &trans         &trans               &trans                  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &kp LG(LS(R))        &to 0                   &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(A)  &kp LS(LG(K))  &mt LG(LS(G)) LG(G)  &mt LEFT_ALT LG(LS(K))  &kp LG(D)        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &trans               &mt LA(L) LA(LC(T))     &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &trans               &kp LA(LG(C))           &kp LA(LG(V))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans         &trans               &trans                   &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans         &kp LG(LS(R))        &to 0                    &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(LS(F))  &kp LS(LG(K))  &mt LG(LS(G)) LG(G)  &mt LA(LG(B)) LA(LS(K))  &mt LG(LS(V)) LG(D)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans         &trans               &mt LA(L) LA(LC(T))      &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans         &trans               &kp LA(LG(C))            &kp LA(LG(V))          &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
