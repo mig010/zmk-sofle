@@ -1186,7 +1186,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+Sft+V, h: Sft+Gui+C}
   - {t: C, h: Alt+Gui+C}
   - {t: V, h: Alt+Gui+V}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1251,7 +1251,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mask'
   - Gui+Sft+R
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1264,10 +1264,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Sft+F
-  - Sft+Gui+K
-  - {t: Gui+G, h: Gui+Sft+G}
+  - {t: Alt+Gui+O, h: Sft+Gui+K}
+  - {t: Gui+G, h: Alt+Gui+G}
   - {t: Alt+Sft+K, h: Alt+Gui+B}
-  - {t: D, h: Gui+Sft+V}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1277,8 +1277,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mask'
+  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
   - {t: Alt+Ctl+T, h: Alt+L}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1317,7 +1317,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - L
+  - {t: Alt+/, h: L, s: 'Alt+?'}
   - Alt+Gui+K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
