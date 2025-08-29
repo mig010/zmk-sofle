@@ -1330,8 +1330,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Alt+Gui+L, h: F}
   - {t: Alt+Gui+T, h: R}
-  - {t: 'Gui+$$mdi:arrow-down-bold$$', h: O}
-  - {t: 'Gui+$$mdi:arrow-up-bold$$', h: T}
+  - {t: Gui+AC NEXT KEYBOARD LAYOUT SELECT, h: O}
+  - {t: Gui+AC NEXT KEYBOARD LAYOUT SELECT, h: T}
   - '&Component'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
