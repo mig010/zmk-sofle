@@ -494,6 +494,13 @@
             bindings = <&kp LC(N) &kp LC(P)>;
             label = "MUXPREV";
         };
+
+        delwithspacedaw: delwithspacedaw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt D &kp A &kp W>;
+            label = "DELWITHSPACEDAW";
+        };
     };
 
     keymap {
@@ -515,8 +522,8 @@
         all {
             bindings = <
 &sys_reset    &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 4    &kp LG(BACKSPACE)  &kp F6             &kp F7            &kp F8      &kp F9             &kp F10  &trans
-&bt BT_SEL 1  &none           &kp LG(Y)   &kp LG(W)   &to 18      &trans          &mmv MOVE_DOWN     &trans             &kt SINGLE_QUOTE  &kp LC(W)   &kp DOUBLE_QUOTES  &trans   &trans
-&sys_reset    &mo 26          &mo 23      &mo 6       &mo 13      &kp LS(TAB)     &mmv MOVE_LEFT     &kp LC(LA(LG(F)))  &kp TAB           &mo 8       &kp ESCAPE         &mo 30   &kp Z
+&bt BT_SEL 1  &none           &kp LG(Y)   &kp LG(W)   &to 18      &trans          &mmv MOVE_DOWN     &trans             &kt SINGLE_QUOTE  &mo 8       &kp DOUBLE_QUOTES  &trans   &trans
+&sys_reset    &mo 26          &mo 23      &mo 6       &mo 13      &kp LS(TAB)     &mmv MOVE_LEFT     &kp LC(LA(LG(F)))  &kp TAB           &kp LC(W)   &kp ESCAPE         &mo 30   &kp Z
 &bt BT_SEL 0  &trans          &kp LG(X)   &kp LG(C)   &kp LG(V)   &trans          &mmv MOVE_RIGHT    &trans             &findbra          &lookcurly  &seechildren       &trans   &trans
 &trans        &trans          &trans      &trans      &trans      &trans          &mkp LCLK          &kp LC(S)          &mo 17            &kp LG(Z)   &mipassword        &trans
             >;
@@ -539,11 +546,11 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans      &trans            &trans    &trans  &trans     &trans      &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &kp LS(H)   &kp LS(NUMBER_3)  &trans    &trans  &trans     &kp LS(N8)  &kp LS(M)  &trans     &trans  &trans
-&trans  &mo 4   &kp B   &endofword  &kp W             &ciw      &trans  &yiw       &kp J       &kp K      &kp LS(L)  &mo 7   &trans
-&trans  &trans  &trans  &kp LC(O)   &kp LS(W)         &trans    &trans  &trans     &mo 21      &kp LC(I)  &trans     &trans  &trans
-&trans  &trans  &trans  &trans      &mo 22            &mo 5     &trans  &kp SLASH  &trans      &trans     &trans     &trans
+&trans  &trans  &trans  &trans      &trans            &trans    &trans  &trans            &trans      &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &kp LS(H)   &kp LS(NUMBER_3)  &trans    &trans  &trans            &kp LS(N8)  &kp LS(M)  &trans     &trans  &trans
+&trans  &mo 4   &kp B   &endofword  &kp W             &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &kp LS(L)  &mo 7   &trans
+&trans  &trans  &trans  &kp LC(O)   &kp LS(W)         &trans    &trans  &trans            &mo 21      &kp LC(I)  &trans     &trans  &trans
+&trans  &trans  &trans  &trans      &mo 22            &mo 5     &trans  &kp SLASH         &trans      &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PLUS KP_SUBTRACT>;
@@ -591,11 +598,11 @@
 
         browser {
             bindings = <
-&trans  &trans             &trans  &trans             &trans             &trans               &mo 11  &trans               &trans     &trans     &trans     &trans  &trans
-&trans  &trans             &trans  &kp LG(W)          &trans             &trans               &trans  &trans               &trans     &kp LG(T)  &trans     &trans  &trans
-&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans               &kp LS(E)  &trans     &kp LS(R)  &mo 10  &trans
-&trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans               &trans     &trans     &trans     &trans  &trans
-&trans  &trans             &trans  &trans             &trans             &trans               &trans  &new_behaviorr 11 9  &trans     &trans     &trans     &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &mo 11  &trans               &trans     &trans  &trans     &trans  &trans
+&trans  &trans             &trans  &kp LG(W)          &trans             &trans               &trans  &trans               &trans     &trans  &kp LG(T)  &trans  &trans
+&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans               &kp LS(E)  &trans  &kp LS(R)  &mo 10  &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans               &trans     &trans  &trans     &trans  &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &trans  &new_behaviorr 11 9  &trans     &trans  &trans     &trans
             >;
         };
 
