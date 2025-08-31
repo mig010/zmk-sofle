@@ -358,7 +358,7 @@
         stringchange: string_change {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp D &kp I &kp DOUBLE_QUOTES>;
+            bindings = <&kp C &kp I &kp SINGLE_QUOTE>;
             label = "STRING_CHANGE";
         };
 
