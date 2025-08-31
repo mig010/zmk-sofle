@@ -1400,8 +1400,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+J
-  - Ctl+K
+  - Ctl+N
+  - Ctl+P
   - '&aroundpara'
   - '&fuzzy'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1423,7 +1423,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Gui+$$mdi:backspace$$', type: held}
-  - {type: held alternate}
+  - {t: '&muxprev', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
