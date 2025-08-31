@@ -211,7 +211,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&changetext'
   - Sft+H
   - Sft+3
   - {t: '$$mdi:transfer$$', type: trans}
@@ -219,14 +219,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+8, s: Sft+*}
   - Sft+M
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&stringchange'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - vim_sentences
-  - B
+  - Sft+B
   - '&endofword'
-  - W
+  - Sft+W
   - '&ciw'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&delwithspacedaw'
@@ -239,7 +239,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+O
-  - Sft+W
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1393,10 +1393,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&prebuffer'
-  - '&nextbuf'
-  - {t: '&changetext', type: held alternate}
-  - '&stringchange'
+  - {t: '0', s: )}
+  - B
+  - {t: '&viendofword', type: held alternate}
+  - W
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
