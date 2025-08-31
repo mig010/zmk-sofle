@@ -232,7 +232,7 @@ layers:
   - '&delwithspacedaw'
   - J
   - K
-  - Sft+L
+  - vimuium
   - neovi
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - vimuium
+  - Sft+L
   - Ctl+I
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1402,7 +1402,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+N
   - Ctl+P
-  - '&aroundpara'
+  - {t: '&aroundpara', type: held}
   - '&fuzzy'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1413,7 +1413,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
