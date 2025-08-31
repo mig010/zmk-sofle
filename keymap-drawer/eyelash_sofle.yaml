@@ -58,12 +58,12 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: 'Alt+$$mdi:backspace$$', h: numbers}
-  - {t: Ctl+W, h: layer1}
+  - layer1
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', h: vim}
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
+  - RIGHT GUI
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
@@ -82,13 +82,13 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+Y
-  - Gui+W
+  - Ctl+W
   - {t: figma, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', h: toggle, s: '"'}
-  - Ctl+W
+  - Gui+W
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -99,9 +99,9 @@ layers:
   - raycast
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - Ctl+Alt+Gui+F
   - $$mdi:keyboard-tab$$
   - browser
-  - Ctl+S
   - $$mdi:keyboard-esc$$
   - xeue
   - Z
@@ -125,10 +125,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - Ctl+Alt+Gui+F
+  - Ctl+S
   - tmux_ghostty
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mipassword'
   - {t: '$$mdi:transfer$$', type: trans}
   numbers:
   - '~'
@@ -397,7 +397,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - vimuium
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -555,8 +555,8 @@ layers:
   - Meh+W
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - Sft+E
+  - {type: held}
   - Sft+R
   - browser_shortcuts
   - {t: '$$mdi:transfer$$', type: trans}
@@ -685,8 +685,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+Sft+P, type: held}
-  - Ctl+P
+  - Gui+Sft+P
+  - {t: Ctl+P, type: held}
   - Hyper+X
   - {t: Hyper+;, s: 'Hyper+:', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -750,8 +750,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+Y, type: held}
-  - Gui+Ctl+B
+  - Gui+Y
+  - {t: Gui+Ctl+B, type: held}
   - {t: Gui+=, s: Gui++}
   - {t: Ctl+/, s: 'Ctl+?'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1128,7 +1128,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1372,7 +1372,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1395,13 +1395,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&prebuffer'
   - '&nextbuf'
-  - '&changetext'
+  - {t: '&changetext', type: held alternate}
   - '&stringchange'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+J
+  - Ctl+K
   - '&aroundpara'
   - '&fuzzy'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1422,8 +1422,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+$$mdi:backspace$$', type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
