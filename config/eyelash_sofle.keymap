@@ -480,6 +480,13 @@
             bindings = <&kp GLOBE &kp UP_ARROW>;
             label = "PAGEABOVE";
         };
+
+        mipassword: mipassword {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp I &kp G &kp N1 &kp N9 &kp N9 &kp N6>;
+            label = "MIPASSWORD";
+        };
     };
 
     keymap {
@@ -487,11 +494,11 @@
 
         kuru {
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3            &kp N4                         &kp N5                   &kp LEFT_SHIFT       &kp N6               &kp N7     &kp N8             &kp N9           &kp N0         &kp RIGHT_GUI
-&kp TAB     &kp Q         &kp W         &kp F             &kp P                          &kp B                    &kp DOWN_ARROW       &kp J                &kp L      &kp U              &kp Y            &kp SEMICOLON  &kp BSLH
-&kp CAPS    &kp A         &kp R         &kp S             &kp T                          &kp G                    &kp LG(LEFT_ARROW)   &kp M                &kp N      &kp E              &kp I            &kp O          &kp APOS
-&to 0       &kp Z         &kp X         &kp C             &kp D                          &kp V                    &kp LG(RIGHT_ARROW)  &kp K                &kp H      &kp COMMA          &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &new_behavior 2 LA(BACKSPACE)  &new_behavior 1 LC(W)    &mkp LCLK            &new_behavior 3 RET  &kp SPACE  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp N1        &kp N2        &kp N3            &kp N4                         &kp N5    &kp LEFT_SHIFT       &kp N6               &kp N7     &kp N8           &kp N9         &kp N0         &kp RIGHT_GUI
+&kp TAB     &kp Q         &kp W         &kp F             &kp P                          &kp B     &kp DOWN_ARROW       &kp J                &kp L      &kp U            &kp Y          &kp SEMICOLON  &kp BSLH
+&kp CAPS    &kp A         &kp R         &kp S             &kp T                          &kp G     &kp LG(LEFT_ARROW)   &kp M                &kp N      &kp E            &kp I          &kp O          &kp APOS
+&to 0       &kp Z         &kp X         &kp C             &kp D                          &kp V     &kp LG(RIGHT_ARROW)  &kp K                &kp H      &kp COMMA        &kp DOT        &kp FSLH       &kp ENTER
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &new_behavior 2 LA(BACKSPACE)  &mo 1     &mkp LCLK            &new_behavior 3 RET  &kp SPACE  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -501,10 +508,10 @@
         all {
             bindings = <
 &sys_reset    &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 4    &kp LG(BACKSPACE)  &kp F6             &kp F7            &kp F8      &kp F9             &kp F10  &trans
-&bt BT_SEL 1  &none           &kp LG(Y)   &kp LG(W)   &to 18      &trans          &mmv MOVE_DOWN     &trans             &kt SINGLE_QUOTE  &kp LC(W)   &kp DOUBLE_QUOTES  &trans   &trans
-&sys_reset    &mo 26          &mo 23      &mo 6       &mo 13      &kp LS(TAB)     &mmv MOVE_LEFT     &kp TAB            &mo 8             &kp LC(S)   &kp ESCAPE         &mo 30   &kp Z
+&bt BT_SEL 1  &none           &kp LG(Y)   &kp LC(W)   &to 18      &trans          &mmv MOVE_DOWN     &trans             &kt SINGLE_QUOTE  &kp LG(W)   &kp DOUBLE_QUOTES  &trans   &trans
+&sys_reset    &mo 26          &mo 23      &mo 6       &mo 13      &kp LS(TAB)     &mmv MOVE_LEFT     &kp LC(LA(LG(F)))  &kp TAB           &mo 8       &kp ESCAPE         &mo 30   &kp Z
 &bt BT_SEL 0  &trans          &kp LG(X)   &kp LG(C)   &kp LG(V)   &trans          &mmv MOVE_RIGHT    &trans             &findbra          &lookcurly  &seechildren       &trans   &trans
-&trans        &trans          &trans      &trans      &trans      &trans          &mkp LCLK          &kp LC(LA(LG(F)))  &mo 17            &kp LG(Z)   &trans             &trans
+&trans        &trans          &trans      &trans      &trans      &trans          &mkp LCLK          &kp LC(S)          &mo 17            &kp LG(Z)   &mipassword        &trans
             >;
 
             display-name = "layer1";
@@ -557,7 +564,7 @@
 
         vim_bracets {
             bindings = <
-&trans  &trans              &trans               &trans            &trans       &trans    &trans  &trans  &trans            &trans               &trans                 &trans                        &trans
+&trans  &trans              &trans               &trans            &trans       &trans    &mo 21  &trans  &trans            &trans               &trans                 &trans                        &trans
 &trans  &trans              &trans               &jumk             &ssemicolon  &trans    &trans  &trans  &lconditional     &kp PERCENT          &trans                 &trans                        &trans
 &trans  &vision_code_block  &erase_in_bracketss  &inside_brackets  &ccode       &trans    &trans  &trans  &yank_brackets    &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_brackets  &trans
 &trans  &trans              &trans               &trans            &trans       &trans    &trans  &trans  &lockedbra        &closingcurly        &closechildren         &trans                        &trans
@@ -577,11 +584,11 @@
 
         browser {
             bindings = <
-&trans  &trans             &trans  &trans             &trans             &trans               &mo 11  &trans               &trans  &trans     &trans     &trans  &trans
-&trans  &trans             &trans  &kp LG(W)          &trans             &trans               &trans  &trans               &trans  &kp LG(T)  &trans     &trans  &trans
-&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans               &trans  &kp LS(E)  &kp LS(R)  &mo 10  &trans
-&trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans               &trans  &trans     &trans     &trans  &trans
-&trans  &trans             &trans  &trans             &trans             &trans               &trans  &new_behaviorr 11 9  &trans  &trans     &trans     &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &mo 11  &trans               &trans     &trans     &trans     &trans  &trans
+&trans  &trans             &trans  &kp LG(W)          &trans             &trans               &trans  &trans               &trans     &kp LG(T)  &trans     &trans  &trans
+&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans               &kp LS(E)  &trans     &kp LS(R)  &mo 10  &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans               &trans     &trans     &trans     &trans  &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &trans  &new_behaviorr 11 9  &trans     &trans     &trans     &trans
             >;
         };
 
@@ -668,7 +675,7 @@
         tmux_ghostty {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &kp LG(A)  &trans                 &trans                         &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(LS(R))  &kp LC(N)  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans                 &trans
@@ -709,11 +716,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans      &trans    &trans       &trans         &trans    &trans  &trans  &trans  &trans            &trans       &trans  &trans
-&trans  &trans      &trans    &kp Q        &trans         &trans    &trans  &trans  &trans  &kp LS(NUMBER_2)  &trans       &trans  &trans
-&trans  &prebuffer  &nextbuf  &changetext  &stringchange  &trans    &trans  &trans  &trans  &trans            &aroundpara  &fuzzy  &trans
-&trans  &trans      &trans    &trans       &trans         &trans    &trans  &trans  &trans  &trans            &trans       &trans  &trans
-&trans  &trans      &trans    &trans       &trans         &trans    &trans  &trans  &trans  &trans            &trans       &trans
+&trans  &trans      &trans    &trans       &trans             &trans    &trans  &trans  &trans     &trans            &trans       &trans  &trans
+&trans  &trans      &trans    &kp Q        &trans             &trans    &trans  &trans  &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
+&trans  &prebuffer  &nextbuf  &changetext  &stringchange      &trans    &trans  &trans  &kp LC(J)  &kp LC(K)         &aroundpara  &fuzzy  &trans
+&trans  &trans      &trans    &trans       &trans             &trans    &trans  &trans  &trans     &trans            &trans       &trans  &trans
+&trans  &trans      &trans    &trans       &kp LG(BACKSPACE)  &trans    &trans  &trans  &trans     &trans            &trans       &trans
             >;
         };
 
