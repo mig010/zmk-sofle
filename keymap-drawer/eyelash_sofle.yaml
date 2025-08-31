@@ -88,7 +88,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', h: toggle, s: '"'}
-  - Ctl+W
+  - browser
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -101,7 +101,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - Ctl+Alt+Gui+F
   - $$mdi:keyboard-tab$$
-  - browser
+  - Ctl+W
   - $$mdi:keyboard-esc$$
   - xeue
   - Z
@@ -229,7 +229,7 @@ layers:
   - W
   - '&ciw'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&yiw'
+  - '&delwithspacedaw'
   - J
   - K
   - Sft+L
@@ -543,8 +543,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - Gui+T
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -556,7 +556,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+E
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+R
   - browser_shortcuts
   - {t: '$$mdi:transfer$$', type: trans}
@@ -673,7 +673,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -686,7 +686,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Sft+P
-  - {t: Ctl+P, type: held}
+  - Ctl+P
   - Hyper+X
   - {t: Hyper+;, s: 'Hyper+:', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -738,7 +738,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -751,7 +751,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Y
-  - {t: Gui+Ctl+B, type: held}
+  - Gui+Ctl+B
   - {t: Gui+=, s: Gui++}
   - {t: Ctl+/, s: 'Ctl+?'}
   - {t: '$$mdi:transfer$$', type: trans}
