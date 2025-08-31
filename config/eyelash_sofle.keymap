@@ -316,7 +316,7 @@
         endofword: endofword {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp E>;
+            bindings = <&kp G &kp LS(E)>;
             label = "ENDOFWORD";
         };
 
@@ -360,20 +360,6 @@
             #binding-cells = <0>;
             bindings = <&kp C &kp I &kp SINGLE_QUOTE>;
             label = "STRING_CHANGE";
-        };
-
-        nextbuf: next_buf {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(SEMICOLON) &kp B &kp N>;
-            label = "NEXT_BUF";
-        };
-
-        prebuffer: pre_buffer {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(SEMICOLON) &kp B &kp P>;
-            label = "PRE_BUFFER";
         };
 
         fuzzy: fuzzy {
@@ -501,6 +487,13 @@
             bindings = <&kt D &kp A &kp W>;
             label = "DELWITHSPACEDAW";
         };
+
+        viendofword: viendofword {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp E>;
+            label = "VIENDOFWORD";
+        };
     };
 
     keymap {
@@ -546,11 +539,11 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans  &trans      &trans            &trans    &trans  &trans            &trans      &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &kp LS(H)   &kp LS(NUMBER_3)  &trans    &trans  &trans            &kp LS(N8)  &kp LS(M)  &trans     &trans  &trans
-&trans  &mo 4   &kp B   &endofword  &kp W             &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &kp LS(L)  &mo 7   &trans
-&trans  &trans  &trans  &kp LC(O)   &kp LS(W)         &trans    &trans  &trans            &mo 21      &kp LC(I)  &trans     &trans  &trans
-&trans  &trans  &trans  &trans      &mo 22            &mo 5     &trans  &kp SLASH         &trans      &trans     &trans     &trans
+&trans  &trans  &trans       &trans      &trans            &trans    &trans  &trans            &trans      &trans     &trans         &trans  &trans
+&trans  &trans  &changetext  &kp LS(H)   &kp LS(NUMBER_3)  &trans    &trans  &trans            &kp LS(N8)  &kp LS(M)  &stringchange  &trans  &trans
+&trans  &mo 4   &kp LS(B)    &endofword  &kp LS(W)         &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &kp LS(L)      &mo 7   &trans
+&trans  &trans  &trans       &kp LC(O)   &kp SLASH         &trans    &trans  &trans            &mo 21      &kp LC(I)  &trans         &trans  &trans
+&trans  &trans  &trans       &trans      &mo 22            &mo 5     &trans  &kp SLASH         &trans      &trans     &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PLUS KP_SUBTRACT>;
@@ -730,11 +723,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans      &trans    &trans       &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
-&trans  &trans      &trans    &kp Q        &trans             &trans      &trans  &trans  &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
-&trans  &prebuffer  &nextbuf  &changetext  &stringchange      &trans      &trans  &trans  &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
-&trans  &trans      &trans    &trans       &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
-&trans  &trans      &trans    &trans       &kp LG(BACKSPACE)  &muxprev    &trans  &trans  &trans     &trans            &trans       &trans
+&trans  &trans  &trans  &trans        &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
+&trans  &trans  &trans  &kp Q         &trans             &trans      &trans  &trans  &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
+&trans  &kp N0  &kp B   &viendofword  &kp W              &trans      &trans  &trans  &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
+&trans  &trans  &trans  &trans        &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
+&trans  &trans  &trans  &trans        &kp LG(BACKSPACE)  &muxprev    &trans  &trans  &trans     &trans            &trans       &trans
             >;
         };
 
