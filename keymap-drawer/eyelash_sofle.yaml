@@ -82,13 +82,13 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+Y
-  - Ctl+W
+  - Gui+W
   - {t: figma, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', h: toggle, s: '"'}
-  - Gui+W
+  - Ctl+W
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
