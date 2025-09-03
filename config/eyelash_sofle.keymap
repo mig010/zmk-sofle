@@ -824,11 +824,11 @@
 
         fastestt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &begininsertmode  &begininsertmode  &endinertm  &kp LC(O)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans    &trans      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans    &trans      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &begininsertmode  &winsert  &endinertm  &kp LC(O)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans    &trans      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans    &trans      &trans
             >;
         };
 
