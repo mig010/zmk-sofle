@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+Y
@@ -87,14 +87,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '''', h: toggle, s: '"'}
+  - {t: '''', s: '"'}
   - browser
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - arrow_movements
   - workspaces
+  - arrow_movements
   - vim_bracets
   - raycast
   - $$mdi:keyboard-tab-reverse$$
@@ -114,7 +114,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&findbra'
-  - '&lookcurly'
+  - '&closingcurly'
   - '&seechildren'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -224,9 +224,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - vim_sentences
-  - Sft+B
+  - B
   - '&endofword'
-  - Sft+W
+  - W
   - '&ciw'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&delwithspacedaw'
@@ -438,7 +438,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&lockedbra'
+  - '&lookcurly'
   - '&closingcurly'
   - '&closechildren'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1394,9 +1394,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
-  - B
+  - Sft+B
   - {t: '&viendofword', type: held alternate}
-  - W
+  - Sft+W
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1523,8 +1523,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+Alt+E
-  - {type: held}
+  - {t: Gui+Alt+E, type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - workspace_layouts
   - Gui+Alt+Sft+B
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1588,8 +1588,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+/, s: 'Gui+?'}
-  - {type: held}
+  - {t: Gui+/, s: 'Gui+?', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - Gui+.
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1653,8 +1653,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+E
-  - {type: held}
+  - {t: Gui+E, type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Sft+A
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1697,6 +1697,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Sft+$$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1709,6 +1710,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Sft+$$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1716,14 +1718,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - gar
+  - {type: held}
   - best_move
   - fastestt
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Sft+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -1736,7 +1736,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Sft+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1783,8 +1783,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1913,8 +1913,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
