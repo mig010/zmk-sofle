@@ -316,7 +316,7 @@
         endofword: endofword {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp LS(E)>;
+            bindings = <&kp G &kp E>;
             label = "ENDOFWORD";
         };
 
@@ -491,7 +491,7 @@
         viendofword: viendofword {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp E>;
+            bindings = <&kp G &kp LS(E)>;
             label = "VIENDOFWORD";
         };
     };
@@ -514,11 +514,11 @@
 
         all {
             bindings = <
-&sys_reset    &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 4    &kp LG(BACKSPACE)  &kp F6             &kp F7            &kp F8      &kp F9             &kp F10  &trans
-&bt BT_SEL 1  &none           &kp LG(Y)   &kp LG(W)   &to 18      &trans          &mmv MOVE_DOWN     &trans             &kt SINGLE_QUOTE  &mo 8       &kp DOUBLE_QUOTES  &trans   &trans
-&sys_reset    &mo 26          &mo 23      &mo 6       &mo 13      &kp LS(TAB)     &mmv MOVE_LEFT     &kp LC(LA(LG(F)))  &kp TAB           &kp LC(W)   &kp ESCAPE         &mo 30   &kp Z
-&bt BT_SEL 0  &trans          &kp LG(X)   &kp LG(C)   &kp LG(V)   &trans          &mmv MOVE_RIGHT    &trans             &findbra          &lookcurly  &seechildren       &trans   &trans
-&trans        &trans          &trans      &trans      &trans      &trans          &mkp LCLK          &kp LC(S)          &mo 17            &kp LG(Z)   &mipassword        &trans
+&sys_reset    &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 4    &kp LG(BACKSPACE)  &kp F6             &kp F7            &kp F8         &kp F9             &kp F10  &sys_reset
+&bt BT_SEL 1  &none           &kp LG(Y)   &kp LG(W)   &to 18      &trans          &mmv MOVE_DOWN     &trans             &kp SINGLE_QUOTE  &mo 8          &kp DOUBLE_QUOTES  &trans   &trans
+&sys_reset    &mo 23          &mo 26      &mo 6       &mo 13      &kp LS(TAB)     &mmv MOVE_LEFT     &kp LC(LA(LG(F)))  &kp TAB           &kp LC(W)      &kp ESCAPE         &mo 30   &kp Z
+&bt BT_SEL 0  &trans          &kp LG(X)   &kp LG(C)   &kp LG(V)   &trans          &mmv MOVE_RIGHT    &trans             &findbra          &closingcurly  &seechildren       &trans   &trans
+&trans        &trans          &trans      &trans      &trans      &trans          &mkp LCLK          &kp LC(S)          &mo 17            &kp LG(Z)      &mipassword        &trans
             >;
 
             display-name = "layer1";
@@ -541,7 +541,7 @@
             bindings = <
 &trans  &trans  &trans       &trans      &trans            &trans    &trans  &trans            &trans      &trans     &trans         &trans  &trans
 &trans  &trans  &changetext  &kp LS(H)   &kp LS(NUMBER_3)  &trans    &trans  &trans            &kp LS(N8)  &kp LS(M)  &stringchange  &trans  &trans
-&trans  &mo 4   &kp LS(B)    &endofword  &kp LS(W)         &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &mo 21         &mo 7   &trans
+&trans  &mo 4   &kp B        &endofword  &kp W             &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &mo 21         &mo 7   &trans
 &trans  &trans  &trans       &kp LC(O)   &kp SLASH         &trans    &trans  &trans            &kp LS(L)   &kp LC(I)  &trans         &trans  &trans
 &trans  &trans  &trans       &trans      &mo 22            &mo 5     &trans  &kp SLASH         &trans      &trans     &trans         &trans
             >;
@@ -574,7 +574,7 @@
 &trans  &trans              &trans               &trans            &trans       &trans    &mo 21  &trans  &trans            &trans               &trans                 &trans                        &trans
 &trans  &trans              &trans               &jumk             &ssemicolon  &trans    &trans  &trans  &lconditional     &kp PERCENT          &trans                 &trans                        &trans
 &trans  &vision_code_block  &erase_in_bracketss  &inside_brackets  &ccode       &trans    &trans  &trans  &yank_brackets    &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_brackets  &trans
-&trans  &trans              &trans               &trans            &trans       &trans    &trans  &trans  &lockedbra        &closingcurly        &closechildren         &trans                        &trans
+&trans  &trans              &trans               &trans            &trans       &trans    &trans  &trans  &lookcurly        &closingcurly        &closechildren         &trans                        &trans
 &trans  &trans              &trans               &trans            &trans       &trans    &trans  &jumk   &inside_brackets  &trans               &trans                 &trans
             >;
         };
@@ -723,11 +723,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans  &trans  &trans        &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
-&trans  &trans  &trans  &kp Q         &trans             &trans      &trans  &trans  &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
-&trans  &kp N0  &kp B   &viendofword  &kp W              &trans      &trans  &trans  &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
-&trans  &trans  &trans  &trans        &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
-&trans  &trans  &trans  &trans        &kp LG(BACKSPACE)  &muxprev    &trans  &trans  &trans     &trans            &trans       &trans
+&trans  &trans  &trans     &trans        &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
+&trans  &trans  &trans     &kp Q         &trans             &trans      &trans  &trans  &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
+&trans  &kp N0  &kp LS(B)  &viendofword  &kp LS(W)          &trans      &trans  &trans  &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
+&trans  &trans  &trans     &trans        &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
+&trans  &trans  &trans     &trans        &kp LG(BACKSPACE)  &muxprev    &trans  &trans  &trans     &trans            &trans       &trans
             >;
         };
 
@@ -773,11 +773,11 @@
 
         arrow_movements {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &mo 28  &mo 27  &mo 29  &trans    &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LA(LS(UP_ARROW))     &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LA(LS(DOWN_ARROW))   &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &mo 28  &trans  &mo 27  &mo 29  &trans    &kp LA(LS(LEFT_ARROW))   &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LA(LS(RIGHT_ARROW))  &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                   &trans  &trans          &trans        &trans          &trans
             >;
         };
 
