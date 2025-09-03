@@ -494,6 +494,34 @@
             bindings = <&kp G &kp LS(E)>;
             label = "VIENDOFWORD";
         };
+
+        winsert: winsert {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(O) &kp W>;
+            label = "WINSERT";
+        };
+
+        begininsertmode: begininsertmode {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(O) &kp B>;
+            label = "BEGININSERTMODE";
+        };
+
+        endinertm: doinertm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(O) &kp E>;
+            label = "DOINERTM";
+        };
+
+        geinsertmodevi: toinsertmodevi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(O) &kp G &kp E>;
+            label = "TOINSERTMODEVI";
+        };
     };
 
     keymap {
@@ -565,7 +593,7 @@
 &trans  &trans     &trans     &kp DOLLAR  &trans         &trans              &trans  &trans  &kp N0     &kp LS(NUMBER_6)  &trans  &trans     &trans
 &trans  &kp LC(B)  &kp LC(U)  &kp LC(F)   &kp LC(D)      &kp LC(NUMBER_6)    &trans  &trans  &zto       &vmid             &bbot   &kp LS(G)  &trans
 &trans  &trans     &trans     &trans      &kp LS(SLASH)  &trans              &trans  &trans  &kp SLASH  &trans            &trans  &trans     &trans
-&trans  &trans     &trans     &trans      &trans         &trans              &trans  &mo 6   &mo 7      &trans            &trans  &trans
+&trans  &trans     &trans     &trans      &trans         &kp LS(A)           &trans  &mo 6   &mo 7      &trans            &trans  &trans
             >;
         };
 
@@ -803,21 +831,21 @@
 
         fastestt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                   &trans                  &trans                &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                   &trans                  &trans                &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LA(LS(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &kp LS(LA(DOWN_ARROW))  &kp LA(LS(UP_ARROW))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                   &trans                  &trans                &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans                  &trans                   &trans                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &begininsertmode  &begininsertmode  &endinertm  &geinsertmodevi  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans
             >;
         };
 
         xeue {
             bindings = <
-&trans  &trans         &trans            &trans          &trans             &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
-&trans  &trans         &trans            &kp UNDER       &trans             &trans       &trans  &trans     &trans      &kp MINUS   &trans             &trans  &trans
-&trans  &kp SEMICOLON  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp TILDE    &trans  &kp EQUAL  &kp LS(N9)  &kp LS(N0)  &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans         &trans            &trans          &kp LS(SEMICOLON)  &trans       &trans  &trans     &trans      &trans      &trans             &trans  &trans
-&trans  &trans         &trans            &trans          &trans             &trans       &trans  &mo 31     &trans      &trans      &trans             &trans
+&trans  &trans         &trans            &trans          &trans             &trans       &trans  &trans     &trans         &trans      &trans             &trans  &trans
+&trans  &trans         &trans            &kp UNDER       &trans             &trans       &trans  &trans     &trans         &kp MINUS   &trans             &trans  &trans
+&trans  &kp SEMICOLON  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp TILDE    &trans  &kp EQUAL  &kp LS(N9)     &kp LS(N0)  &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans         &trans            &trans          &kp LS(SEMICOLON)  &trans       &trans  &trans     &kp SEMICOLON  &trans      &trans             &trans  &trans
+&trans  &trans         &trans            &trans          &trans             &trans       &trans  &mo 31     &trans         &trans      &trans             &trans
             >;
         };
 
