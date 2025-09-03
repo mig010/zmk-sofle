@@ -484,7 +484,7 @@
         delwithspacedaw: delwithspacedaw {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt D &kp A &kp W>;
+            bindings = <&kt D &kp W>;
             label = "DELWITHSPACEDAW";
         };
 
@@ -512,15 +512,8 @@
         endinertm: doinertm {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(O) &kp E>;
+            bindings = <&kp LC(O) &kp RIGHT_ARROW &kp E>;
             label = "DOINERTM";
-        };
-
-        geinsertmodevi: toinsertmodevi {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(O) &kp G &kp E>;
-            label = "TOINSERTMODEVI";
         };
     };
 
@@ -751,11 +744,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans  &trans     &trans        &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
-&trans  &trans  &trans     &kp Q         &trans             &trans      &trans  &trans  &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
-&trans  &kp N0  &kp LS(B)  &viendofword  &kp LS(W)          &trans      &trans  &trans  &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
-&trans  &trans  &trans     &trans        &trans             &trans      &trans  &trans  &trans     &trans            &trans       &trans  &trans
-&trans  &trans  &trans     &trans        &kp LG(BACKSPACE)  &muxprev    &trans  &trans  &trans     &trans            &trans       &trans
+&trans  &trans  &trans     &trans        &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
+&trans  &trans  &trans     &kp Q         &trans             &trans      &trans  &trans     &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
+&trans  &kp N0  &kp LS(B)  &viendofword  &kp LS(W)          &trans      &trans  &trans     &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
+&trans  &trans  &trans     &trans        &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
+&trans  &trans  &trans     &trans        &kp LG(BACKSPACE)  &muxprev    &trans  &kp LC(O)  &trans     &trans            &trans       &trans
             >;
         };
 
@@ -831,10 +824,10 @@
 
         fastestt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &begininsertmode  &begininsertmode  &endinertm  &geinsertmodevi  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &begininsertmode  &begininsertmode  &endinertm  &kp LC(O)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans            &trans      &trans
             >;
         };
