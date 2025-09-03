@@ -1921,7 +1921,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&begininsertmode'
-  - '&begininsertmode'
+  - '&winsert'
   - '&endinertm'
   - Ctl+O
   - {t: '$$mdi:transfer$$', type: trans}
