@@ -383,7 +383,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held}
+  - {t: Sft+A, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: vim_bracets, type: held}
   - neovi
@@ -1920,10 +1920,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Sft+$$mdi:arrow-left-bold$$
-  - Sft+Alt+$$mdi:arrow-right-bold$$
-  - Sft+Alt+$$mdi:arrow-down-bold$$
-  - Alt+Sft+$$mdi:arrow-up-bold$$
+  - '&begininsertmode'
+  - '&begininsertmode'
+  - '&endinertm'
+  - '&geinsertmodevi'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1998,7 +1998,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
