@@ -223,7 +223,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&endofword'
+  - fucs
   - B
   - vim_sentences
   - W
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: fucs, type: held alternate}
+  - {t: '&endofword', type: held alternate}
   - vim_cursor
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?', type: held}
@@ -1458,7 +1458,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '6'
+  - {t: '6', type: held}
   - '&closesplit'
   - '&splitV'
   - '&horsplit'
