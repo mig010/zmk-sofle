@@ -560,11 +560,11 @@
 
         vim {
             bindings = <
-&trans  &trans  &trans       &trans      &trans            &trans    &trans  &trans            &trans      &trans     &trans         &trans  &trans
-&trans  &trans  &changetext  &kp LS(H)   &kp LS(NUMBER_3)  &trans    &trans  &trans            &kp LS(N8)  &kp LS(M)  &stringchange  &trans  &trans
-&trans  &mo 4   &kp B        &endofword  &kp W             &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &mo 21         &mo 7   &trans
-&trans  &trans  &trans       &kp LC(O)   &kp SLASH         &trans    &trans  &trans            &kp LS(L)   &kp LC(I)  &trans         &trans  &trans
-&trans  &trans  &trans       &trans      &mo 22            &mo 5     &trans  &kp SLASH         &trans      &trans     &trans         &trans
+&trans  &trans      &trans       &trans     &trans            &trans    &trans  &trans            &trans      &trans     &trans         &trans  &trans
+&trans  &trans      &changetext  &kp LS(H)  &kp LS(NUMBER_3)  &trans    &trans  &trans            &kp LS(N8)  &kp LS(M)  &stringchange  &trans  &trans
+&trans  &endofword  &kp B        &mo 4      &kp W             &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &mo 21         &mo 7   &trans
+&trans  &trans      &trans       &kp LC(O)  &kp SLASH         &trans    &trans  &trans            &kp LS(L)   &kp LC(I)  &trans         &trans  &trans
+&trans  &trans      &trans       &trans     &mo 22            &mo 5     &trans  &kp SLASH         &trans      &trans     &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PLUS KP_SUBTRACT>;
@@ -572,11 +572,11 @@
 
         vim_sentences {
             bindings = <
-&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans        &trans  &trans
-&trans  &trans  &trans  &ticey_tack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &trans        &trans  &trans
-&trans  &vis    &dis    &yis         &cis    &cip      &trans  &yip    &yiw    &ciw       &delete_word  &viw    &trans
-&trans  &trans  &trans  &trans       &caw    &trans    &trans  &trans  &yaw    &trans     &trans        &trans  &trans
-&trans  &trans  &trans  &trans       &vip    &dip      &trans  &trans  &trans  &trans     &trans        &trans
+&trans  &trans  &trans  &trans       &trans  &trans    &trans  &trans  &trans  &trans     &trans            &trans  &trans
+&trans  &trans  &trans  &ticey_tack  &trans  &trans    &trans  &trans  &trans  &kp GRAVE  &delwithspacedaw  &trans  &trans
+&trans  &vis    &dis    &yis         &cis    &cip      &trans  &yip    &yiw    &ciw       &delete_word      &viw    &trans
+&trans  &trans  &trans  &trans       &caw    &trans    &trans  &trans  &yaw    &trans     &trans            &trans  &trans
+&trans  &trans  &trans  &trans       &vip    &dip      &trans  &trans  &trans  &trans     &trans            &trans
             >;
         };
 
@@ -764,11 +764,11 @@
 
         workspaces {
             bindings = <
-&trans  &trans         &trans  &trans     &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
-&trans  &trans         &trans  &kp LC(H)  &trans             &trans    &trans  &trans  &trans             &kp LC(L)          &trans             &trans             &trans
-&trans  &kp LG(LA(E))  &trans  &mo 24     &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
-&trans  &trans         &trans  &trans     &kp LC(J)          &none     &trans  &trans  &kp LC(K)          &trans             &trans             &trans             &trans
-&trans  &trans         &trans  &trans     &trans             &trans    &trans  &mo 25  &trans             &trans             &trans             &trans
+&trans  &trans  &trans         &trans     &trans             &trans    &trans  &trans  &trans             &trans             &trans             &trans             &trans
+&trans  &trans  &trans         &kp LC(H)  &trans             &trans    &trans  &trans  &trans             &kp LC(L)          &trans             &trans             &trans
+&trans  &trans  &kp LA(LG(E))  &mo 24     &kp LG(LA(LS(B)))  &trans    &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LS(LA(G)))  &trans
+&trans  &trans  &trans         &trans     &kp LC(J)          &none     &trans  &trans  &kp LC(K)          &trans             &trans             &trans             &trans
+&trans  &trans  &trans         &trans     &trans             &trans    &trans  &mo 25  &trans             &trans             &trans             &trans
             >;
         };
 
