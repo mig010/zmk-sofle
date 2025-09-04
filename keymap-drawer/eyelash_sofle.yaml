@@ -1393,9 +1393,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: )}
+  - '&viendofword'
   - Sft+B
-  - {t: '&viendofword', type: held alternate}
+  - {t: '0', s: ), type: held alternate}
   - Sft+W
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
