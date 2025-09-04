@@ -744,11 +744,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans  &trans     &trans        &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
-&trans  &trans  &trans     &kp Q         &trans             &trans      &trans  &trans     &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
-&trans  &kp N0  &kp LS(B)  &viendofword  &kp LS(W)          &trans      &trans  &trans     &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
-&trans  &trans  &trans     &trans        &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
-&trans  &trans  &trans     &trans        &kp LG(BACKSPACE)  &muxprev    &trans  &kp LC(O)  &trans     &trans            &trans       &trans
+&trans  &trans        &trans     &trans  &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
+&trans  &trans        &trans     &kp Q   &trans             &trans      &trans  &trans     &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
+&trans  &viendofword  &kp LS(B)  &kp N0  &kp LS(W)          &trans      &trans  &trans     &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
+&trans  &trans        &trans     &trans  &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
+&trans  &trans        &trans     &trans  &kp LG(BACKSPACE)  &muxprev    &trans  &kp LC(O)  &trans     &trans            &trans       &trans
             >;
         };
 
