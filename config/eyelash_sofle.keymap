@@ -560,11 +560,11 @@
 
         vim {
             bindings = <
-&trans  &trans      &trans       &trans     &trans            &trans    &trans  &trans            &trans      &trans     &trans         &trans  &trans
-&trans  &trans      &changetext  &kp LS(H)  &kp LS(NUMBER_3)  &trans    &trans  &trans            &kp LS(N8)  &kp LS(M)  &stringchange  &trans  &trans
-&trans  &endofword  &kp B        &mo 4      &kp W             &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &mo 21         &mo 7   &trans
-&trans  &trans      &trans       &kp LC(O)  &kp SLASH         &trans    &trans  &trans            &kp LS(L)   &kp LC(I)  &trans         &trans  &trans
-&trans  &trans      &trans       &trans     &mo 22            &mo 5     &trans  &kp SLASH         &trans      &trans     &trans         &trans
+&trans  &trans  &trans       &trans     &trans            &trans    &trans  &trans            &trans      &trans     &trans         &trans  &trans
+&trans  &trans  &changetext  &kp LS(H)  &kp LS(NUMBER_3)  &trans    &trans  &trans            &kp LS(N8)  &kp LS(M)  &stringchange  &trans  &trans
+&trans  &mo 22  &kp B        &mo 4      &kp W             &ciw      &trans  &delwithspacedaw  &kp J       &kp K      &mo 21         &mo 7   &trans
+&trans  &trans  &trans       &kp LC(O)  &kp SLASH         &trans    &trans  &trans            &kp LS(L)   &kp LC(I)  &trans         &trans  &trans
+&trans  &trans  &trans       &trans     &endofword        &mo 5     &trans  &kp SLASH         &trans      &trans     &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PLUS KP_SUBTRACT>;
