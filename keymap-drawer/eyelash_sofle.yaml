@@ -223,9 +223,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - vim_sentences
-  - B
   - '&endofword'
+  - B
+  - vim_sentences
   - W
   - '&ciw'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -284,13 +284,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
+  - '&delwithspacedaw'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&vis', type: held}
+  - '&vis'
   - '&dis'
-  - '&yis'
+  - {t: '&yis', type: held}
   - '&cis'
   - '&cip'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1523,8 +1523,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+Alt+E, type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - Alt+Gui+E
   - workspace_layouts
   - Gui+Alt+Sft+B
   - {t: '$$mdi:transfer$$', type: trans}
