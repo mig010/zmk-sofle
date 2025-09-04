@@ -573,10 +573,10 @@
         vim_sentences {
             bindings = <
 &trans  &trans  &trans       &trans       &trans  &trans    &trans  &trans       &trans  &trans     &trans            &trans  &trans
-&trans  &trans  &ticey_tack  &ticey_tack  &trans  &trans    &trans  &trans       &trans  &kp GRAVE  &delwithspacedaw  &trans  &trans
+&trans  &trans  &ticey_tack  &ticey_tack  &trans  &trans    &trans  &trans       &dip    &kp GRAVE  &delwithspacedaw  &trans  &trans
 &trans  &vis    &dis         &yis         &cis    &cip      &trans  &yip         &yiw    &ciw       &delete_word      &viw    &trans
 &trans  &trans  &trans       &trans       &caw    &trans    &trans  &trans       &yaw    &trans     &trans            &trans  &trans
-&trans  &trans  &trans       &trans       &vip    &dip      &trans  &ticey_tack  &trans  &trans     &trans            &trans
+&trans  &trans  &trans       &trans       &vip    &jumk     &trans  &ticey_tack  &trans  &trans     &trans            &trans
             >;
         };
 
