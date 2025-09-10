@@ -536,6 +536,20 @@
             bindings = <&kp LESS_THAN &kp QUESTION &kp P &kp H &kp P &kp QUESTION &kp GREATER_THAN>;
             label = "PHPOPENING";
         };
+
+        array: array {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp GREATER_THAN>;
+            label = "ARRAY";
+        };
+
+        passdata: passdata {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp C &kp O &kp M &kp P &kp A &kp C &kp T &kp LPAR &kp SQT &kp V &kp A &kp R &kp SQT &kp RPAR>;
+            label = "PASSDATA";
+        };
     };
 
     keymap {
@@ -865,11 +879,11 @@
 
         rogra {
             bindings = <
-&trans  &trans    &trans          &trans     &trans         &trans    &trans  &trans  &trans         &trans        &trans            &trans        &trans
-&trans  &trans    &eloquentchain  &kp EQUAL  &trans         &trans    &trans  &trans  &phpopening    &kp MINUS     &var              &trans        &trans
-&trans  &kp EXCL  &kp SLASH       &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp LESS_THAN  &kp QUESTION  &kp GREATER_THAN  &kp QUESTION  &trans
-&trans  &trans    &trans          &trans     &kp PIPE       &trans    &trans  &trans  &phpopening    &trans        &trans            &trans        &trans
-&trans  &trans    &trans          &trans     &trans         &trans    &trans  &trans  &trans         &trans        &trans            &trans
+&trans  &trans    &trans     &trans     &trans          &trans    &trans  &trans  &trans         &trans        &trans            &trans        &trans
+&trans  &trans    &kp PIPE   &kp EQUAL  &passdata       &trans    &trans  &trans  &phpopening    &kp MINUS     &var              &trans        &trans
+&trans  &kp EXCL  &kp SLASH  &kp PLUS   &kp BACKSLASH   &trans    &trans  &trans  &kp LESS_THAN  &kp QUESTION  &kp GREATER_THAN  &kp QUESTION  &trans
+&trans  &trans    &trans     &trans     &eloquentchain  &trans    &trans  &trans  &array         &trans        &trans            &trans        &trans
+&trans  &trans    &trans     &trans     &trans          &trans    &trans  &trans  &trans         &trans        &trans            &trans
             >;
         };
     };
