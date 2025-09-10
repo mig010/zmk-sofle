@@ -834,21 +834,21 @@
 
         xeue {
             bindings = <
-&trans  &trans         &trans            &trans          &trans             &trans       &trans  &trans     &trans         &trans      &trans             &trans  &trans
-&trans  &trans         &trans            &kp UNDER       &trans             &trans       &trans  &trans     &trans         &kp MINUS   &trans             &trans  &trans
-&trans  &kp SEMICOLON  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp TILDE    &trans  &kp EQUAL  &kp LS(N9)     &kp LS(N0)  &kp RIGHT_BRACKET  &trans  &trans
-&trans  &trans         &trans            &trans          &kp LS(SEMICOLON)  &trans       &trans  &trans     &kp SEMICOLON  &trans      &trans             &trans  &trans
-&trans  &trans         &trans            &trans          &trans             &trans       &trans  &mo 31     &trans         &trans      &trans             &trans
+&trans  &trans            &trans             &trans          &trans             &trans       &trans  &trans     &trans         &trans      &trans         &trans  &trans
+&trans  &trans            &kp AMPERSAND      &kp UNDER       &kp HASH           &trans       &trans  &trans     &kp DOLLAR     &kp MINUS   &kp ASTRK      &trans  &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp TILDE    &trans  &kp EQUAL  &kp LS(N9)     &kp LS(N0)  &kp SEMICOLON  &trans  &trans
+&trans  &trans            &trans             &trans          &kp LS(SEMICOLON)  &trans       &trans  &trans     &kp SEMICOLON  &trans      &trans         &trans  &trans
+&trans  &trans            &trans             &trans          &trans             &trans       &trans  &mo 31     &trans         &trans      &trans         &trans
             >;
         };
 
         rogra {
             bindings = <
-&trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans        &trans
-&trans  &trans    &trans         &kp EQUAL  &trans         &trans    &trans  &trans  &trans     &kp PIPE       &trans            &trans        &trans
-&trans  &kp EXCL  &kp LESS_THAN  &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp SLASH  &kp LS(SLASH)  &kp GREATER_THAN  &kp QUESTION  &trans
-&trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans        &trans
-&trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans
+&trans  &trans    &trans     &trans     &trans         &trans    &trans  &trans  &trans         &trans        &trans            &trans        &trans
+&trans  &trans    &trans     &kp EQUAL  &trans         &trans    &trans  &trans  &trans         &kp PIPE      &trans            &trans        &trans
+&trans  &kp EXCL  &kp SLASH  &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp LESS_THAN  &kp QUESTION  &kp GREATER_THAN  &kp QUESTION  &trans
+&trans  &trans    &trans     &trans     &trans         &trans    &trans  &trans  &trans         &trans        &trans            &trans        &trans
+&trans  &trans    &trans     &trans     &trans         &trans    &trans  &trans  &trans         &trans        &trans            &trans
             >;
         };
     };
