@@ -470,7 +470,7 @@
         mipassword: mipassword {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp M &kp I &kp G &kp N1 &kp N9 &kp N9 &kp N6>;
+            bindings = <&kp M &kp I &kp G &kp B &kp Y &kp T &kp E &kp DLLR &kp PERCENT>;
             label = "MIPASSWORD";
         };
 
