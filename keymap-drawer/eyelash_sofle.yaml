@@ -2053,7 +2053,7 @@ layers:
   - {t: /, s: '?'}
   - {t: Sft+/, s: 'Sft+?'}
   - '>'
-  - {type: held}
+  - {t: '?', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
