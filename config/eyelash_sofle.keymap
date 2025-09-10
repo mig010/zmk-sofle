@@ -844,10 +844,10 @@
 
         rogra {
             bindings = <
-&trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans  &trans
-&trans  &trans    &trans         &kp EQUAL  &trans         &trans    &trans  &trans  &trans     &kp PIPE       &trans            &trans  &trans
-&trans  &kp EXCL  &kp LESS_THAN  &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp SLASH  &kp LS(SLASH)  &kp GREATER_THAN  &trans  &trans
-&trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans  &trans
+&trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans        &trans
+&trans  &trans    &trans         &kp EQUAL  &trans         &trans    &trans  &trans  &trans     &kp PIPE       &trans            &trans        &trans
+&trans  &kp EXCL  &kp LESS_THAN  &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp SLASH  &kp LS(SLASH)  &kp GREATER_THAN  &kp QUESTION  &trans
+&trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans        &trans
 &trans  &trans    &trans         &trans     &trans         &trans    &trans  &trans  &trans     &trans         &trans            &trans
             >;
         };
