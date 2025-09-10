@@ -529,6 +529,13 @@
             bindings = <&kp MINUS &kp GREATER_THAN>;
             label = "ELOQUENTCHAIN";
         };
+
+        phpopening: phpopening {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LESS_THAN &kp QUESTION &kp P &kp H &kp P &kp QUESTION &kp GREATER_THAN>;
+            label = "PHPOPENING";
+        };
     };
 
     keymap {
@@ -859,9 +866,9 @@
         rogra {
             bindings = <
 &trans  &trans    &trans          &trans     &trans         &trans    &trans  &trans  &trans         &trans        &trans            &trans        &trans
-&trans  &trans    &eloquentchain  &kp EQUAL  &trans         &trans    &trans  &trans  &trans         &kp MINUS     &var              &trans        &trans
+&trans  &trans    &eloquentchain  &kp EQUAL  &trans         &trans    &trans  &trans  &phpopening    &kp MINUS     &var              &trans        &trans
 &trans  &kp EXCL  &kp SLASH       &kp PLUS   &kp BACKSLASH  &trans    &trans  &trans  &kp LESS_THAN  &kp QUESTION  &kp GREATER_THAN  &kp QUESTION  &trans
-&trans  &trans    &trans          &trans     &kp PIPE       &trans    &trans  &trans  &trans         &trans        &trans            &trans        &trans
+&trans  &trans    &trans          &trans     &kp PIPE       &trans    &trans  &trans  &phpopening    &trans        &trans            &trans        &trans
 &trans  &trans    &trans          &trans     &trans         &trans    &trans  &trans  &trans         &trans        &trans            &trans
             >;
         };
