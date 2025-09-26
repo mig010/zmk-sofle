@@ -585,6 +585,13 @@
             bindings = <&kp SQT &kp RIGHT_BRACKET>;
             label = "FIRSTVIMCHANGE";
         };
+
+        entireprojectwordreplace: entireprojectwordreplace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp C &kp D &kp O &kp SPACE &kp S &kp SLASH>;
+            label = "ENTIREPROJECTWORDREPLACE";
+        };
     };
 
     keymap {
@@ -772,11 +779,11 @@
 
         tmux_ghostty {
             bindings = <
-&trans  &trans           &trans          &trans        &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans           &trans          &trans        &trans       &trans    &trans  &trans  &trans         &kp LG(A)  &trans                 &trans                         &trans
-&trans  &firstvimchange  &lastvimchange  &lastinertlo  &lasteditlo  &trans    &trans  &trans  &kp LC(LS(R))  &kp LC(N)  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
-&trans  &trans           &trans          &trans        &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans           &trans          &trans        &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans
+&trans  &trans           &trans          &trans                     &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans           &trans          &entireprojectwordreplace  &trans       &trans    &trans  &trans  &trans         &kp LG(A)  &trans                 &trans                         &trans
+&trans  &firstvimchange  &lastvimchange  &lastinertlo               &lasteditlo  &trans    &trans  &trans  &kp LC(LS(R))  &kp LC(N)  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
+&trans  &trans           &trans          &trans                     &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans           &trans          &trans                     &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans
             >;
         };
 
