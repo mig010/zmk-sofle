@@ -557,6 +557,34 @@
             bindings = <&none &kp LS(M) &kp I &kp G &kp B &kp Y &kp T &kp E &kp N1 &kp N9 &kp N9 &kp N6 &kp DLLR>;
             label = "PSSWORD";
         };
+
+        lasteditlo: lasteditlo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp PERIOD>;
+            label = "LASTEDITLO";
+        };
+
+        lastinertlo: lastinertlo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp CARET>;
+            label = "LASTINERTLO";
+        };
+
+        lastvimchange: lastvimchange {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp LEFT_BRACKET>;
+            label = "LASTVIMCHANGE";
+        };
+
+        firstvimchange: firstvimchange {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SQT &kp RIGHT_BRACKET>;
+            label = "FIRSTVIMCHANGE";
+        };
     };
 
     keymap {
@@ -744,11 +772,11 @@
 
         tmux_ghostty {
             bindings = <
-&trans  &trans  &trans  &trans  &trans            &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans  &trans  &trans  &trans            &trans    &trans  &trans  &trans         &kp LG(A)  &trans                 &trans                         &trans
-&trans  &trans  &trans  &trans  &kp SINGLE_QUOTE  &trans    &trans  &trans  &kp LC(LS(R))  &kp LC(N)  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
-&trans  &trans  &trans  &trans  &trans            &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans  &trans  &trans  &trans            &trans    &trans  &trans  &trans         &trans     &trans                 &trans
+&trans  &trans           &trans          &trans        &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans           &trans          &trans        &trans       &trans    &trans  &trans  &trans         &kp LG(A)  &trans                 &trans                         &trans
+&trans  &firstvimchange  &lastvimchange  &lastinertlo  &lasteditlo  &trans    &trans  &trans  &kp LC(LS(R))  &kp LC(N)  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
+&trans  &trans           &trans          &trans        &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans           &trans          &trans        &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans
             >;
         };
 
