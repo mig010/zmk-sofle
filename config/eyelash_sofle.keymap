@@ -488,13 +488,6 @@
             label = "DELWITHSPACEDAW";
         };
 
-        viendofword: viendofword {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp G &kp LS(E)>;
-            label = "VIENDOFWORD";
-        };
-
         winsert: winsert {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -591,6 +584,55 @@
             #binding-cells = <0>;
             bindings = <&kp COLON &kp C &kp D &kp O &kp SPACE &kp S &kp SLASH>;
             label = "ENTIREPROJECTWORDREPLACE";
+        };
+
+        searchpopluateqfixdart: searchpopluateqfix {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp V &kp I &kp M &kp SPACE &kp SLASH &kp BACKSLASH &kp LESS_THAN &kp BACKSLASH &kp GREATER_THAN &kp SLASH &kp G &kp J &kp SPACE &kp ASTERISK &kp ASTERISK &kp SLASH &kp ASTRK &kp PERIOD &kp D &kp A &kp R &kp T &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW>;
+            label = "SEARCHPOPLUATEQFIX";
+        };
+
+        nexterror: newerror {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACKET &kp E>;
+            label = "NEWERROR";
+        };
+
+        nextdiagnostic: newdiagnostic {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACKET &kp D>;
+            label = "NEWDIAGNOSTIC";
+        };
+
+        previousdiagnostic: previousdiagnostic {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp D>;
+            label = "PREVIOUSDIAGNOSTIC";
+        };
+
+        previouserror: previouserror {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp E>;
+            label = "PREVIOUSERROR";
+        };
+
+        flutterentirewordreplace: flutterentirewordreplace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp C &kp F &kp D &kp O &kp SPACE &kp PRCNT &kp S &kp FSLH &kp FSLH &kp FSLH &kp G &kp SPACE &kp PIPE &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW>;
+            label = "FLUTTERENTIREWORDREPLACE";
+        };
+
+        justreplace: justreplace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp PRCNT &kp S &kp FSLH &kp FSLH &kp FSLH &kp LEFT_ARROW &kp LEFT_ARROW>;
+            label = "JUSTREPLACE";
         };
     };
 
@@ -779,11 +821,11 @@
 
         tmux_ghostty {
             bindings = <
-&trans  &trans           &trans          &trans                     &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans           &trans          &entireprojectwordreplace  &trans       &trans    &trans  &trans  &trans         &kp LG(A)  &trans                 &trans                         &trans
-&trans  &firstvimchange  &lastvimchange  &lastinertlo               &lasteditlo  &trans    &trans  &trans  &kp LC(LS(R))  &kp LC(N)  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
-&trans  &trans           &trans          &trans                     &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans                         &trans
-&trans  &trans           &trans          &trans                     &trans       &trans    &trans  &trans  &trans         &trans     &trans                 &trans
+&trans  &trans           &trans          &trans                     &trans                   &trans    &trans  &trans  &trans                     &trans     &trans                 &trans                         &trans
+&trans  &trans           &trans          &entireprojectwordreplace  &trans                   &trans    &trans  &trans  &trans                     &kp LG(A)  &justreplace           &trans                         &trans
+&trans  &firstvimchange  &lastvimchange  &lastinertlo               &lasteditlo              &trans    &trans  &trans  &kp LC(LS(R))              &kp LC(N)  &kp LG(LC(LA(LS(Z))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
+&trans  &trans           &trans          &trans                     &searchpopluateqfixdart  &trans    &trans  &trans  &flutterentirewordreplace  &trans     &trans                 &trans                         &trans
+&trans  &trans           &trans          &trans                     &trans                   &trans    &trans  &trans  &trans                     &trans     &trans                 &trans
             >;
         };
 
@@ -821,11 +863,11 @@
 
         vimuium {
             bindings = <
-&trans  &trans        &trans     &trans  &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
-&trans  &trans        &trans     &kp Q   &trans             &trans      &trans  &trans     &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
-&trans  &viendofword  &kp LS(B)  &kp N0  &kp LS(W)          &trans      &trans  &trans     &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
-&trans  &trans        &trans     &trans  &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
-&trans  &trans        &trans     &trans  &kp LG(BACKSPACE)  &muxprev    &trans  &kp LC(O)  &trans     &trans            &trans       &trans
+&trans  &trans               &trans           &trans          &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
+&trans  &trans               &trans           &kp Q           &trans             &trans      &trans  &trans     &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
+&trans  &previousdiagnostic  &nextdiagnostic  &previouserror  &nexterror         &trans      &trans  &trans     &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
+&trans  &trans               &trans           &trans          &trans             &trans      &trans  &trans     &trans     &trans            &trans       &trans  &trans
+&trans  &trans               &trans           &trans          &kp LG(BACKSPACE)  &muxprev    &trans  &kp LC(O)  &trans     &trans            &trans       &trans
             >;
         };
 
