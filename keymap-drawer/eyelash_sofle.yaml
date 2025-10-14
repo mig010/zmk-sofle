@@ -87,7 +87,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '"'
+  - {t: Ctl+Alt+Gui+/, s: 'Ctl+Alt+Gui+?'}
   - browser
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -97,7 +97,7 @@ layers:
   - arrow_movements
   - vim_bracets
   - raycast
-  - {t: Ctl+Alt+Gui+/, s: 'Ctl+Alt+Gui+?'}
+  - Ctl+Alt+Gui+"
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - Ctl+Alt+Gui+F
   - $$mdi:keyboard-tab$$
