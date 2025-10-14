@@ -97,7 +97,7 @@ layers:
   - arrow_movements
   - vim_bracets
   - raycast
-  - $$mdi:keyboard-tab-reverse$$
+  - {t: Ctl+Alt+Gui+/, s: 'Ctl+Alt+Gui+?'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - Ctl+Alt+Gui+F
   - $$mdi:keyboard-tab$$

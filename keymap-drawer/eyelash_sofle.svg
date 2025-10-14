@@ -54,9 +54,6 @@
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
 </svg>
-<svg id="mdi:keyboard-tab-reverse">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab-reverse" viewBox="0 0 24 24"><path d="M4 6H2V18H4M11 6L5 12L11 18L12.41 16.58L8.83 13H23V11H8.83L12.41 7.41L11 6Z" /></svg>
-</svg>
 <svg id="mdi:menu-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-down" viewBox="0 0 24 24"><path d="M7,10L12,15L17,10H7Z" /></svg>
 </svg>
@@ -843,7 +840,10 @@ rect.held, rect.combo.held {
 <g transform="translate(308, 147)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:keyboard-tab-reverse" xlink:href="#mdi:keyboard-tab-reverse" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab-reverse"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-1.2em">Ctl+</tspan><tspan x="0" dy="1.2em">Alt+</tspan><tspan x="0" dy="1.2em">Gui+/</tspan>
+</text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 60%">Ctl+Alt+G…</tspan></text>
 </g>
 <g transform="translate(406, 91)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
