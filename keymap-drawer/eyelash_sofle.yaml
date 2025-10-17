@@ -97,7 +97,7 @@ layers:
   - arrow_movements
   - vim_bracets
   - raycast
-  - Ctl+Alt+Gui+F8
+  - F8
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - Ctl+Alt+Gui+F
   - $$mdi:keyboard-tab$$
