@@ -97,7 +97,7 @@ layers:
   - arrow_movements
   - vim_bracets
   - raycast
-  - Ctl+Alt+Gui+"
+  - Ctl+Alt+Gui+F8
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - Ctl+Alt+Gui+F
   - $$mdi:keyboard-tab$$
@@ -838,7 +838,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: F8, type: held}
+  - {t: Gui+F11, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
