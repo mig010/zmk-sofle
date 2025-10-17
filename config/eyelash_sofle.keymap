@@ -731,11 +731,11 @@
 
         browser {
             bindings = <
-&trans  &trans             &trans  &trans             &trans             &trans               &mo 11  &trans               &trans     &trans  &trans     &trans  &trans
-&trans  &trans             &trans  &kp LG(W)          &trans             &trans               &trans  &trans               &trans     &trans  &kp LG(T)  &trans  &trans
-&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans               &kp LS(E)  &trans  &kp LS(R)  &mo 10  &trans
-&trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans               &trans     &trans  &trans     &trans  &trans
-&trans  &trans             &trans  &trans             &trans             &trans               &trans  &new_behaviorr 11 9  &trans     &trans  &trans     &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &mo 12  &trans  &trans     &trans  &trans     &trans  &trans
+&trans  &trans             &trans  &kp LG(W)          &trans             &trans               &trans  &trans  &trans     &trans  &kp LG(T)  &trans  &trans
+&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &kp LS(E)  &trans  &kp LS(R)  &mo 11  &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &trans  &trans  &trans     &trans  &trans     &trans  &trans
+&trans  &trans             &trans  &trans             &trans             &trans               &trans  &mo 12  &trans     &trans  &trans     &trans
             >;
         };
 
@@ -769,13 +769,13 @@
             >;
         };
 
-        surfingskey {
+        mouseless {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp SLASH  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &kp F7  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans   &trans
+&trans  &kp F5  &kp F2  &kp F1  &kp F4  &kp F9    &trans  &trans     &kp F6  &trans  &kp F3  &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &kp F8    &trans  &kp SLASH  &trans  &trans  &trans  &trans
             >;
         };
 
